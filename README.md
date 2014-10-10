@@ -1,7 +1,7 @@
-DCM-Files
+DCM Files
 =========
 
-This is the DCM repository with the files that are published on behalf of Nictiz, NEN DCM Quality Center, and Results 4 Care BV.
+This is the working DCM repository with the files that are published on behalf of Nictiz, NEN DCM Quality Center, and Results 4 Care BV.
 
 This is a public repository of Detailed Clinical Models (DCMs) in various formats that are ready for use in a project for enhancement, verification or test environment. They are not fit for full production yet, until after testing.
 
