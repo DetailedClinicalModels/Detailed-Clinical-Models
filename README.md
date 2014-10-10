@@ -1,0 +1,8 @@
+DCM-Files
+=========
+
+This is the DCM repository with the files that are published on behalf of Nictiz and NEN DCM Quality Center.
+
+The members of the Detailed Clinical Model Quality Center, Results 4 Care B.V. as subcontractor, and its clients give utmost care to the reliability and timeliness of data in these DCMs (Detailed Clinical Models). Errors and inaccuracies may occur. The members of the Detailed Clinical Model Quality Center, Results 4 Care and its clients are not responsible for damages resulting from errors or inaccuracies in the information, nor for damages arising from problems caused by, or inherent in the spreading of information via the Internet, as failures or interruptions from either errors or delays in the distribution of information or services by Results 4 Care or its clients, or form you to The members of the Detailed Clinical Model Quality Center, Results 4 Care or its clients by means of a website from The members of the Detailed Clinical Model Quality Center, Results 4 Care or its clients or by e-mail, or otherwise electronically.
+
+The members of the Detailed Clinical Model Quality Center, Results 4 care and its clients do not accept responsibility for possible damage suffered as a result of the use of data, advise or ideas provided by or in name of The members of the Detailed Clinical Model Quality Center, Results 4 Care or its clients by way of these DCMs. The members of the Detailed Clinical Model Quality Center, Results 4 Care and its clients do not accept responsibility for the content of information in these DCMs to which or from which using a hyperlink or otherwise, is referred.
