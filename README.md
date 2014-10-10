@@ -3,14 +3,14 @@ DCM Files
 
 This is the working DCM repository with the files that are published on behalf of Nictiz, NEN DCM Quality Center, and Results 4 Care BV, or one of its clients.
 
-This is a public repository of Detailed Clinical Models (DCMs) in various formats that are ready for use in a project for enhancement, verification or test environment. They are not fit for full production yet, until after testing.
+This is a public repository of Detailed Clinical Models (DCMs) in various formats that are ready for use in a project for enhancement, verification or test environment. They are not fit for full production yet, until after testing. Once a DCM gets the label piloted it has been verified by clinicians and tested to work in a system. 
 
 The DCM are to be labelled according to the following categories: 
 
 - Under Development (Unfinished work, needing clinician, coding and/or modeling input to finalize), 
 - Draft (these DCM are ready, but have not been verified by an identified user community)
 - Verified (these DCM have been verified by at least one identified user community)
-- Pilot (these are verified, and are currently tested in a system or message)
+- Piloted (these are verified, and are currently tested in a system or message)
 - Implemented (these are verified, tested and are in use for production in a patient care information system)
 - Validated (these are verified, tested, implemented and part of a formal health technology assessment study). 
 
