@@ -1,0 +1,149 @@
+"Include";"Name";"DataType";"Realization";"Description";"ExampleValue";"Terminology"
+"Yes";"HeartRate";"";"";"Het gaat om de observatie en het vastleggen van de hartslag van een persoon.
+
+--DCM::Language=nl
+
+This is about the observation and documentation of the heart rate of a person.";"";"SCT:364075005 heart rate"
+"Required";"  Frequency";"Physical Quantity";"";"De mechanische hartslag - aantal slagen per minuut
+
+--DCM::Language=nl 
+
+The mechanics of the heart rate: number of beats per minute";"";"LOINC:code 8867-4 displayName heart rate
+SCT:364075005 heart rate"
+"Required";"  Rhythm";"Coded Description";"";"Interpretatie van het ritme van de hartslag.
+
+
+Interpretation of the rhythm of the heart rate.";"";"SCT:301149000 Pulse rhythm"
+"";"";"";"Bigeminal pulse";"Twee hartslagen snel achter elkaar, ieder tweetal is gescheiden door een langere interval.
+
+Double beats with intervening gap";"";"SCT:195103000 bigeminal pulse"
+"";"";"";"Bisferiens";"Een pols met twee systole pieken.
+
+Pulse with two systolic peaks";"";"SCT:415216000 pulses bisferiens"
+"";"";"";"Extra-systole";"Een zwakke slag wordt gevolgd door een krachtige slag.
+
+A weak beat is followed by a strong beat";"";"SCT:284470004 premature atrial contraction"
+"";"";"";"Irregulair";"De hartslag is onreglmatig";"";"SCT:248650006 heart irregular"
+"";"";"";"Palpitation";"Patient is zich bewust van het kloppen van zijn eigen hart.
+
+Being aware of the beating of one's own heart";"";"SCT:80313002 palpitations"
+"";"";"";"Pulsus alternans";"Krachtige en zwakke slagen wisselen elkaar af.
+
+Strong and weak beats alternate";"";"SCT:42807005 pulsus alternans"
+"";"";"";"Pulsus irregularis perpetuus";"De pols is totaal irregulair en inequaal.
+
+Pulse is completely irregular and unequal";"";"SCT:271638000 pulse regularly irregular"
+"";"";"";"Regular";"De hartslag is regelmatig.
+
+Regular heart beat";"";"SCT:248649006 heart regular"
+"";"";"";"Trigeminal pulse";"Een pauze na iedere derde hartslag.
+
+Triple beats with intervening gap 
+.";"";"SCT:29036000 trigeminal pulse"
+"Required";"  Strength";"Coded Description";"";"The power with which the blood is pumped through the heart and arteries. This is subtle different from the filling. It is not the peak volume, but the volume increase / decrease per time unit. 
+
+--DCM::Language=nl
+
+
+De kracht waarmee het bloed door het hart door de aderen wordt gepompt. Dit is subtiel anders dan de vulling. Het gaat hier niet om het peikvolume, maar om de volumestijging/-daling per tijdseenheid.";"";"Parelsnoer:3.4 Strength"
+"";"";"";"Normal";"The strength is normal
+
+De slagkracht is normaal";"";"Parelsnoer:3.1 Normal"
+"";"";"";"Strong";"The strength is strong
+
+De slagkracht is groot";"";"Parelsnoer:3.2 Strong"
+"";"";"";"Weak";"The strength is weak
+
+De slagkracht is klein";"";"Parelsnoer:3.3 Weak"
+"Required";"  Location";"Coded Description";"";"Plaats op het lichaam waar de hartslag wordt gemeten.
+
+The location where the heart rate is measured.";"";"SCT:363704007 procedure site"
+"";"";"";"Arteria brachialis";"";"";"SCT:17137000 brachial artery"
+"";"";"";"Arteria carotis";"";"";"SCT:69105007 carotid artery"
+"";"";"";"Arteria carotis externa";"";"";"SCT:22286001 external carotid artery"
+"";"";"";"Arteria dorsalis pedis";"";"";"SCT:86547008 dorsalis pedis artery"
+"";"";"";"Arteria femoralis";"";"";"SCT:181349008 superficial femoral artery"
+"";"";"";"Arteria poplitea";"";"";"SCT:43899006 popliteal artery"
+"";"";"";"Arteria radialis";"";"";"SCT:45631007 radial artery"
+"";"";"";"Arteria subclavia";"";"";"SCT:36765005 subclavian artery"
+"";"";"";"Arteria temporalis";"";"";"SCT:15672000 superficial temporal artery"
+"";"";"";"Arteria tibialis";"";"";"SCT:181351007 tibial artery"
+"";"";"";"Arteria tibialis posterior";"";"";"SCT:181358001 posterior tibial artery"
+"";"";"";"Fontanel (baby)";"";"";"SCT:272681004 fontanelle"
+"Required";"  Filling";"Coded Description";"";"Interpretation of the filling of the vessels during heartbeat.
+--DCM::Language=nl
+
+
+Interpretatie van de vulling (volume) van de hartslagen";"";"SCT:366201008 pulse volume - finding"
+"";"";"";"Large";"Het volume is groot
+
+The volume is large";"";"SCT:271640005 large volume pulse"
+"";"";"";"Normal";"Het volume is normaal
+
+The volume of the pulse is normal";"";"SCT:421014001 full pulse volume"
+"";"";"";"Weak";"Het volume is klein
+
+The volume is weak";"";"SCT:64661000 weak pulse"
+"Optional";"  PointInTime";"Coded Description";"";"";"";"SnomedCT:code 272105005 displayName: points in time"
+"";"";"";"1H min";"";"";"LOINC:code 8879-9 displayName Heart rate 1 hour minimum"
+"";"";"";"1H max";"";"";"LOINC:code 8869-0   displayName Heart rate 1 hour maximum"
+"";"";"";"1H mean";"";"";"LOINC:code 41920-0  displayName Heart rate 1 hour mean"
+"Required";"  FrequencyQualification";"Coded Description";"";"Interpretatie van de hartslag in aantal slagen per minuut.
+
+--DCM::Language=nl 
+
+Interpretation of the rate of the heart as beats per minute";"";"SCT:301113001 Finding of heart rate"
+"";"";"";"Alternating bradycardia and tachycardia";"Alternating bradycardia and tachycardia: heart beats alternately more than 100 beats per minute and less than 60 beats per minute.
+
+Afwisselen bradycardie en tachycardie: het hart slaat afwisselend meer dan 100 slagen per minuut en minder dan 60 slagen per minuut.";"";"SCT:74615001 tachycardia-bradycardia"
+"";"";"";"Bradycardia";"DE hartslag is minder dan 60 slagen per minuut.
+
+Heart beats less than 60 beats per minute in rest";"";"SCT:48867003 bradycardia"
+"";"";"";"Normal";"The frequency of the heart rate is normal.
+
+De frequentie van de hartslag is normaal.";"";"SCT:76863003 normal heart rate"
+"";"";"";"Tachycardia";"Heart beats more than 100 beats per minute.
+
+De hartslag is meer dan 100 per minuut.";"";"SCT:3424008 tachycardia"
+"Required";"  Regularity";"Coded Description";"";"Interpretatie van de gelijkmatigheid van de hartslag.
+
+Interpretation of the regularity of the heart rate.";"";"SCT:364074009 Regularity of heart rhytm"
+"";"";"";"Irregular";"";"";"SCT:61086009 pulse irregular"
+"";"";"";"Regular";"";"";"SCT:271636001 pulse regular"
+"Required";"  BodyPosition";"Coded Description";"";"Houding waarin de patiënt zich bevindt tijdens de meting.
+
+The bodyposition of the patient during the measure of the heart rate.";"";"SCT:397155001 body position
+SCT:9851009 body position finding"
+"";"";"";"Lying";"";"";"SCT:102538003 recumbent body position"
+"";"";"";"Sitting";"";"";"SCT:33586001 sitting position"
+"";"";"";"Standing";"";"";"SCT:10904000 orthostatic body position"
+"";"";"";"Reclining";"";"";"SCT:272587006 position with tilt"
+"Required";"  Exertion";"Coded Description";"";"Bepaling of de patient inspanning levert of heeft geleverd. Na en tijdens inspanning is de hartslag hoger.
+
+After exercise the pulse rate is increased";"";"SCT:19487008 Exertion"
+"";"";"";"In rest";"";"";"SCT:128975004 resting state"
+"";"";"";"Post exercise";"";"";"SCT:128978002 post exercise state"
+"";"";"";"During exercise";"";"";"SCT:128976003 exercise state"
+"Required";"  Method";"Coded Description";"";"De wijze waarop de hartslag is geteld en geobserveerd.
+
+--DCM::Language=nl
+
+The way how the heart rate is measured and observed.";"";"SCT:84203001 has method"
+"";"";"";"Auscultation";"De hartslag wordt vastgesteld door middel van auscultatie.
+
+The heart rate is determined by auscultation.";"";"SCT:37931006 auscultation"
+"";"";"";"BedsideMonitor";"De hartslag wordt vastgesteld door middel van een bewakingsmonitor.
+
+The heart rate is determined by continious monitoring.";"";"SCT:88140007 cardiac monitor surveillance"
+"";"";"";"ECG";"De hartslag wordt vastgesteld door middel van een Elektrocardiogram (ECG).
+
+The heart rate is determined by an electrocardiographic monitoring";"";"SCT:46825001 ecg monitoring"
+"";"";"";"Palpation/ manual";"De hartslag wordt aan een perifere arterie bepaald door middel van palpatie.
+
+The heart rate is determined by palpation on a peripheral artery.";"";"SnomedCT:113011001 displayName Palpation"
+"";"";"";"Ultrasound";"";"";"SnomedCT:16310003 Ultrasound(procedure)"
+"Required";"  DurationMeasure";"Physical Quantity";"";"Time used for this measure (e.g. 15 seconds, 1 minute).
+
+--DCM::Language=nl 
+
+Duur van de meting (bv 15 seconden, 1 minuut).";"";"LOINC:code 8888-0 displayName Heart rate measure duration"

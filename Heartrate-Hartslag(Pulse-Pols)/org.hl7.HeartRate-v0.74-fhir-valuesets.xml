@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ValueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir">
+  <identifier value="2.16.840.1.113883.2.4.3.8.1000.54.5.10" />
+  <name value="Rhythm" />
+  <define>
+    <concept>
+      <display value="Bigeminal pulse" />
+      <definition value="Twee hartslagen snel achter elkaar, ieder tweetal is gescheiden door een langere interval.&#xD;&#xA;&#xD;&#xA;Double beats with intervening gap" />
+    </concept>
+    <concept>
+      <display value="Bisferiens" />
+      <definition value="Een pols met twee systole pieken.&#xD;&#xA;&#xD;&#xA;Pulse with two systolic peaks" />
+    </concept>
+    <concept>
+      <display value="Extra-systole" />
+      <definition value="Een zwakke slag wordt gevolgd door een krachtige slag.&#xD;&#xA;&#xD;&#xA;A weak beat is followed by a strong beat" />
+    </concept>
+    <concept>
+      <display value="Irregulair" />
+      <definition value="De hartslag is onreglmatig" />
+    </concept>
+    <concept>
+      <display value="Palpitation" />
+      <definition value="Patient is zich bewust van het kloppen van zijn eigen hart.&#xD;&#xA;&#xD;&#xA;Being aware of the beating of one's own heart" />
+    </concept>
+    <concept>
+      <display value="Pulsus alternans" />
+      <definition value="Krachtige en zwakke slagen wisselen elkaar af.&#xD;&#xA;&#xD;&#xA;Strong and weak beats alternate" />
+    </concept>
+    <concept>
+      <display value="Pulsus irregularis perpetuus" />
+      <definition value="De pols is totaal irregulair en inequaal.&#xD;&#xA;&#xD;&#xA;Pulse is completely irregular and unequal" />
+    </concept>
+    <concept>
+      <display value="Regular" />
+      <definition value="De hartslag is regelmatig.&#xD;&#xA;&#xD;&#xA;Regular heart beat" />
+    </concept>
+    <concept>
+      <display value="Trigeminal pulse" />
+      <definition value="Een pauze na iedere derde hartslag.&#xD;&#xA;&#xD;&#xA;Triple beats with intervening gap &#xD;&#xA;." />
+    </concept>
+  </define>
+  <expansion>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="195103000" />
+      <display value="bigeminal pulse" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="415216000" />
+      <display value="pulses bisferiens" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="284470004" />
+      <display value="premature atrial contraction" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="248650006" />
+      <display value="heart irregular" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="80313002" />
+      <display value="palpitations" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="42807005" />
+      <display value="pulsus alternans" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="271638000" />
+      <display value="pulse regularly irregular" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="248649006" />
+      <display value="heart regular" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="29036000" />
+      <display value="trigeminal pulse" />
+    </contains>
+  </expansion>
+</ValueSet>
+
+<?xml version="1.0" encoding="utf-16"?>
+<ValueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir">
+  <identifier value="2.16.840.1.113883.2.4.3.8.1000.54.5.11" />
+  <name value="Strength" />
+  <define>
+    <concept>
+      <display value="Normal" />
+      <definition value="The strength is normal&#xD;&#xA;&#xD;&#xA;De slagkracht is normaal" />
+    </concept>
+    <concept>
+      <display value="Strong" />
+      <definition value="The strength is strong&#xD;&#xA;&#xD;&#xA;De slagkracht is groot" />
+    </concept>
+    <concept>
+      <display value="Weak" />
+      <definition value="The strength is weak&#xD;&#xA;&#xD;&#xA;De slagkracht is klein" />
+    </concept>
+  </define>
+  <expansion>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.2.4.3.28" />
+      <code value="3.1" />
+      <display value="Normal" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.2.4.3.28" />
+      <code value="3.2" />
+      <display value="Strong" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.2.4.3.28" />
+      <code value="3.3" />
+      <display value="Weak" />
+    </contains>
+  </expansion>
+</ValueSet>
+
+<?xml version="1.0" encoding="utf-16"?>
+<ValueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir">
+  <identifier value="2.16.840.1.113883.2.4.3.8.1000.54.5.12" />
+  <name value="Location" />
+  <define>
+    <concept>
+      <display value="Arteria brachialis" />
+    </concept>
+    <concept>
+      <display value="Arteria carotis" />
+    </concept>
+    <concept>
+      <display value="Arteria carotis externa" />
+    </concept>
+    <concept>
+      <display value="Arteria dorsalis pedis" />
+    </concept>
+    <concept>
+      <display value="Arteria femoralis" />
+    </concept>
+    <concept>
+      <display value="Arteria poplitea" />
+    </concept>
+    <concept>
+      <display value="Arteria radialis" />
+    </concept>
+    <concept>
+      <display value="Arteria subclavia" />
+    </concept>
+    <concept>
+      <display value="Arteria temporalis" />
+    </concept>
+    <concept>
+      <display value="Arteria tibialis" />
+    </concept>
+    <concept>
+      <display value="Arteria tibialis posterior" />
+    </concept>
+    <concept>
+      <display value="Fontanel (baby)" />
+    </concept>
+  </define>
+  <expansion>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="17137000" />
+      <display value="brachial artery" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="69105007" />
+      <display value="carotid artery" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="22286001" />
+      <display value="external carotid artery" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="86547008" />
+      <display value="dorsalis pedis artery" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="181349008" />
+      <display value="superficial femoral artery" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="43899006" />
+      <display value="popliteal artery" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="45631007" />
+      <display value="radial artery" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="36765005" />
+      <display value="subclavian artery" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="15672000" />
+      <display value="superficial temporal artery" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="181351007" />
+      <display value="tibial artery" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="181358001" />
+      <display value="posterior tibial artery" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="272681004" />
+      <display value="fontanelle" />
+    </contains>
+  </expansion>
+</ValueSet>
+
+<?xml version="1.0" encoding="utf-16"?>
+<ValueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir">
+  <identifier />
+  <name value="Filling" />
+  <define>
+    <concept>
+      <display value="Large" />
+      <definition value="Het volume is groot&#xD;&#xA;&#xD;&#xA;The volume is large" />
+    </concept>
+    <concept>
+      <display value="Normal" />
+      <definition value="Het volume is normaal&#xD;&#xA;&#xD;&#xA;The volume of the pulse is normal" />
+    </concept>
+    <concept>
+      <display value="Weak" />
+      <definition value="Het volume is klein&#xD;&#xA;&#xD;&#xA;The volume is weak" />
+    </concept>
+  </define>
+  <expansion>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="271640005" />
+      <display value="large volume pulse" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="421014001" />
+      <display value="full pulse volume" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="64661000" />
+      <display value="weak pulse" />
+    </contains>
+  </expansion>
+</ValueSet>
+
+<?xml version="1.0" encoding="utf-16"?>
+<ValueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir">
+  <identifier value="2.16.840.1.113883.2.4.3.8.1000.54.5.14" />
+  <name value="PointInTime" />
+  <define>
+    <concept>
+      <display value="1H min" />
+    </concept>
+    <concept>
+      <display value="1H max" />
+    </concept>
+    <concept>
+      <display value="1H mean" />
+    </concept>
+  </define>
+  <expansion>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.1" />
+      <code value="code" />
+      <display value="8879-9 displayName Heart rate 1 hour minimum" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.1" />
+      <code value="code" />
+      <display value="8869-0   displayName Heart rate 1 hour maximum" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.1" />
+      <code value="code" />
+      <display value="41920-0  displayName Heart rate 1 hour mean" />
+    </contains>
+  </expansion>
+</ValueSet>
+
+<?xml version="1.0" encoding="utf-16"?>
+<ValueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir">
+  <identifier value="2.16.840.1.113883.2.4.3.8.1000.54.5.15" />
+  <name value="FrequencyQualification" />
+  <define>
+    <concept>
+      <display value="Alternating bradycardia and tachycardia" />
+      <definition value="Alternating bradycardia and tachycardia: heart beats alternately more than 100 beats per minute and less than 60 beats per minute.&#xD;&#xA;&#xD;&#xA;Afwisselen bradycardie en tachycardie: het hart slaat afwisselend meer dan 100 slagen per minuut en minder dan 60 slagen per minuut." />
+    </concept>
+    <concept>
+      <display value="Bradycardia" />
+      <definition value="DE hartslag is minder dan 60 slagen per minuut.&#xD;&#xA;&#xD;&#xA;Heart beats less than 60 beats per minute in rest" />
+    </concept>
+    <concept>
+      <display value="Normal" />
+      <definition value="The frequency of the heart rate is normal.&#xD;&#xA;&#xD;&#xA;De frequentie van de hartslag is normaal." />
+    </concept>
+    <concept>
+      <display value="Tachycardia" />
+      <definition value="Heart beats more than 100 beats per minute.&#xD;&#xA;&#xD;&#xA;De hartslag is meer dan 100 per minuut." />
+    </concept>
+  </define>
+  <expansion>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="74615001" />
+      <display value="tachycardia-bradycardia" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="48867003" />
+      <display value="bradycardia" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="76863003" />
+      <display value="normal heart rate" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="3424008" />
+      <display value="tachycardia" />
+    </contains>
+  </expansion>
+</ValueSet>
+
+<?xml version="1.0" encoding="utf-16"?>
+<ValueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir">
+  <identifier value="2.16.840.1.113883.2.4.3.8.1000.54.5.16" />
+  <name value="Regularity" />
+  <define>
+    <concept>
+      <display value="Irregular" />
+    </concept>
+    <concept>
+      <display value="Regular" />
+    </concept>
+  </define>
+  <expansion>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="61086009" />
+      <display value="pulse irregular" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="271636001" />
+      <display value="pulse regular" />
+    </contains>
+  </expansion>
+</ValueSet>
+
+<?xml version="1.0" encoding="utf-16"?>
+<ValueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir">
+  <identifier value="2.16.840.1.113883.2.4.3.8.1000.54.5.4" />
+  <name value="BodyPosition" />
+  <define>
+    <concept>
+      <display value="Lying" />
+    </concept>
+    <concept>
+      <display value="Sitting" />
+    </concept>
+    <concept>
+      <display value="Standing" />
+    </concept>
+    <concept>
+      <display value="Reclining" />
+    </concept>
+  </define>
+  <expansion>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="102538003" />
+      <display value="recumbent body position" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="33586001" />
+      <display value="sitting position" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="10904000" />
+      <display value="orthostatic body position" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="272587006" />
+      <display value="position with tilt" />
+    </contains>
+  </expansion>
+</ValueSet>
+
+<?xml version="1.0" encoding="utf-16"?>
+<ValueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir">
+  <identifier value="2.16.840.1.113883.2.4.3.8.1000.54.5.17" />
+  <name value="Exertion" />
+  <define>
+    <concept>
+      <display value="In rest" />
+    </concept>
+    <concept>
+      <display value="Post exercise" />
+    </concept>
+    <concept>
+      <display value="During exercise" />
+    </concept>
+  </define>
+  <expansion>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="128975004" />
+      <display value="resting state" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="128978002" />
+      <display value="post exercise state" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="128976003" />
+      <display value="exercise state" />
+    </contains>
+  </expansion>
+</ValueSet>
+
+<?xml version="1.0" encoding="utf-16"?>
+<ValueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir">
+  <identifier value="2.16.840.1.113883.2.4.3.8.1000.54.5.18" />
+  <name value="Method" />
+  <define>
+    <concept>
+      <display value="Auscultation" />
+      <definition value="De hartslag wordt vastgesteld door middel van auscultatie.&#xD;&#xA;&#xD;&#xA;The heart rate is determined by auscultation." />
+    </concept>
+    <concept>
+      <display value="BedsideMonitor" />
+      <definition value="De hartslag wordt vastgesteld door middel van een bewakingsmonitor.&#xD;&#xA;&#xD;&#xA;The heart rate is determined by continious monitoring." />
+    </concept>
+    <concept>
+      <display value="ECG" />
+      <definition value="De hartslag wordt vastgesteld door middel van een Elektrocardiogram (ECG).&#xD;&#xA;&#xD;&#xA;The heart rate is determined by an electrocardiographic monitoring" />
+    </concept>
+    <concept>
+      <display value="Palpation/ manual" />
+      <definition value="De hartslag wordt aan een perifere arterie bepaald door middel van palpatie.&#xD;&#xA;&#xD;&#xA;The heart rate is determined by palpation on a peripheral artery." />
+    </concept>
+    <concept>
+      <display value="Ultrasound" />
+    </concept>
+  </define>
+  <expansion>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="37931006" />
+      <display value="auscultation" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="88140007" />
+      <display value="cardiac monitor surveillance" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="46825001" />
+      <display value="ecg monitoring" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="113011001" />
+      <display value="displayName Palpation" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="16310003" />
+      <display value="Ultrasound(procedure)" />
+    </contains>
+  </expansion>
+</ValueSet>
+
+<?xml version="1.0" encoding="utf-16"?>
+<ValueSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir">
+  <identifier value="2.16.840.1.113883.2.4.3.8.1000.54.5.9" />
+  <name value="HeartRateConcepts" />
+  <define />
+  <expansion>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="364075005" />
+      <display value="heart rate" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.1" />
+      <code value="code" />
+      <display value="8867-4 displayName heart rate" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="364075005" />
+      <display value="heart rate" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="301149000" />
+      <display value="Pulse rhythm" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.2.4.3.28" />
+      <code value="3.4" />
+      <display value="Strength" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="363704007" />
+      <display value="procedure site" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="366201008" />
+      <display value="pulse volume - finding" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="code" />
+      <display value="272105005 displayName: points in time" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="301113001" />
+      <display value="Finding of heart rate" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="364074009" />
+      <display value="Regularity of heart rhytm" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="397155001" />
+      <display value="body position" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="9851009" />
+      <display value="body position finding" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="19487008" />
+      <display value="Exertion" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.96" />
+      <code value="84203001" />
+      <display value="has method" />
+    </contains>
+    <contains>
+      <system value="urn:oid:2.16.840.1.113883.6.1" />
+      <code value="code" />
+      <display value="8888-0 displayName Heart rate measure duration" />
+    </contains>
+  </expansion>
+</ValueSet>
+

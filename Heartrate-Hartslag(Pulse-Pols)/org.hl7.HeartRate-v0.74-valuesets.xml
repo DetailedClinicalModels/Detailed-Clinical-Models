@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<valueSets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ValueSets.xsd" xmlns="urn:hl7-org:v3">
+  <valueSet name="HeartRateConcepts" oid="2.16.840.1.113883.2.4.3.8.1000.54.5.9">
+    <code code="364075005" displayName="heart rate" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="code" displayName="8867-4 displayName heart rate" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+    <code code="364075005" displayName="heart rate" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="301149000" displayName="Pulse rhythm" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="3.4" displayName="Strength" codeSystemName="Parelsnoer" codeSystem="2.16.840.1.113883.2.4.3.28" />
+    <code code="363704007" displayName="procedure site" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="366201008" displayName="pulse volume - finding" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="code" displayName="272105005 displayName: points in time" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="301113001" displayName="Finding of heart rate" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="364074009" displayName="Regularity of heart rhytm" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="397155001" displayName="body position" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="9851009" displayName="body position finding" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="19487008" displayName="Exertion" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="84203001" displayName="has method" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="code" displayName="8888-0 displayName Heart rate measure duration" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+  </valueSet>
+  <valueSet name="Rhythm" oid="2.16.840.1.113883.2.4.3.8.1000.54.5.10">
+    <code code="195103000" displayName="bigeminal pulse" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="415216000" displayName="pulses bisferiens" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="284470004" displayName="premature atrial contraction" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="248650006" displayName="heart irregular" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="80313002" displayName="palpitations" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="42807005" displayName="pulsus alternans" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="271638000" displayName="pulse regularly irregular" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="248649006" displayName="heart regular" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="29036000" displayName="trigeminal pulse" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+  </valueSet>
+  <valueSet name="Strength" oid="2.16.840.1.113883.2.4.3.8.1000.54.5.11">
+    <code code="3.1" displayName="Normal" codeSystemName="Parelsnoer" codeSystem="2.16.840.1.113883.2.4.3.28" />
+    <code code="3.2" displayName="Strong" codeSystemName="Parelsnoer" codeSystem="2.16.840.1.113883.2.4.3.28" />
+    <code code="3.3" displayName="Weak" codeSystemName="Parelsnoer" codeSystem="2.16.840.1.113883.2.4.3.28" />
+  </valueSet>
+  <valueSet name="Location" oid="2.16.840.1.113883.2.4.3.8.1000.54.5.12">
+    <code code="17137000" displayName="brachial artery" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="69105007" displayName="carotid artery" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="22286001" displayName="external carotid artery" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="86547008" displayName="dorsalis pedis artery" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="181349008" displayName="superficial femoral artery" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="43899006" displayName="popliteal artery" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="45631007" displayName="radial artery" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="36765005" displayName="subclavian artery" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="15672000" displayName="superficial temporal artery" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="181351007" displayName="tibial artery" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="181358001" displayName="posterior tibial artery" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="272681004" displayName="fontanelle" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+  </valueSet>
+  <valueSet name="Filling">
+    <code code="271640005" displayName="large volume pulse" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="421014001" displayName="full pulse volume" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="64661000" displayName="weak pulse" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+  </valueSet>
+  <valueSet name="PointInTime" oid="2.16.840.1.113883.2.4.3.8.1000.54.5.14">
+    <code code="code" displayName="8879-9 displayName Heart rate 1 hour minimum" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+    <code code="code" displayName="8869-0   displayName Heart rate 1 hour maximum" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+    <code code="code" displayName="41920-0  displayName Heart rate 1 hour mean" codeSystemName="LOINC" codeSystem="2.16.840.1.113883.6.1" />
+  </valueSet>
+  <valueSet name="FrequencyQualification" oid="2.16.840.1.113883.2.4.3.8.1000.54.5.15">
+    <code code="74615001" displayName="tachycardia-bradycardia" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="48867003" displayName="bradycardia" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="76863003" displayName="normal heart rate" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="3424008" displayName="tachycardia" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+  </valueSet>
+  <valueSet name="Regularity" oid="2.16.840.1.113883.2.4.3.8.1000.54.5.16">
+    <code code="61086009" displayName="pulse irregular" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="271636001" displayName="pulse regular" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+  </valueSet>
+  <valueSet name="BodyPosition" oid="2.16.840.1.113883.2.4.3.8.1000.54.5.4">
+    <code code="102538003" displayName="recumbent body position" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="33586001" displayName="sitting position" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="10904000" displayName="orthostatic body position" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="272587006" displayName="position with tilt" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+  </valueSet>
+  <valueSet name="Exertion" oid="2.16.840.1.113883.2.4.3.8.1000.54.5.17">
+    <code code="128975004" displayName="resting state" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="128978002" displayName="post exercise state" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="128976003" displayName="exercise state" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+  </valueSet>
+  <valueSet name="Method" oid="2.16.840.1.113883.2.4.3.8.1000.54.5.18">
+    <code code="37931006" displayName="auscultation" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="88140007" displayName="cardiac monitor surveillance" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="46825001" displayName="ecg monitoring" codeSystemName="SCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="113011001" displayName="displayName Palpation" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="16310003" displayName="Ultrasound(procedure)" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+  </valueSet>
+</valueSets>

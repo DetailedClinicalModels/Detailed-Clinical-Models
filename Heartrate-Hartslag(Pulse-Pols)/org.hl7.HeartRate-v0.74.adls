@@ -1,0 +1,499 @@
+archetype (adl_version=1.5)
+  cimi-RM-ENTRY.HeartRate.v1
+
+language
+  original_language = <[ISO_639-1::en]>
+description
+  original_author = <
+    ["name"] = <"unknown">
+  >
+  lifecycle_state = <"Draft">
+
+definition
+  ENTRY[at0000] matches { -- HeartRate
+    data matches {
+        ELEMENT[at0001] occurrences matches {1} matches { -- Frequency
+          value matches {
+            QUANTITY matches {
+              units matches {
+                CODED_TEXT matches {
+                  code matches {"/min"}
+                }
+              }
+            }
+          }
+        }
+        ELEMENT[at0002] occurrences matches {1..1} matches { -- Rhythm
+          value matches {
+            [local::
+            at0003, -- Bigeminal pulse
+            at0004, -- Bisferiens
+            at0005, -- Extra-systole
+            at0006, -- Irregulair
+            at0007, -- Palpitation
+            at0008, -- Pulsus alternans
+            at0009, -- Pulsus irregularis perpetuus
+            at0010, -- Regular
+            at0011] -- Trigeminal pulse
+          }
+        }
+        ELEMENT[at0012] occurrences matches {1..1} matches { -- Strength
+          value matches {
+            [local::
+            at0013, -- Normal
+            at0014, -- Strong
+            at0015] -- Weak
+          }
+        }
+        ELEMENT[at0016] occurrences matches {1..1} matches { -- Location
+          value matches {
+            [local::
+            at0017, -- Arteria brachialis
+            at0018, -- Arteria carotis
+            at0019, -- Arteria carotis externa
+            at0020, -- Arteria dorsalis pedis
+            at0021, -- Arteria femoralis
+            at0022, -- Arteria poplitea
+            at0023, -- Arteria radialis
+            at0024, -- Arteria subclavia
+            at0025, -- Arteria temporalis
+            at0026, -- Arteria tibialis
+            at0027, -- Arteria tibialis posterior
+            at0028] -- Fontanel (baby)
+          }
+        }
+        ELEMENT[at0029] occurrences matches {1..1} matches { -- Filling
+          value matches {
+            [local::
+            at0030, -- Large
+            at0031, -- Normal
+            at0032] -- Weak
+          }
+        }
+        ELEMENT[at0033] occurrences matches {0..1} matches { -- PointInTime
+          value matches {
+            [local::
+            at0034, -- 1H min
+            at0035, -- 1H max
+            at0036] -- 1H mean
+          }
+        }
+        ELEMENT[at0037] occurrences matches {1..1} matches { -- FrequencyQualification
+          value matches {
+            [local::
+            at0038, -- Alternating bradycardia and tachycardia
+            at0039, -- Bradycardia
+            at0040, -- Normal
+            at0041] -- Tachycardia
+          }
+        }
+        ELEMENT[at0042] occurrences matches {1..1} matches { -- Regularity
+          value matches {
+            [local::
+            at0043, -- Irregular
+            at0044] -- Regular
+          }
+        }
+        ELEMENT[at0045] occurrences matches {1..1} matches { -- BodyPosition
+          value matches {
+            [local::
+            at0046, -- Lying
+            at0047, -- Sitting
+            at0048, -- Standing
+            at0049] -- Reclining
+          }
+        }
+        ELEMENT[at0050] occurrences matches {1..1} matches { -- Exertion
+          value matches {
+            [local::
+            at0051, -- In rest
+            at0052, -- Post exercise
+            at0053] -- During exercise
+          }
+        }
+        ELEMENT[at0054] occurrences matches {1..1} matches { -- Method
+          value matches {
+            [local::
+            at0055, -- Auscultation
+            at0056, -- BedsideMonitor
+            at0057, -- ECG
+            at0058, -- Palpation/ manual
+            at0059] -- Ultrasound
+          }
+        }
+        ELEMENT[at0060] occurrences matches {1..1} matches { -- DurationMeasure
+          value matches {
+            QUANTITY matches {
+              units matches {*}
+            }
+          }
+        }
+    }
+  }
+
+ontology
+  term_definitions = <
+    ["en"] = <
+      items = <
+        ["at0000"] = <
+          text = <"HeartRate">
+          description = <"Het gaat om de observatie en het vastleggen van de hartslag van een persoon.
+
+--DCM::Language=nl
+
+This is about the observation and documentation of the heart rate of a person.">
+        >
+        ["at0001"] = <
+          text = <"Frequency">
+          description = <"De mechanische hartslag - aantal slagen per minuut
+
+--DCM::Language=nl 
+
+The mechanics of the heart rate: number of beats per minute">
+        >
+        ["at0002"] = <
+          text = <"Rhythm">
+          description = <"Interpretatie van het ritme van de hartslag.
+
+
+Interpretation of the rhythm of the heart rate.">
+        >
+        ["at0003"] = <
+          text = <"Bigeminal pulse">
+          description = <"Twee hartslagen snel achter elkaar, ieder tweetal is gescheiden door een langere interval.
+
+Double beats with intervening gap">
+        >
+        ["at0004"] = <
+          text = <"Bisferiens">
+          description = <"Een pols met twee systole pieken.
+
+Pulse with two systolic peaks">
+        >
+        ["at0005"] = <
+          text = <"Extra-systole">
+          description = <"Een zwakke slag wordt gevolgd door een krachtige slag.
+
+A weak beat is followed by a strong beat">
+        >
+        ["at0006"] = <
+          text = <"Irregulair">
+          description = <"De hartslag is onreglmatig">
+        >
+        ["at0007"] = <
+          text = <"Palpitation">
+          description = <"Patient is zich bewust van het kloppen van zijn eigen hart.
+
+Being aware of the beating of one's own heart">
+        >
+        ["at0008"] = <
+          text = <"Pulsus alternans">
+          description = <"Krachtige en zwakke slagen wisselen elkaar af.
+
+Strong and weak beats alternate">
+        >
+        ["at0009"] = <
+          text = <"Pulsus irregularis perpetuus">
+          description = <"De pols is totaal irregulair en inequaal.
+
+Pulse is completely irregular and unequal">
+        >
+        ["at0010"] = <
+          text = <"Regular">
+          description = <"De hartslag is regelmatig.
+
+Regular heart beat">
+        >
+        ["at0011"] = <
+          text = <"Trigeminal pulse">
+          description = <"Een pauze na iedere derde hartslag.
+
+Triple beats with intervening gap 
+.">
+        >
+        ["at0012"] = <
+          text = <"Strength">
+          description = <"The power with which the blood is pumped through the heart and arteries. This is subtle different from the filling. It is not the peak volume, but the volume increase / decrease per time unit. 
+
+--DCM::Language=nl
+
+
+De kracht waarmee het bloed door het hart door de aderen wordt gepompt. Dit is subtiel anders dan de vulling. Het gaat hier niet om het peikvolume, maar om de volumestijging/-daling per tijdseenheid.">
+        >
+        ["at0013"] = <
+          text = <"Normal">
+          description = <"The strength is normal
+
+De slagkracht is normaal">
+        >
+        ["at0014"] = <
+          text = <"Strong">
+          description = <"The strength is strong
+
+De slagkracht is groot">
+        >
+        ["at0015"] = <
+          text = <"Weak">
+          description = <"The strength is weak
+
+De slagkracht is klein">
+        >
+        ["at0016"] = <
+          text = <"Location">
+          description = <"Plaats op het lichaam waar de hartslag wordt gemeten.
+
+The location where the heart rate is measured.">
+        >
+        ["at0017"] = <
+          text = <"Arteria brachialis">
+        >
+        ["at0018"] = <
+          text = <"Arteria carotis">
+        >
+        ["at0019"] = <
+          text = <"Arteria carotis externa">
+        >
+        ["at0020"] = <
+          text = <"Arteria dorsalis pedis">
+        >
+        ["at0021"] = <
+          text = <"Arteria femoralis">
+        >
+        ["at0022"] = <
+          text = <"Arteria poplitea">
+        >
+        ["at0023"] = <
+          text = <"Arteria radialis">
+        >
+        ["at0024"] = <
+          text = <"Arteria subclavia">
+        >
+        ["at0025"] = <
+          text = <"Arteria temporalis">
+        >
+        ["at0026"] = <
+          text = <"Arteria tibialis">
+        >
+        ["at0027"] = <
+          text = <"Arteria tibialis posterior">
+        >
+        ["at0028"] = <
+          text = <"Fontanel (baby)">
+        >
+        ["at0029"] = <
+          text = <"Filling">
+          description = <"Interpretation of the filling of the vessels during heartbeat.
+--DCM::Language=nl
+
+
+Interpretatie van de vulling (volume) van de hartslagen">
+        >
+        ["at0030"] = <
+          text = <"Large">
+          description = <"Het volume is groot
+
+The volume is large">
+        >
+        ["at0031"] = <
+          text = <"Normal">
+          description = <"Het volume is normaal
+
+The volume of the pulse is normal">
+        >
+        ["at0032"] = <
+          text = <"Weak">
+          description = <"Het volume is klein
+
+The volume is weak">
+        >
+        ["at0033"] = <
+          text = <"PointInTime">
+        >
+        ["at0034"] = <
+          text = <"1H min">
+        >
+        ["at0035"] = <
+          text = <"1H max">
+        >
+        ["at0036"] = <
+          text = <"1H mean">
+        >
+        ["at0037"] = <
+          text = <"FrequencyQualification">
+          description = <"Interpretatie van de hartslag in aantal slagen per minuut.
+
+--DCM::Language=nl 
+
+Interpretation of the rate of the heart as beats per minute">
+        >
+        ["at0038"] = <
+          text = <"Alternating bradycardia and tachycardia">
+          description = <"Alternating bradycardia and tachycardia: heart beats alternately more than 100 beats per minute and less than 60 beats per minute.
+
+Afwisselen bradycardie en tachycardie: het hart slaat afwisselend meer dan 100 slagen per minuut en minder dan 60 slagen per minuut.">
+        >
+        ["at0039"] = <
+          text = <"Bradycardia">
+          description = <"DE hartslag is minder dan 60 slagen per minuut.
+
+Heart beats less than 60 beats per minute in rest">
+        >
+        ["at0040"] = <
+          text = <"Normal">
+          description = <"The frequency of the heart rate is normal.
+
+De frequentie van de hartslag is normaal.">
+        >
+        ["at0041"] = <
+          text = <"Tachycardia">
+          description = <"Heart beats more than 100 beats per minute.
+
+De hartslag is meer dan 100 per minuut.">
+        >
+        ["at0042"] = <
+          text = <"Regularity">
+          description = <"Interpretatie van de gelijkmatigheid van de hartslag.
+
+Interpretation of the regularity of the heart rate.">
+        >
+        ["at0043"] = <
+          text = <"Irregular">
+        >
+        ["at0044"] = <
+          text = <"Regular">
+        >
+        ["at0045"] = <
+          text = <"BodyPosition">
+          description = <"Houding waarin de patiënt zich bevindt tijdens de meting.
+
+The bodyposition of the patient during the measure of the heart rate.">
+        >
+        ["at0046"] = <
+          text = <"Lying">
+        >
+        ["at0047"] = <
+          text = <"Sitting">
+        >
+        ["at0048"] = <
+          text = <"Standing">
+        >
+        ["at0049"] = <
+          text = <"Reclining">
+        >
+        ["at0050"] = <
+          text = <"Exertion">
+          description = <"Bepaling of de patient inspanning levert of heeft geleverd. Na en tijdens inspanning is de hartslag hoger.
+
+After exercise the pulse rate is increased">
+        >
+        ["at0051"] = <
+          text = <"In rest">
+        >
+        ["at0052"] = <
+          text = <"Post exercise">
+        >
+        ["at0053"] = <
+          text = <"During exercise">
+        >
+        ["at0054"] = <
+          text = <"Method">
+          description = <"De wijze waarop de hartslag is geteld en geobserveerd.
+
+--DCM::Language=nl
+
+The way how the heart rate is measured and observed.">
+        >
+        ["at0055"] = <
+          text = <"Auscultation">
+          description = <"De hartslag wordt vastgesteld door middel van auscultatie.
+
+The heart rate is determined by auscultation.">
+        >
+        ["at0056"] = <
+          text = <"BedsideMonitor">
+          description = <"De hartslag wordt vastgesteld door middel van een bewakingsmonitor.
+
+The heart rate is determined by continious monitoring.">
+        >
+        ["at0057"] = <
+          text = <"ECG">
+          description = <"De hartslag wordt vastgesteld door middel van een Elektrocardiogram (ECG).
+
+The heart rate is determined by an electrocardiographic monitoring">
+        >
+        ["at0058"] = <
+          text = <"Palpation/ manual">
+          description = <"De hartslag wordt aan een perifere arterie bepaald door middel van palpatie.
+
+The heart rate is determined by palpation on a peripheral artery.">
+        >
+        ["at0059"] = <
+          text = <"Ultrasound">
+        >
+        ["at0060"] = <
+          text = <"DurationMeasure">
+          description = <"Time used for this measure (e.g. 15 seconds, 1 minute).
+
+--DCM::Language=nl 
+
+Duur van de meting (bv 15 seconden, 1 minuut).">
+        >
+      >
+    >
+  >
+  term_bindings = <
+    ["SCT"] = <
+      items = <
+        ["at0000"] = <[SCT::364075005]>
+        ["at0001"] = <[SCT::364075005]>
+        ["at0002"] = <[SCT::301149000]>
+        ["at0003"] = <[SCT::195103000]>
+        ["at0004"] = <[SCT::415216000]>
+        ["at0005"] = <[SCT::284470004]>
+        ["at0006"] = <[SCT::248650006]>
+        ["at0007"] = <[SCT::80313002]>
+        ["at0008"] = <[SCT::42807005]>
+        ["at0009"] = <[SCT::271638000]>
+        ["at0010"] = <[SCT::248649006]>
+        ["at0011"] = <[SCT::29036000]>
+        ["at0016"] = <[SCT::363704007]>
+        ["at0017"] = <[SCT::17137000]>
+        ["at0018"] = <[SCT::69105007]>
+        ["at0019"] = <[SCT::22286001]>
+        ["at0020"] = <[SCT::86547008]>
+        ["at0021"] = <[SCT::181349008]>
+        ["at0022"] = <[SCT::43899006]>
+        ["at0023"] = <[SCT::45631007]>
+        ["at0024"] = <[SCT::36765005]>
+        ["at0025"] = <[SCT::15672000]>
+        ["at0026"] = <[SCT::181351007]>
+        ["at0027"] = <[SCT::181358001]>
+        ["at0028"] = <[SCT::272681004]>
+        ["at0029"] = <[SCT::366201008]>
+        ["at0030"] = <[SCT::271640005]>
+        ["at0031"] = <[SCT::421014001]>
+        ["at0032"] = <[SCT::64661000]>
+        ["at0037"] = <[SCT::301113001]>
+        ["at0038"] = <[SCT::74615001]>
+        ["at0039"] = <[SCT::48867003]>
+        ["at0040"] = <[SCT::76863003]>
+        ["at0041"] = <[SCT::3424008]>
+        ["at0042"] = <[SCT::364074009]>
+        ["at0043"] = <[SCT::61086009]>
+        ["at0044"] = <[SCT::271636001]>
+        ["at0045"] = <[SCT::397155001]>
+        ["at0046"] = <[SCT::102538003]>
+        ["at0047"] = <[SCT::33586001]>
+        ["at0048"] = <[SCT::10904000]>
+        ["at0049"] = <[SCT::272587006]>
+        ["at0050"] = <[SCT::19487008]>
+        ["at0051"] = <[SCT::128975004]>
+        ["at0052"] = <[SCT::128978002]>
+        ["at0053"] = <[SCT::128976003]>
+        ["at0054"] = <[SCT::84203001]>
+        ["at0055"] = <[SCT::37931006]>
+        ["at0056"] = <[SCT::88140007]>
+        ["at0057"] = <[SCT::46825001]>
+      >
+    >
+  >
