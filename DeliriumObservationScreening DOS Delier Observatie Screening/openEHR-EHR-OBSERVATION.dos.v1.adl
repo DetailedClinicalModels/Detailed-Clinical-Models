@@ -1,0 +1,583 @@
+archetype (adl_version=1.4)
+	openEHR-EHR-OBSERVATION.dos.v1
+
+concept
+	[at0000]	-- Delirium Observatie Screening (DOS) Schaal
+language
+	original_language = <[ISO_639-1::nl]>
+description
+	original_author = <
+		["name"] = <"Anneke Goossen">
+		["organisation"] = <"Results 4 Care (www.results4care.nl)">
+		["email"] = <"results4care@cs.com">
+		["date"] = <"16-3-2009">
+	>
+	details = <
+		["nl"] = <
+			language = <[ISO_639-1::nl]>
+			purpose = <"Het vaststellen van het risico op een delirium. De Delirium Observation Screening (DOS) Schaal is een verpleegkundige observatieschaal voor het vroegtijdige onderkennen van een delier (Schuurmans et al, 2003).
+
+Wetenschappelijke onderbouwing:
+De Delirium Observatie Screening (DOS) schaal werd ontwikkeld om verpleegkundigen een delier vroegtijdig te laten onderkennen, tijdens de reguliere zorgverlening,  volgens de Diagnostic and Statistical Manual-IV criteria. De schaal richt zich op de vroege symptomen van een delirium (Schuurmans et al, 2003).
+
+Uitgangspunten om de DOS-schaal te ontwikkelen waren:
+• gedrag vast leggen die door iedere verpleegkundige tijdens de reguliere zorgverlening kan worden geobserveerd;
+• deze observatie door iedere verpleegkundige met basiskennis van de geriatrie kan worden uitgevoerd (Schuurmans, 2001).
+Tevens is dit instrument geschikt voor toepassing bij patiënten met al bestaande cognitieve stoornissen (Schuurmans, 2001)
+
+Een delier is een neuropsychiatrisch toestandsbeeld waarbij sprake is van een stoornis in het bewustzijn met een verminderd vermogen de aandacht ergens op te richten, vast te houden of te wisselen, en van een verandering in cognitie (incoherent denken, geheugenstoornis, onsamenhangende spraak en desoriëntatie). Daarbij kunnen zich ook hallucinaties en wanen voordoen. Motorische onrust kan, maar hoeft er niet bij op te treden. Kenmerkend voor een delier is dat het beeld acuut ontstaat, in uren tot dagen, en dat de symptomen fluctueren over het etmaal. Er is vrijwel altijd een onderliggende somatische stoornis (NHG 2003).
+Het delier vormt een belangrijke bijdrage aan een verhoogd sterftecijfer, verlengde duur van ziekenhuisopname en verminderd functioneren op psychisch en lichamelijk gebied (Fick en Foreman, 2000; Inouye et al, 1998, 1999; Schuurmans en Duursma, 1998). Vooral gaat het hierbij om verminderd cognitief functioneren, hallucinaties en een verhoogde ADL-afhankelijkheid. Frequentie van het delier variëert bij ouderen opgenomen in een ziekenhuis van 14-56% (Inouye et al, 1999) tot 4-53,2% (Milisen et al, 1998b) en 25% (Schuurmans en Duursma, 1998).
+Met behulp van de Delirium Observatie Screening Schaal wordt gemeten in hoeverre er sprake is van een verhoogd risico op een delirium. Door middel van de schaal kan bij opname gescoord worden of de patiënt een (verhoogd) risico heeft op de ontwikkeling van een delirium. Indien dat het geval is, worden gedurende meerdere  dagen de risico factoren van de patiënt gescoord. De totaliteit van het screeningsinstrument wordt gebruikt voor het vaststellen van de effecten op de patiënt. Hierbij gaat het om de vroegtijdige herkenning van een delirium, waardoor preventief of in een beginstadium ingegrepen kan worden. Hierdoor zal de kwaliteit van zorg voor de patiënt verbeteren en kan de opnameduur verkort worden. Effecten worden gemeten door de periode voor en ten tijde van de invoering van het screeningsinstrument te vergelijken. (Mulder 2007)
+
+Vroegtijdige onderkenning van delier symptomen  kan bijdrage tot diagnosticeren en behandeling van de onderliggende oorzaak en kan negatieve gevolgen voorkomen.
+(Van Gemert  en Schuurmans 2007).
+
+De Delirium Observatie Screening Schaal werd ontwikkeld op basis van de DSM-IV criteria voor delier en getest op validiteit. In twee prospectieve studies met groepen hoog-risico patiënten, toonde de DOS Schaal hoge interne consistentie (0,93- 0,96) (Schuurman et al 2003). 
+">
+			use = <"De Delirium Observatie Screening Schaal bevat 13 observaties van gedrag (verbaal en non-verbaal) die de symptomen van het delier weergeven.  Deze observaties zijn:
+• zakt weg tijdens gesprek of bezigheden,
+• is snel afgeleid door prikkels uit de omgeving,
+• heeft aandacht voor gesprek of handeling,
+• maakt vraag of antwoord niet af,
+• geeft antwoorden die niet passend zijn bij de vraag,
+• reageert traag op opdrachten, 
+• denkt ergens anders te zijn, 
+• beseft wel welk dagdeel het is, 
+• herinnert zich recente gebeurtenis, 
+• is plukkerig, rommelig en rusteloos, 
+• trekt aan infuus, sonde, katheter, 
+• is snel of plotseling geëmotioneerd, 
+• ziet/hoort dingen die er niet zijn.
+Deze observaties kunnen gedaan worden tijdens reguliere contacten met de patiënt door elke verpleegkundige met basiskennis van de geriatrie. Om het delier goed te herkennen is het van belang om per dienst de observatie van het gedrag vast te leggen. 
+Elke observatie  krijgt een score; nooit(0), soms-altijd(1),weet niet (-). In het instrument moet de juiste score aangegeven worden.
+De score nooit(0) betekent dat de beschreven observatie in de contacten met de patiënt gedurende de dienst geen enkele keer waargenomen is.
+De score soms-altijd(1) betekent dat de beschreven observatie één of meer keren of zelfs steeds is waargenomen.
+De score weet niet(-) betekent de beschreven observatie niet waargenomen is, omdat de patiënt steeds sliep of geen verbaal contact maakte of omdat de beoordelaar zichzelf niet in staat acht de aan- dan wel afwezigheid te beoordelen
+
+- per dienst wordt een totaal score berekend door het aantal omcirkelde enen op te tellen; de totaal score per dienst is minimaal 0 en maximaal 13.
+
+- de totaal scores van drie diensten worden opgeteld tot de totaal score deze dag; de totaal score deze dag is minimaal 0 en maximaal 39.
+
+- de DOS Schaal eindscore wordt berekend door de totaal score deze dag te delen door 3; de DOS eindscore ligt tussen de 0 en 13 
+
+Het invullen van het instrument mag niet meer tijd kosten dan 5 minuten (Schuurmans et al, 2003)
+
+Nadere toelichting/voorbeelden: 
+
+- Iemand is snel afgeleid door prikkels uit de omgeving wanneer hij/zij verbaal of nonverbaal reageert op geluiden of bewegingen die geen betrekking op hem/haar hebben en die van dien aard zijn dat je geen reactie van hem/haar zou verwachten. (het is bijvoorbeeld normaal dat iemand reageert op een harde gil op de gang, maar niet normaal als iemand reageert op een rustige vraag aan een andere patiënt).
+- Iemand heeft aandacht voor gesprek of handeling als hij /zij verbaal of nonverbaal blijk geeft het gesprek of de handeling te volgen.
+- Iemand reageert traag op opdrachten wanneer het handelen is vertraagd en/of er momenten van stilte/inactiviteit zijn voordat tot handelen wordt overgegaan.
+- Iemand denkt ergens anders te zijn als hij/zij in woorden of in handelen dit laat blijken (iemand die je bijvoorbeeld vraagt om iets te pakken wat op het dressoir ligt of iemand die de omgeving anders interpreteert dan als ziekenhuis)
+- Iemand beseft welk dagdeel het is als hij/zij in woorden of handelen dit laat blijken (iemand die bijvoorbeeld midden in de nacht opstaat en wil douchen heeft meestal geen besef welk dagdeel het is).
+- Iemand herinnert zich recente gebeurtenis wanneer hij/zij bijvoorbeeld juist kan vertellen of er bezoek is geweest of wat hij/zij gegeten heeft.
+- Iemand is snel of plotseling geëmotioneerd wanneer hij/zij reageert met een heftige emotie zonder aanleiding of wanneer de heftigheid van de emotie niet in overeenstemming lijkt met de aanleiding (iemand die bijvoorbeeld zomaar begint te huilen of heel angstig wordt van wassen of woedend reageert als de thee koud is).
+- Iemand ziet/hoort dingen die er niet zijn wanneer hij/zij hiervan verbaal (navragen!) of nonverbaal blijk geeft (bijvoorbeeld iemand die niet zichtbare voorwerpen wil verplaatsen of die reageert of mensen of dieren die er niet zijn).
+
+Interpretatierichtlijn:
+
+
+Een DOS Schaal eindscore lager dan 3 betekent dat de patiënt waarschijnlijk niet delirant is, een DOS Schaal eindscore  hoger dan of gelijk aan 3 betekent dat de patiënt waarschijnlijk wel delirant is. 
+
+Zorgproces/ afhankelijkheid:
+
+De DOS schaal wordt gedurende drie achtereenvolgende diensten gescoord.
+Door het invullen van de Delirium Observation Screening Schaal kan de verpleegkundige bepalen of de patient een verhoogd risico heeft op de ontwikkeling van een delier en heeft daarmee de mogelijkheid om gerichtere verpleegkundige interventies toe te passen. Deze interventies maken dan deel uit van het verpleegplan.
+">
+			keywords = <"DOS", "Delier", "Meetinstrument", "Rating scale", "Risk scale", "Delirium", "Screening">
+			misuse = <"Het archetype (maar ook het meetinstrument) niet gebruiken voor het diagnosticeren van een delirium.">
+		>
+	>
+	lifecycle_state = <"AuthorDraft">
+	other_contributors = <"N. Rademaker, Results 4 Care", ...>
+	other_details = <
+		["references"] = <"• Fick, D. en Foreman, M.D. (2000); Consequences of Not Recognizing Delirium Superimposed on Dementia in Hospitalized Elderly Individuals; Journal of Gerontological Nursing; 1, 30-40.
+• Gemert,L.A.van, Schuurman, M.J.,(2007) The Neecham Confusion Scale and the Delirium Observation Screening Scale: Capicity to discriminate and ease of use in clinical practice VU Medical Centre Amsterdam.
+• Kok, R.M.,Verhey, F.R.J., Schmand,B. (2004);Meetinstrumenten bij cognitieve stoornissen,Tijdschrift voor psychiatrie; 46,665-669
+• Mulder, J. (2007);Vroegtijdig herkenning van een delirium bij de oudere patient  Wetenschappelijk afstudeeronderzoek Erasmus universiteit Rotterdam.
+• Schuurmans, M.J. en Duursma S.A., (1998); Verpleegkundigen en oude patiënten met delier, een overzicht van de literatuur; Verpleegkunde; 13:2, 86-98.
+• Schuurmans, M.J. (2001); Early Recognition of Delirium; Proefschrift voor de Universiteit van Utrecht.
+• Schuurmans, M.J.,Shortridge-Baggett,l.M.,Duursma,S.A.(2003) The Delirium Observation Screening Scale: A Screening Instrument for Delirium University Medical Center Utrecht.
+• Verhagen,E.H.,Bannink,M.,Krol,R.J.A.,(2005)Richtlijn delier  Intergraal Kankercentrum Midden-Nederland.
+• Weele, G.M.Van der, Dijk,A.van, Eekhof J.A.H., Olde Rikkert, M.G.M., Scholtes A.B.J., Veehof L.J.G., Janssen, P.G.H., Eizenga,W.H.(2003); NHG-Standaard Delier bij ouderen.
+• http://nhg.artsennet.nl/upload/104/standaarden/M77/std.htm.
+	
+">
+	>
+
+definition
+	OBSERVATION[at0000] matches {	-- Delirium Observatie Screening (DOS) Schaal
+		data matches {
+			HISTORY[at0001] matches {	-- Event Series
+				events cardinality matches {1..*; unordered} matches {
+					POINT_EVENT[at0002] matches {	-- Moment van observatie
+						offset matches {
+							DV_DURATION matches {
+								value matches {|PT8H|}
+							}
+						}
+						name matches {
+							DV_CODED_TEXT matches {
+								defining_code matches {
+									[local::
+									at0057, 	-- Dagdienst
+									at0058, 	-- Avonddienst
+									at0059]	-- Nachtdienst
+								}
+							}
+						}
+						data matches {
+							ITEM_TREE[at0003] matches {	-- Tree
+								items cardinality matches {0..*; unordered} matches {
+									ELEMENT[at0075] matches {	-- Zakt weg tijdens gesprek of bezigheden
+										value matches {
+											0|[local::at0077], 	-- Nooit
+											1|[local::at0078]  	-- Soms-altijd
+											DV_CODED_TEXT matches {
+												defining_code matches {[local::at0076]}		-- Weet niet
+											}
+										}
+									}
+									ELEMENT[at0079] matches {	-- Is snel afgeleid door prikkels uit de omgeving
+										value matches {
+											0|[local::at0081], 	-- Nooit
+											1|[local::at0082]  	-- Soms-altijd
+											DV_CODED_TEXT matches {
+												defining_code matches {[local::at0080]}		-- Weet niet
+											}
+										}
+									}
+									ELEMENT[at0083] matches {	-- Heeft aandacht voor gesprek of handeling
+										value matches {
+											0|[local::at0085], 	-- Soms-altijd
+											1|[local::at0086]  	-- Nooit
+											DV_CODED_TEXT matches {
+												defining_code matches {[local::at0084]}		-- Weet niet 
+											}
+										}
+									}
+									ELEMENT[at0087] matches {	-- Maakt vraag of antwoord niet af
+										value matches {
+											0|[local::at0089], 	-- Nooit
+											1|[local::at0090]  	-- Soms-altijd
+											DV_CODED_TEXT matches {
+												defining_code matches {[local::at0088]}		-- Weet niet
+											}
+										}
+									}
+									ELEMENT[at0091] matches {	-- Geeft antwoorden die niet passen bij de vraag
+										value matches {
+											0|[local::at0093], 	-- Nooit
+											1|[local::at0094]  	-- Soms-altijd
+											DV_CODED_TEXT matches {
+												defining_code matches {[local::at0092]}		-- Weet niet
+											}
+										}
+									}
+									ELEMENT[at0095] matches {	-- Reageert traag op opdrachten
+										value matches {
+											0|[local::at0097], 	-- Nooit
+											1|[local::at0098]  	-- Soms-altijd
+											DV_CODED_TEXT matches {
+												defining_code matches {[local::at0096]}		-- Weet niet 
+											}
+										}
+									}
+									ELEMENT[at0099] matches {	-- Denkt ergens anders te zijn
+										value matches {
+											0|[local::at0101], 	-- Nooit
+											1|[local::at0102]  	-- Soms-altijd
+											DV_CODED_TEXT matches {
+												defining_code matches {[local::at0100]}		-- Weet niet
+											}
+										}
+									}
+									ELEMENT[at0103] matches {	-- Beseft wel welk dagdeel het is
+										value matches {
+											0|[local::at0105], 	-- Soms-altijd
+											1|[local::at0106]  	-- Nooit
+											DV_CODED_TEXT matches {
+												defining_code matches {[local::at0104]}		-- Weet niet
+											}
+										}
+									}
+									ELEMENT[at0107] matches {	-- Herinnert zich recente gebeurtenissen 
+										value matches {
+											0|[local::at0109], 	-- Soms-altijd
+											1|[local::at0110]  	-- Nooit
+											DV_CODED_TEXT matches {
+												defining_code matches {[local::at0108]}		-- Weet niet
+											}
+										}
+									}
+									ELEMENT[at0111] matches {	-- Is plukkerig, rommelig, rusteloos
+										value matches {
+											0|[local::at0113], 	-- Nooit
+											1|[local::at0114]  	-- Soms-altijd
+											DV_CODED_TEXT matches {
+												defining_code matches {[local::at0112]}		-- Weet niet
+											}
+										}
+									}
+									ELEMENT[at0115] matches {	-- Trekt aan infuus, sonde, catheter etc.
+										value matches {
+											0|[local::at0117], 	-- Nooit
+											1|[local::at0118]  	-- Soms-altijd
+											DV_CODED_TEXT matches {
+												defining_code matches {[local::at0116]}		-- Weet niet
+											}
+										}
+									}
+									ELEMENT[at0119] matches {	-- Is snel of plotseling geëmotioneerd
+										value matches {
+											0|[local::at0121], 	-- Nooit
+											1|[local::at0122]  	-- Soms-altijd
+											DV_CODED_TEXT matches {
+												defining_code matches {[local::at0120]}		-- Weet niet
+											}
+										}
+									}
+									ELEMENT[at0123] matches {	-- Ziet/hoort dingen die er niet zijn
+										value matches {
+											0|[local::at0125], 	-- Nooit
+											1|[local::at0126]  	-- Soms-altijd
+											DV_CODED_TEXT matches {
+												defining_code matches {[local::at0124]}		-- Weet niet
+											}
+										}
+									}
+									ELEMENT[at0060] matches {	-- Totaal score dagdienst
+										value matches {
+											DV_COUNT matches {
+												magnitude matches {|0..13|}
+											}
+										}
+									}
+									ELEMENT[at0061] matches {	-- Totaal score avonddienst
+										value matches {
+											DV_COUNT matches {
+												magnitude matches {|0..13|}
+											}
+										}
+									}
+									ELEMENT[at0062] matches {	-- Totaal score nachtdienst
+										value matches {
+											DV_COUNT matches {
+												magnitude matches {|0..13|}
+											}
+										}
+									}
+									ELEMENT[at0063] matches {	-- Totaal score per dag
+										value matches {
+											DV_COUNT matches {
+												magnitude matches {|0..39|}
+											}
+										}
+									}
+									ELEMENT[at0064] matches {	-- DOS Eindscore
+										value matches {
+											DV_COUNT matches {
+												magnitude matches {|0..13|}
+											}
+										}
+									}
+									ELEMENT[at0065] matches {	-- Interpretatie DOS eindscore
+										value matches {
+											DV_CODED_TEXT matches {
+												defining_code matches {
+													[local::
+													at0066, 	-- Patient heeft waarschijnlijk geen delier
+													at0067]	-- Patient heeft waarschijnlijk een delier
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["nl"] = <
+			items = <
+				["at0000"] = <
+					text = <"Delirium Observatie Screening (DOS) Schaal">
+					description = <"De Delirium Observation Screening (DOS) Schaal is een verpleegkundige observatieschaal voor het vroegtijdige onderkennen van een delier (Schuurmans et al, 2003).">
+				>
+				["at0001"] = <
+					text = <"Event Series">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Moment van observatie">
+					description = <"De dienst waarin gemeten is met de  Delirium Observatie ScreeningSchaal">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0057"] = <
+					text = <"Dagdienst">
+					description = <"Het risico op een delier is tijdens de dagdienst, 7.00 tot 16.00 uur,  vastgesteld">
+				>
+				["at0058"] = <
+					text = <"Avonddienst">
+					description = <"Het risico op een delier is tijdens de avonddienst vastgesteld">
+				>
+				["at0059"] = <
+					text = <"Nachtdienst">
+					description = <"Het risico op een delier is tijdens de nachtdienst vast gesteld">
+				>
+				["at0060"] = <
+					text = <"Totaal score dagdienst">
+					description = <"De totaal score op de Delirium Observatie Screening(DOS) 
+Schaal van de dagdienst.">
+				>
+				["at0061"] = <
+					text = <"Totaal score avonddienst">
+					description = <"De totaal score op de Delirium Observatie Screening(DOS) 
+Schaal van de avonddienst.">
+				>
+				["at0062"] = <
+					text = <"Totaal score nachtdienst">
+					description = <"De totaal score op de Delirium Observatie Screening(DOS) 
+Schaal van de avonddienst.">
+				>
+				["at0063"] = <
+					text = <"Totaal score per dag">
+					description = <"Het gaat hierbij om de totale score van de Delirium Observatie Screening(DOS) 
+Schaal per dag .  ">
+				>
+				["at0064"] = <
+					text = <"DOS Eindscore">
+					description = <"De DOS Schaal eindscore wordt berekend door de totaal score die dag te delen door 3; de DOS eindscore ligt tussen de 0 en 13">
+				>
+				["at0065"] = <
+					text = <"Interpretatie DOS eindscore">
+					description = <"Een DOS Schaal eindscore lager dan 3 betekent dat de patiënt waarschijnlijk niet delirant is, een DOS Schaal eindscore  hoger dan of gelijk aan 3 betekent dat de patiënt waarschijnlijk wel delirant is.">
+				>
+				["at0066"] = <
+					text = <"Patient heeft waarschijnlijk geen delier">
+					description = <"*">
+				>
+				["at0067"] = <
+					text = <"Patient heeft waarschijnlijk een delier">
+					description = <"*">
+				>
+				["at0075"] = <
+					text = <"Zakt weg tijdens gesprek of bezigheden">
+					description = <"Maakt een afwezige  indruk ">
+				>
+				["at0076"] = <
+					text = <"Weet niet">
+					description = <"Beschreven observatie is niet waargenomen, omdat de patiënt steeds sliep of geen verbaal contact maakte of omdat de beoordelaar zichzelf niet in staat acht de aan- dan wel afwezigheid te beoordelen.">
+				>
+				["at0077"] = <
+					text = <"Nooit">
+					description = <"Patient maakt nooit een afwezige indruk">
+				>
+				["at0078"] = <
+					text = <"Soms-altijd">
+					description = <"De patient maakt soms of altijd een afwezige indruk">
+				>
+				["at0079"] = <
+					text = <"Is snel afgeleid door prikkels uit de omgeving">
+					description = <"Reageert verbaal of nonverbaal  op geluiden of bewegingen die geen betrekking op hem/haar hebben en die van dien aard zijn dat je geen reactie van hem/haar zou verwachten. ">
+				>
+				["at0080"] = <
+					text = <"Weet niet">
+					description = <"Beschreven observatie is niet waargenomen, omdat de patiënt steeds sliep of geen verbaal contact maakte of omdat de beoordelaar zichzelf niet in staat acht de aan- dan wel afwezigheid te beoordelen.">
+				>
+				["at0081"] = <
+					text = <"Nooit">
+					description = <"Patient is nooit snel afgeleid">
+				>
+				["at0082"] = <
+					text = <"Soms-altijd">
+					description = <"De patient is soms of altijd snel afgeleid">
+				>
+				["at0083"] = <
+					text = <"Heeft aandacht voor gesprek of handeling">
+					description = <"Geeft aan verbaal of nonverbaal blijk  het gesprek of de handeling te volgen.">
+				>
+				["at0084"] = <
+					text = <"Weet niet ">
+					description = <"Beschreven observatie is niet waargenomen, omdat de patiënt steeds sliep of geen verbaal contact maakte of omdat de beoordelaar zichzelf niet in staat acht de aan- dan wel afwezigheid te beoordelen.">
+				>
+				["at0085"] = <
+					text = <"Soms-altijd">
+					description = <"Patient geeft soms of altijd aan aandacht te hebben voor gesprek of handeling.">
+				>
+				["at0086"] = <
+					text = <"Nooit">
+					description = <"Patient geeft nooit aan aandacht voor gesprek of handeling te hebben.">
+				>
+				["at0087"] = <
+					text = <"Maakt vraag of antwoord niet af">
+					description = <"Begint een zin maar stopt met praten . Dit kan duiden op woordvindproblemen.">
+				>
+				["at0088"] = <
+					text = <"Weet niet">
+					description = <"Beschreven observatie is niet waargenomen, omdat de patiënt steeds sliep of geen verbaal contact maakte of omdat de beoordelaar zichzelf niet in staat acht de aan- dan wel afwezigheid te beoordelen.">
+				>
+				["at0089"] = <
+					text = <"Nooit">
+					description = <"Patient maakt nooit vraag of antwoord niet af">
+				>
+				["at0090"] = <
+					text = <"Soms-altijd">
+					description = <"De patient maakt soms of altijd de vraag of antwoord niet af of handeling">
+				>
+				["at0091"] = <
+					text = <"Geeft antwoorden die niet passen bij de vraag">
+					description = <"Reageert niet adequaat op vragen">
+				>
+				["at0092"] = <
+					text = <"Weet niet">
+					description = <"Beschreven observatie is niet waargenomen, omdat de patiënt steeds sliep of geen verbaal contact maakte of omdat de beoordelaar zichzelf niet in staat acht de aan- dan wel afwezigheid te beoordelen.">
+				>
+				["at0093"] = <
+					text = <"Nooit">
+					description = <"Patient geeft nooit antwoorden die niet passen bij de vraag">
+				>
+				["at0094"] = <
+					text = <"Soms-altijd">
+					description = <"De patient geeft soms of altijd antwoorden die niet passen bij de vraag ">
+				>
+				["at0095"] = <
+					text = <"Reageert traag op opdrachten">
+					description = <"Het handelen is vertraagd en/of er momenten van stilte/inactiviteit zijn voordat tot handelen wordt overgegaan.">
+				>
+				["at0096"] = <
+					text = <"Weet niet ">
+					description = <"Beschreven observatie is niet waargenomen, omdat de patiënt steeds sliep of geen verbaal contact maakte of omdat de beoordelaar zichzelf niet in staat acht de aan- dan wel afwezigheid te beoordelen.">
+				>
+				["at0097"] = <
+					text = <"Nooit">
+					description = <"Patient reageert nooit traag op opdrachten">
+				>
+				["at0098"] = <
+					text = <"Soms-altijd">
+					description = <"De patient reageert soms of altijd traag op opdrachten">
+				>
+				["at0099"] = <
+					text = <"Denkt ergens anders te zijn">
+					description = <"Als hij/zij in woorden of in handelen  laat blijken  in een andere omgeving te zijn ">
+				>
+				["at0100"] = <
+					text = <"Weet niet">
+					description = <"Beschreven observatie is niet waargenomen, omdat de patiënt steeds sliep of geen verbaal contact maakte of omdat de beoordelaar zichzelf niet in staat acht de aan- dan wel afwezigheid te beoordelen.">
+				>
+				["at0101"] = <
+					text = <"Nooit">
+					description = <"Patient denkt nooit ergens anders te zijn">
+				>
+				["at0102"] = <
+					text = <"Soms-altijd">
+					description = <"De patient denkt soms of altijd ergens anders te zijn">
+				>
+				["at0103"] = <
+					text = <"Beseft wel welk dagdeel het is">
+					description = <"Laat in  in woorden of handelen  blijken welk dagdeel het is">
+				>
+				["at0104"] = <
+					text = <"Weet niet">
+					description = <"Beschreven observatie is niet waargenomen, omdat de patiënt steeds sliep of geen verbaal contact maakte of omdat de beoordelaar zichzelf niet in staat acht de aan- dan wel afwezigheid te beoordelen.">
+				>
+				["at0105"] = <
+					text = <"Soms-altijd">
+					description = <"De patient laat soms of altijd blijken, in woorden of handelen, dat hij weet welk dagdeel het is.">
+				>
+				["at0106"] = <
+					text = <"Nooit">
+					description = <"De patient laat nooit blijken, in woorden of handelen, dat hij weet welk dagdeel het is.">
+				>
+				["at0107"] = <
+					text = <"Herinnert zich recente gebeurtenissen ">
+					description = <"Kan adequaat vertellen wat er recent heeft plaatsgevonden.">
+				>
+				["at0108"] = <
+					text = <"Weet niet">
+					description = <"Beschreven observatie is niet waargenomen, omdat de patiënt steeds sliep of geen verbaal contact maakte of omdat de beoordelaar zichzelf niet in staat acht de aan- dan wel afwezigheid te beoordelen.">
+				>
+				["at0109"] = <
+					text = <"Soms-altijd">
+					description = <"De patient kan soms of altijd adequaat vertellen wat er recent heeft plaats gevonden.">
+				>
+				["at0110"] = <
+					text = <"Nooit">
+					description = <"De patient kan nooit adequaat vertellen wat er recent heeft plaats gevonden.">
+				>
+				["at0111"] = <
+					text = <"Is plukkerig, rommelig, rusteloos">
+					description = <"Friemelig , enigszins chaotisch, ongedurig, roerig ">
+				>
+				["at0112"] = <
+					text = <"Weet niet">
+					description = <"Beschreven observatie is niet waargenomen, omdat de patiënt steeds sliep of geen verbaal contact maakte of omdat de beoordelaar zichzelf niet in staat acht de aan- dan wel afwezigheid te beoordelen.">
+				>
+				["at0113"] = <
+					text = <"Nooit">
+					description = <"Patient is nooit plukkerig, rommelig, rusteloos">
+				>
+				["at0114"] = <
+					text = <"Soms-altijd">
+					description = <"De patient is soms of altijd plukkerig, rommelig, rusteloos">
+				>
+				["at0115"] = <
+					text = <"Trekt aan infuus, sonde, catheter etc.">
+					description = <" 'Plukkerig' verzet, wil infuus, sonde, catheter eruit trekken terwijl iemand dat normaal ">
+				>
+				["at0116"] = <
+					text = <"Weet niet">
+					description = <"Beschreven observatie is niet waargenomen, omdat de patiënt steeds sliep of geen verbaal contact maakte of omdat de beoordelaar zichzelf niet in staat acht de aan- dan wel afwezigheid te beoordelen.">
+				>
+				["at0117"] = <
+					text = <"Nooit">
+					description = <"Patient trekt nooit aan infuus, sonde, catheter etc.">
+				>
+				["at0118"] = <
+					text = <"Soms-altijd">
+					description = <"De patient trekt soms of altijd aan infuus, sonde, catheter etc.">
+				>
+				["at0119"] = <
+					text = <"Is snel of plotseling geëmotioneerd">
+					description = <"Reageert met een heftige emotie zonder aanleiding of wanneer de heftigheid van de 
+emotie niet in overeenstemming lijkt met de aanleiding ">
+				>
+				["at0120"] = <
+					text = <"Weet niet">
+					description = <"Beschreven observatie is niet waargenomen, omdat de patiënt steeds sliep of geen verbaal contact maakte of omdat de beoordelaar zichzelf niet in staat acht de aan- dan wel afwezigheid te beoordelen.">
+				>
+				["at0121"] = <
+					text = <"Nooit">
+					description = <"Patient is nooit snel of plotseling geemotioneerd">
+				>
+				["at0122"] = <
+					text = <"Soms-altijd">
+					description = <"De patient is soms of altijd snel geemotioneerd ">
+				>
+				["at0123"] = <
+					text = <"Ziet/hoort dingen die er niet zijn">
+					description = <"Een zintuiglijke perceptie, die als werkelijkheid wordt ervaren door degene die hallucineert,
+maar die niettemin niet overeenkomt met wat er in de realiteit gebeurd ">
+				>
+				["at0124"] = <
+					text = <"Weet niet">
+					description = <"Beschreven observatie is niet waargenomen, omdat de patiënt steeds sliep of geen verbaal contact maakte of omdat de beoordelaar zichzelf niet in staat acht de aan- dan wel afwezigheid te beoordelen.">
+				>
+				["at0125"] = <
+					text = <"Nooit">
+					description = <"Patient ziet/hoort nooit dingen die er niet zijn">
+				>
+				["at0126"] = <
+					text = <"Soms-altijd">
+					description = <"De patient ziet/hoort soms of altijd dingen die er niet zijn">
+				>
+			>
+		>
+	>
