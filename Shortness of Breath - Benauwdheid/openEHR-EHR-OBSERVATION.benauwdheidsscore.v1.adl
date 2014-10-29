@@ -1,0 +1,197 @@
+archetype (adl_version=1.4)
+	openEHR-EHR-OBSERVATION.benauwdheidsscore.v1
+
+concept
+	[at0000]	-- Benauwdheidsscore VAS
+language
+	original_language = <[ISO_639-1::nl]>
+description
+	original_author = <
+		["name"] = <"Anneke Goossen">
+		["organisation"] = <"Results 4 Care (www.results4care.nl)">
+		["email"] = <"results4care@cs.com">
+		["date"] = <"9-6-2009">
+	>
+	details = <
+		["nl"] = <
+			language = <[ISO_639-1::nl]>
+			purpose = <"Doel: Het doel van een VAS benauwdheidscore is het in kaart brengen van de mate van benauwdheid van een patiënt. (VAS = Visueel Analoge Schaal). 
+
+Wetenschappelijke onderbouwing:
+Bij benauwdheid heeft de patiënt het gevoel niet voldoende lucht te krijgen (Wikipedia, 2009). Dyspneu (ook wel dyspnoe) is een synoniem voor benauwdheid. Dyspneu wordt ook wel eens beschreven als een “oncomfortabel bewust zijn van de ademhaling” (Mancini, 1999). Naast dyspneu worden ook kortademigheid en ademnood gegeven als synoniem voor benauwdheid (Consumed, 2009). 
+Bij dyspneu spelen sociale, psychologische en omgevingsfactoren een grote rol (Von Leupoldt, 2007). Zo wordt de beleving van de benauwdheid beïnvloed door bijvoorbeeld: het verleden van de patiënt (lichamelijke en psychische gebeurtenissen), reactie van de omgeving, karakter van de patiënt en de reactie van de patiënt op de benauwdheid. 
+Er zijn vele instrumenten ontwikkeld om de mate van benauwdheid in kaart te brengen zoals de American Thoracic Society Questionnaire (ATSDLD-78), Chronic Resperatory  Questionaire (CRQ), Dyspnea Interview Schedule, Pulmonary Functional Status Scale (PFSS), Modified Medical Research Council Dyspnea Scale (MRC-Dyspneu) (Mancini, 1999). De meest gebruikte schaal voor het meten van de mate van benauwdheid is de gemodificeerde Borg-schaal. Deze schaal is van oorsprong ontwikkeld om de mate van uitputting  (bijvoorbeeld bij hardlooptrainingen) in kaart te brengen. De Borg schaal maakt gebruik van eenvoudige beschrijvende woorden zoals licht, gemiddeld en ernstig met daarbij een 10 punts verdeling (Lansing, 2003 en Mancini, 1999). Een andere, vaak gebruikte,  schaal is de VAS (Visual Analogue Scale). Deze schaal is het eenvoudigste in gebruik en bestaat uit een 10 centimeter lange lijn met minimale benauwdheid aan het ene uiteinde en maximale benauwdheid aan het andere uiteinde. Soms is er een numerieke verdelin gop de VAS aangebracht. Vaak wordt de score bepaald door een lineaal te leggen langs de lijn. Een variatie op de Borg en de VAS is de ‘Oxygen Cost Scale’ waar diverse dagelijkse activiteiten staan aangegeven in oplopende zwaarte. De patiënt kan dan aangeven vanaf welke activiteit de benauwdheid te ernstig wordt om door te gaan (Mancini, 1999). Ook de NRS (Numerical Rating Scale) wordt vaak gebruikt, hierbij is een score mogelijk tussen de 0 en de 10. Morris e.a. vergelijkt in zijn onderzoek de VAS met de verbale NRS. Bij de verbale NRS wordt mensen gevraagd een cijfer tussen de 0 en de 10 te geven aan hun benauwdheid. Hierbij bleek dat beide schalen minder betrouwbaar worden bij gebruik door oudere patiënten (Morris e.a., 2007)
+In een eerder onderzoek (Tiplady, 1998) is de VAS betrouwbaar en valide bevonden voor alle leeftijdsgroepen, wel werd hier de aantekening bij gezet dat ouderen de intensiteit anders interpreteren door levenservaring. Dit zou de conclusie van Morris kunnen verklaren. Het verdiend aanbeveling om de VAS niet als enige meetinstrument te gebruiken, maar in samenwerking met andere instrumenten die meer de multi-dimensionaliteit van het het begrip benauwdheid aangeven (Wewers en Lowe, 1990). 
+Bij de NRS is gebleken dat de plaatsing van de nummers effect kan hebben op de scores. Zo werd in een onderzoek van Schwartz en anderen (Schwartz e.a., 1991) aangetoond dat bij een score tussen de 0 en de 10  34% tussen de 0 en de 5 scoorden terwijl bij dezelfde vraag op een score van –5 tot +5 slechts 13 % tussen de –5 en de 0 scoorden. 
+In deze DCM zal de verdere uitwerking de VAS score betreffen. Voor de dagelijkse bepaling van de mate van benauwdheid een van de eenvoudigst te gebruiken schalen. Zoals eerder aangegeven is het aan te bevelen om bij diepgaander onderzoek een meer Multi-dimensionale schaal te gebruiken. 
+">
+			use = <"Werkinstructie:
+Bij patiënten waar mogelijk benauwdheidklachten kunnen voorkomen kan een schaal als de VAS, BORG of NRS regelmatig worden afgenomen. Dit kan worden gedaan op vaste tijdstippen, bij een vermoeden van benauwdheid of indien men wil weten wat de mate van een aanwezige benauwdheid is. Bij de VAS geeft de patiënt op een 10 centimeter lange lijn middels een streepje aan welke mate van benauwdheid ervaren wordt. Bij de Borg en de NRS zal dit gebeuren door een getal aan te geven. De score wordt vervolgens genoteerd in het dossier.
+
+Interpretatierichtlijn:
+De intensiteit van de benauwdheid wordt afgelezen door de positie van de aangegeven streep/score. Hoe meer deze score naar 0/minimale benauwdheid gaat hoe minder de benauwdheid, hoe meer de streep/score naar 10/maximale benauwdheid  gaat hoe erger de benauwdheid ervaren wordt.
+Hoger/gelijk aan 30mm, lager dan 54 mm: patiënt geeft een gemiddelde benauwdheid aan. Hoger dan 54 mm; patiënt geeft een ernstige benauwdheid aan.
+
+Zorgproces/ afhankelijkheid:
+Afhankelijk van de oorzaak van de benauwdheid zal er actie worden genomen op de uitkomsten van de meting. ">
+			keywords = <"Benauwdheid", "Dyspneu", "Dyspnoe", "Kortademigheid">
+			misuse = <"">
+		>
+	>
+	lifecycle_state = <"AuthorDraft">
+	other_contributors = <"Drs. Y.J. Koster-de Jong. Results 4 Care. ", "Dr. W.T.F. Goossen, Results 4 Care">
+	other_details = <
+		["references"] = <"Consumed (2009). Kortademigheid (Ademnood, benauwdheid, dyspnoe). Verkregen op 18 mei 2009, van http://www.consumed.nl/ziekten/3472/Kortademigheid.
+
+Lansing, R.W., Moosavi, S.H., Banzett, R.B. (2003) Measurement of dyspnea: word labeled visual analog scale vs. verbal ordinal scale. Respiratory Physiology & Neurobiology. 134, 77-83.
+
+Mancini, I., Body, J.J. (1999). Assessment of dyspnea in advanced cancer patients. Support Care Cancer. 7, 229-232.
+
+Morris, N.R., Sabapathy, S., Adams, L., Kings;ey, R.A., Schneider, D.A., Stulbarg, M.S. (2007). Verbal numerical scales are as reliable and sensitive as visual analog scales for rating dyspnea in young and older subjects. Respiratory Physiology & Neurobiology. 157,  360–365.
+
+Schwartz, N., Knäuper, B., Hippler, H.J., Noelle-Neumann, E., Clark, L. (1991). Rating Scales: Numeric Values May Change the Meaning of Scale Labels. The Public Opinion Quarterly. 55, (4),  570-582
+
+Tiplady, B., Jackson, S.H.D., Maskrey, V.M., Swift, C.G. (1998).  Validity and sensitivity of visual analogue scales in young and olderhealthy subjects.  Age and Ageing. 27, 63-66.
+
+Von Leupold, A., Dahme, B. (2007). De psychologie van dyspneu bij COPD en astma. Verkregen op 18 mei 2009, van http://www.psychfysio.nl/Nieuws/3_02_2.html
+
+Wewers, M.E., Lowe, N.K. (1990) A critical review of visual analogue scales in the measurement of clinical phenomena. Research in nursing and health, 13, 227-236
+
+Wikipedia (2009) Benauwdheid. Verkregen op 18 mei 2009, van http://nl.wikipedia.org/wiki/Benauwdheid.
+">
+	>
+
+definition
+	OBSERVATION[at0000] matches {	-- Benauwdheidsscore VAS
+		data matches {
+			HISTORY[at0001] matches {	-- Event Series
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..1} matches {	-- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {	-- Tree
+								items cardinality matches {0..*; unordered} matches {
+									ELEMENT[at0004] matches {	-- Benauwdheidsscore
+										value matches {
+											C_DV_QUANTITY <
+												property = <[openehr::380]>
+											>
+										}
+									}
+									ELEMENT[at0011] occurrences matches {0..1} matches {	-- Datum/ tijd
+										value matches {
+											DV_DATE_TIME matches {
+												value matches {yyyy-??-??T??:??:??}
+											}
+										}
+									}
+									ELEMENT[at0012] occurrences matches {0..1} matches {	-- Kwalificatie van score
+										value matches {
+											DV_CODED_TEXT matches {
+												defining_code matches {
+													[local::
+													at0013, 	-- hoger/gelijk aan 30mm, lager dan 54 mm
+													at0014]	-- hoger dan 54 mm
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+						state matches {
+							ITEM_TREE[at0005] matches {	-- Tree
+								items cardinality matches {0..*; unordered} matches {
+									ELEMENT[at0006] occurrences matches {0..1} matches {	-- Situatie tijdens meting
+										value matches {
+											DV_CODED_TEXT matches {
+												defining_code matches {
+													[local::
+													at0008, 	-- Na inspanning 
+													at0009, 	-- Na hoesten
+													at0010]	-- Na houdingsverandering
+												}
+											}
+											DV_TEXT matches {*}
+										}
+									}
+									ELEMENT[at0007] occurrences matches {0..1} matches {	-- Bijzonderheden
+										value matches {
+											DV_TEXT matches {*}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["nl"] = <
+			items = <
+				["at0000"] = <
+					text = <"Benauwdheidsscore VAS">
+					description = <"Een  meetinstrument met de numerieke schaal van  0-10 om de intensiteit van benauwdheid te meten. ">
+				>
+				["at0001"] = <
+					text = <"Event Series">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"Bij patiënten waar mogelijk benauwdheidklachten kunnen voorkomen kan de benauwdheidsscore,VAS, regelmatig worden afgenomen. Dit kan worden gedaan op vaste tijdstippen, bij een vermoedde van benauwdheid of indien men wil weten wat de mate van een aanwezige benauwdheid is. ">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Benauwdheidsscore">
+					description = <"De benauwdheid kan door een patient gescoord worden op een schaal van 0 t/m 10, waarbij zowel gehele getallen als elk getal tussen 0 en 10 gebruikt kan wordenl. Hierbij staat 0 voor niet benauwd en 10 voor de maximalebenauwd. Datatype ISO 21090 PQ">
+				>
+				["at0005"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0006"] = <
+					text = <"Situatie tijdens meting">
+					description = <"De situatie van de patient op het moment van de meting kan van invloed zijn op de benauwdheid.">
+				>
+				["at0007"] = <
+					text = <"Bijzonderheden">
+					description = <"Eventuele bijzonderheden van de patient tijdens het vaststellen van de mate van benauwdheids.">
+				>
+				["at0008"] = <
+					text = <"Na inspanning ">
+					description = <"Bijvoorbeeld na het wassen, na stukje lopen of andere activiteit. Kan van inloed zijn op de benauwdheid">
+				>
+				["at0009"] = <
+					text = <"Na hoesten">
+					description = <"Hoesten kan inspannend zijn en daarmee van invloed op de benauwdheid.">
+				>
+				["at0010"] = <
+					text = <"Na houdingsverandering">
+					description = <"Ondanks bedrust kan bij houdingsverandering in bed de benauwdheid toenemen.">
+				>
+				["at0011"] = <
+					text = <"Datum/ tijd">
+					description = <"*">
+				>
+				["at0012"] = <
+					text = <"Kwalificatie van score">
+					description = <"Gaat om interpretatie van de score.">
+				>
+				["at0013"] = <
+					text = <"hoger/gelijk aan 30mm, lager dan 54 mm">
+					description = <"Patient geeft een gemiddelde benauwdheid aan.">
+				>
+				["at0014"] = <
+					text = <"hoger dan 54 mm">
+					description = <"Patient geeft een ernstige benauwdheid aan.">
+				>
+			>
+		>
+	>
