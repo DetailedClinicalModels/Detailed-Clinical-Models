@@ -1,0 +1,11 @@
+<valueSets xmlns="urn:hl7-org:v3">
+  <valueSet name="Concepts">
+    <code code="2.16.840.1.113883.2.4.15.111" displayName="Zorgverlener" codeSystemName="Aorta" />
+    <code code="118575009" displayName="maand en jaar" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="405751000" displayName="Diabetes types" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+  </valueSet>
+  <valueSet name="Diabetes types">
+    <code code="46635009" displayName="type1" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="44054006" displayName="type2" codeSystemName="SnomedCT" codeSystem="2.16.840.1.113883.6.96" />
+  </valueSet>
+</valueSets>
