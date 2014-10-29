@@ -1,0 +1,241 @@
+archetype (adl_version=1.4)
+	openEHR-EHR-OBSERVATION.delier_risico_inventarisatie.v1
+
+concept
+	[at0000]	-- Delier risico inventarisatie
+language
+	original_language = <[ISO_639-1::nl]>
+description
+	original_author = <
+		["name"] = <"Anneke Goossen">
+		["organisation"] = <"Results 4 Care (www.results4care.nl)">
+		["email"] = <"results4care@cs.com">
+		["date"] = <"2-4-2009">
+	>
+	details = <
+		["nl"] = <
+			language = <[ISO_639-1::nl]>
+			purpose = <"Het vaststellen van de mate van het risico op een delier.
+
+Weternschappelijke onderbouwing:
+Een delier is een neuropsychiatrisch toestandsbeeld waarbij sprake is van een stoornis in het bewustzijn met een verminderd vermogen om de aandacht ergens op te richten, vast te houden of te wisselen, en van een verandering in cognitie (incoherent denken, geheugenstoornis, onsamenhangende spraak en desoriëntatie). Daarbij kunnen zich ook hallucinaties en wanen voordoen. Motorische onrust kan, maar hoeft er niet bij op te treden. Kenmerkend voor een delier is dat het beeld acuut ontstaat, in uren tot dagen, en dat de symptomen fluctueren over het etmaal. Er is vrijwel altijd een onderliggende somatische stoornis (NHG 2003).
+Het delier vormt een belangrijke bijdrage aan een verhoogd sterftecijfer, verlengde duur van ziekenhuisopname en vermindert functioneren op psychisch en lichamelijk gebied (Fick en Foreman, 2000; Inouye et al, 1998, 1999; Schuurmans en Duursma, 1998) Vooral gaat het hierbij om verminderd cognitief functioneren, hallucinaties en een verhoogde ADL-afhankelijkheid. Frequentie van het delier varieert bij ouderen opgenomen in een ziekenhuis van 14-56% (Inouye et al, 1999) tot 4-53,2% (Milisen et al, 1998b) en 25% (Schuurmans en Duursma, 1998).
+In de Richtlijn Delirium wordt aanbevolen om bij patiënten van zeventig jaar en ouder, bij patiënten met ernstige somatische ziekte en/of cognitief disfunctioneren, bij patiënten met stoornissen in de ADL en bij patiënten die alcohol of opiaten gebruiken, na te gaan welke (andere) risicofactoren voor een delirium aanwezig zijn bij opname in het ziekenhuis of welke factoren nieuw ontstaan tijdens het verblijf (Mast Van der R.C., et al. 2004).
+
+De delier is de meest voorkomende complicatie in het ziekenhuis bij patiënten ouder dan 65 jaar
+(Miller, 2008).
+
+Inouye & Charpentier (1996) benoemen vijf luxerende factoren die het ontstaan
+van een delirium beïnvloeden: het gebruik van fixatiemiddelen, ondervoeding, toevoeging
+van drie of meer nieuwe medicijnen, de aanwezigheid van een blaaskatheter en iatrogene
+complicaties. Ook een operatie, hevige stress en pijn worden vaak genoemd.
+Nog belangrijker zijn de factoren die al aanwezig zijn bij de opname. Uit onderzoek (Schuurmans,2006)blijkt reeds bestaande cognitieve stoornissen (bijvoorbeeld de ziekte van Alzheimer), een hoge leeftijd, ernstige ziekte bij opname, uitdroging, veel comorbide problemen en een visuele beperking ernstige risicofactoren zijn voor het ontstaan van een delirium. Maar ook patiënten die eerder delirant waren, of die bekend zijn met misbruik van alcohol of medicijnen lopen meer risico. 
+">
+			use = <"De Delier Risico Inventarisatie bestaat uit acht variabelen: Leeftijd > 75, acute opname, cognitie, anamnese met delirium, alcoholgebruik > 3 eenheden per dag, opiatengebruik, visus en/of gehoor en Comorbiditeit >2.
+Bij elke variabele moet ja of nee worden aangegeven.  Het aantal positieve scores moet opgeteld worden om tot een beoordeling te komen of er sprake is van een risico op een delier bij de patiënt.
+De verpleegkundige stelt het risico op een delier vast tijdens de intake . Deze kan plaatsvinden tijdens een verpleegkundig spreekuur of bij opname in het ziekenhuis. 
+Aandachtspunten ( Elstak et al 2005)
+- Bij de variabele cognitieve beperkingen wordt positief gescoord als er sprake is van:
+  • Dementie gediagnosticeerd door arts.
+  • Wonen in pg.- verpleeghuis.
+  • Spontaan gemelde achteruitgang van het geheugen(over de laatste drie jaar) door patiënt of wettelijke vertegenwoordigers.
+  • Hersenschade door CVA of meerdere TIA’s.
+  • Elke andere vorm van hersenschade.
+  • Psychiatrische stoornissen.
+
+- Als er sprake is van een anamnese met delier dan is het risico op opnieuw een delier zeer hoog is.
+- Bij de variabele alcoholgebruik wordt positief gescoord als er meer dan 3 glazen per dag  gedronken wordt (afkappunt is willekeurig, moet zich bewijzen).  
+- Opiatengebruik is elk gebruik van een opiaat gedurende de afgelopen 2 weken voor de opname in therapeutische zin (b.v. bij pijn), maar ook in de zin van misbruik. 
+- Bij de variabele visus en gehoor wordt positief gescoord als er sprake is van visus en hoorstoornissen die niet met bril en/of hoorapparaat voor de patiënt voldoende zijn gecompenseerd. 
+- Bij de variabele comorbiditeit wordt positief gescoord als er sprake is van de aanwezigheid van stoornissen in meer dan twee orgaansystemen. 
+  o Heupfractuur + diabetes + reuma = comorbiditeit. 
+  o De aandoeningen bevinden zich in meerdere orgaansystemen. 
+  o Heupfractuur + diabetes = is hier geen comorbiditeit. 
+
+Interpretatierichtlijnen:
+Door de positieve scores van de verschillende onderdelen op te tellen ontstaat de totale score die tussen de 0 en 8  ligt. Een eindscore  van 2  of meer betekent  dat er sprake is van een delier-risico. Hoe hoger de score,des te hoger het delier-risico.
+
+Zorgproces/ afhankelijkheid:
+Door het invullen van de Delier Risico Inventarisatie kan de verpleegkundige bepalen of de patiënt een verhoogd risico heeft op de ontwikkeling van een delier en heeft daarmee de mogelijkheid om preventief verpleegkundige interventies toe te passen. Deze interventies maken dan deel uit van het verpleegplan.">
+			keywords = <"Delier", "Risico op delier", "Meetinstrument", "Assessment scale", "Preventie", "Detectie", "Risicofactoren", "Risk factors">
+			misuse = <"">
+		>
+	>
+	lifecycle_state = <"AuthorDraft">
+	other_contributors = <"N. Rademaker, Results 4 Care", ...>
+	other_details = <
+		["references"] = <"• Elstak,L.J.,Eikenaar,T.,Kalisvaart,C.J.,Peetoom,J.J. (2005) Handleiding sticker delierrisico. MCA Alkmaar.
+• Fick, D. en Foreman, M.D. (2000); Consequences of Not Recognizing Delirium Superimposed on Dementia in Hospitalized Elderly Individuals; Journal of Gerontological Nursing; 1, 30-40.
+• Korevaar, J.C.,Rooij de,S.E., Munster van,B.C.(2005);Aspects of acute hospital admission in the Elderly, BMC Geriatric, 5:6doi:10.1186/1471-2318-5-6  Amsterdam.
+• Mast, van der R.C., Huyse, F.J., Droogleever Fortuijn,H.A., Heeren,T.J., Izaks, G.J., Kalisvaart K.J., Klijn, F.A.M., Leentjens, A.F.G., Sno, H.N., Schuurmans, M.J., Wilterdink, J.,   Hovestadt,A., Kroeze M.M., Rosier, W.M., (2004). Richtlijn delirium  Amsterdam, Bloom.
+• Miller, M.O.(2008) Evaluation and managment of delirium on Hospitalized Older Patients, Department of Community Health and Family Medicine,University of Florida College of Medicine,   Gainesville, Florida.
+• Schuurmans, M.J. en Duursma S.A., (1998); Verpleegkundigen en oude patiënten met delier, een overzicht van de literatuur; Verpleegkunde; 13:2, 86-98.
+• Weele, G.M.Van der, Dijk,A.van, Eekhof J.A.H., Olde Rikkert, M.G.M., Scholtes A.B.J., Veehof L.J.G., Janssen, P.G.H., Eizenga,W.H.(2003); NHG-Standaard Delier bij ouderen.    http://nhg.artsennet.nl/upload/104/standaarden/M77/std.htm.
+
+">
+	>
+
+definition
+	OBSERVATION[at0000] matches {	-- Delier risico inventarisatie
+		data matches {
+			HISTORY[at0001] matches {	-- Event Series
+				events cardinality matches {1..*; unordered} matches {
+					EVENT[at0002] occurrences matches {0..1} matches {	-- Any event
+						data matches {
+							ITEM_TREE[at0003] matches {	-- Tree
+								items cardinality matches {0..*; unordered} matches {
+									ELEMENT[at0004] matches {	-- Leeftijd > 75 jaar
+										value matches {
+											DV_BOOLEAN matches {
+												value matches {True, False}
+											}
+										}
+									}
+									ELEMENT[at0005] matches {	-- Acute opname
+										value matches {
+											DV_BOOLEAN matches {
+												value matches {True, False}
+											}
+										}
+									}
+									ELEMENT[at0006] matches {	-- Cognitie
+										value matches {
+											DV_BOOLEAN matches {
+												value matches {True, False}
+											}
+										}
+									}
+									ELEMENT[at0007] matches {	-- Anamnese met delirium
+										value matches {
+											DV_BOOLEAN matches {
+												value matches {True, False}
+											}
+										}
+									}
+									ELEMENT[at0008] matches {	-- Alcoholgebruik > 3E/dag
+										value matches {
+											DV_BOOLEAN matches {
+												value matches {True, False}
+											}
+										}
+									}
+									ELEMENT[at0009] matches {	-- Opiatengebruik
+										value matches {
+											DV_BOOLEAN matches {
+												value matches {True, False}
+											}
+										}
+									}
+									ELEMENT[at0010] matches {	-- Visus en/of gehoor
+										value matches {
+											DV_BOOLEAN matches {
+												value matches {True, False}
+											}
+										}
+									}
+									ELEMENT[at0011] matches {	-- Comorbiditeit > 2
+										value matches {
+											DV_BOOLEAN matches {
+												value matches {True, False}
+											}
+										}
+									}
+									ELEMENT[at0012] matches {	-- Totaal score 
+										value matches {
+											DV_COUNT matches {
+												magnitude matches {|0..8|}
+											}
+										}
+									}
+									ELEMENT[at0013] matches {	-- Interpretatie totaal score
+										value matches {
+											DV_CODED_TEXT matches {
+												defining_code matches {
+													[local::
+													at0014, 	-- Lager dan 2 
+													at0015]	-- Hoger dan of gelijk aan 2
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["nl"] = <
+			items = <
+				["at0000"] = <
+					text = <"Delier risico inventarisatie">
+					description = <"Het bepalen van het risico op een delier.">
+				>
+				["at0001"] = <
+					text = <"Event Series">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Any event">
+					description = <"*">
+				>
+				["at0003"] = <
+					text = <"Tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"Leeftijd > 75 jaar">
+					description = <"De patient is 75 jaar of ouder en loopt daardoor een verhoogd risico.">
+				>
+				["at0005"] = <
+					text = <"Acute opname">
+					description = <"De gezondheidstoestand van de patient is zodanig dat een ziekenhuis opname direkt moet plaatsvinden. Is er sprake van een acute opname?">
+				>
+				["at0006"] = <
+					text = <"Cognitie">
+					description = <"Aanwezigheid Cognitieve beperkingen?">
+				>
+				["at0007"] = <
+					text = <"Anamnese met delirium">
+					description = <"Cognitieve beperkingen">
+				>
+				["at0008"] = <
+					text = <"Alcoholgebruik > 3E/dag">
+					description = <"De patient drinkt 3 of meer glazen alcoholhoudende dranken per dag  ">
+				>
+				["at0009"] = <
+					text = <"Opiatengebruik">
+					description = <"Opiatengebruik is elk gebruik van een opiaat gedurende de afgelopen 2 weken voor de opname in therapeutische zin (b.v. bij pijn), maar ook in de zin van misbruik.   ">
+				>
+				["at0010"] = <
+					text = <"Visus en/of gehoor">
+					description = <"Er sprake is van visus en hoorstoornissen die niet met bril en/of hoorapparaat voor de patiënt voldoende zijn gecompenseerd. Is er sprake van een visus en/of gehoorstoornis?">
+				>
+				["at0011"] = <
+					text = <"Comorbiditeit > 2">
+					description = <"De aanwezigheid van stoornissen in meer dan twee orgaansystemen. ">
+				>
+				["at0012"] = <
+					text = <"Totaal score ">
+					description = <"Het gaat hierbij om de totaalscore, alle opgetelde ja scores, van de Delirium Risico Inventarisatie. ">
+				>
+				["at0013"] = <
+					text = <"Interpretatie totaal score">
+					description = <"Een Delier Risico Inventarisatie eindscore  van  2maal ja  of meer betekent  dat er sprake is
+van een delier-risico. Hoe hoger de score,des te hoger het delier-risico.">
+				>
+				["at0014"] = <
+					text = <"Lager dan 2 ">
+					description = <"Er is geen sprake van een  risico op een delier">
+				>
+				["at0015"] = <
+					text = <"Hoger dan of gelijk aan 2">
+					description = <"Er is sprake van een delier-risico. Hoe hoger de score, hoe hoger het risico.">
+				>
+			>
+		>
+	>
