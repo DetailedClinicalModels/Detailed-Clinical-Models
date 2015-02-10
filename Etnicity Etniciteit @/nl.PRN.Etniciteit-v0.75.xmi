@@ -1,0 +1,1630 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2015-02-10 14:47:10">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_CE0A2151_5A76_4f75_8119_05827EB08423">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="nl.PRN.Etniciteit-v0.75" xmi.id="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype xmi.idref="EAID_85C7E5B2_7E5B_4572_90A2_C246E14DF921"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="documentation" value="Basis voor deze DCM was een DCM ontwikkeld in het Parelsnoer Initiatief die toen niet is afgemaakt."/>
+						<UML:TaggedValue tag="parent" value="EAPK_684AE935_A22E_40d7_B619_53C5E643ACEB"/>
+						<UML:TaggedValue tag="created" value="2009-09-19 00:00:00"/>
+						<UML:TaggedValue tag="modified" value="2013-03-18 11:55:44"/>
+						<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+						<UML:TaggedValue tag="lastloaddate" value="2012-04-16 12:28:33"/>
+						<UML:TaggedValue tag="lastsavedate" value="2012-04-16 12:28:33"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="tpos" value="5"/>
+						<UML:TaggedValue tag="packageFlags" value="CRC=0;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="ZelM"/>
+						<UML:TaggedValue tag="alias" value="Sjabloon"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="stereotype" value="DCM"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="5"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_CE0A2151_5A76_4f75_8119_05827EB08423_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Example Instances" xmi.id="EAID_06463867_9773_4e69_81AB_3645CA0DAFD9" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+										<UML:TaggedValue tag="date_created" value="2010-01-08 13:47:25"/>
+										<UML:TaggedValue tag="date_modified" value="2012-06-11 10:39:05"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_06463867_9773_4e69_81AB_3645CA0DAFD9"/>
+										<UML:TaggedValue tag="package_name" value="nl.PRN.Etniciteit-v0.75"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Voorbeeld scenario"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="7"/>
+										<UML:TaggedValue tag="ea_localid" value="5331"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Revision History" xmi.id="EAID_112A2EF0_E5F8_40c1_9640_D718A62884CB" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Versie 0.1: eerse opzet van de DCM.&#xA;Versie 0.2 - 0.4: review en verbeteringen in informatiemodel.&#xA;Versie 0.6: Het data element Etniciteit toegevoegd en daarmaa de DCM veranderd in Etniciteit met rootconcept Etniciteit. Aanvullingen in beschrijvende onderdelen ivm de wijziging van de DCM. Toevoeging AfgeleidvanGeboorteland verwijderd ivm inhoudelijke wijziging bij PRN en perinatologie. &#xA;&#xA;Versie 0.65 nagelopen met de peri 2.1 omschrijving in Art-Decor voor element 10400&#xA;en met de PRN spreadsheet met kernitems 2013 (PRN dataset tussenversie 1.35). Geen inhoudelijke wijzigingen, alleen referenties naar andere materialen. &#xA;December 2014 versie 0.75 PRN update naar aanleiding van de definitieve vaststellen van de value set in het kader van perinatologie 2.2. en de PRN kernset. Alles t.a.v. geboorteland verwijderd. CD datatype. Peri 2.2 code naast Snomed CT code geplaatst. Nieuwe Snomed CT code voor observable entity op rootclass geplaatst. Het KNOV protocol voor classificatie van etniciteit is toegevoegd als bron. "/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+										<UML:TaggedValue tag="date_created" value="2010-02-19 17:16:52"/>
+										<UML:TaggedValue tag="date_modified" value="2014-12-16 20:19:32"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_112A2EF0_E5F8_40c1_9640_D718A62884CB"/>
+										<UML:TaggedValue tag="package_name" value="nl.PRN.Etniciteit-v0.75"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="1"/>
+										<UML:TaggedValue tag="ea_localid" value="5324"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Patient Population" xmi.id="EAID_15A6EA51_8796_4c06_9E77_CD65374F03D2" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Zwangere vrouwen."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+										<UML:TaggedValue tag="date_created" value="2010-02-05 10:23:25"/>
+										<UML:TaggedValue tag="date_modified" value="2012-06-11 10:38:48"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_15A6EA51_8796_4c06_9E77_CD65374F03D2"/>
+										<UML:TaggedValue tag="package_name" value="nl.PRN.Etniciteit-v0.75"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Groep cliënten"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="4"/>
+										<UML:TaggedValue tag="ea_localid" value="5328"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Issues" xmi.id="EAID_1ED8D5B3_E5B8_4981_B6AF_E4942CDEC9BA" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Coderingen voor values in value set bij Etniciteit:&#xA;Noord-Afrikaans: gevonden in Snomed CT: 275594002 North African Arab (NMO) (ethnic group). Echter het concept is beperkt tot arabisch noord afrikaans. Daarnaast is een afkorting gebruikt NMO, waarvan de betekenis onduidelijk is."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:30"/>
+										<UML:TaggedValue tag="date_modified" value="2013-03-18 11:52:17"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_1ED8D5B3_E5B8_4981_B6AF_E4942CDEC9BA"/>
+										<UML:TaggedValue tag="package_name" value="nl.PRN.Etniciteit-v0.75"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Issues en openstaande vragen"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="13"/>
+										<UML:TaggedValue tag="ea_localid" value="5337"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Purpose" xmi.id="EAID_1F9AC6D7_7684_45e1_86CC_558A4FD8FC0F" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Bepaling etniciteit vrouw op basis van eigen geboorteland/ geboortecontinent. "/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:16"/>
+										<UML:TaggedValue tag="date_modified" value="2012-04-16 12:41:30"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_1F9AC6D7_7684_45e1_86CC_558A4FD8FC0F"/>
+										<UML:TaggedValue tag="package_name" value="nl.PRN.Etniciteit-v0.75"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Doel"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="3"/>
+										<UML:TaggedValue tag="ea_localid" value="5327"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Mindmap" xmi.id="EAID_276E4011_D434_41e4_9E64_DE709C5F05F8" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Geen mindmap beschikbaar."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:14"/>
+										<UML:TaggedValue tag="date_modified" value="2012-04-16 12:37:36"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_276E4011_D434_41e4_9E64_DE709C5F05F8"/>
+										<UML:TaggedValue tag="package_name" value="nl.PRN.Etniciteit-v0.75"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Mindmap"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="3"/>
+										<UML:TaggedValue tag="ea_localid" value="5326"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Functional Model" xmi.id="EAID_2B521DB2_30F2_4607_90DE_2CC56FEA8886" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="De DCM kan gerelateerd worden aan het EHR-S FM R2: Population Health Support, functie POP-9; Support Consistent Healthcare Management of Patient Groups or Populations (HL7 EHR-S FM R2 MAY ballot material)."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:21"/>
+										<UML:TaggedValue tag="date_modified" value="2013-03-18 12:52:06"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_2B521DB2_30F2_4607_90DE_2CC56FEA8886"/>
+										<UML:TaggedValue tag="package_name" value="nl.PRN.Etniciteit-v0.75"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="15"/>
+										<UML:TaggedValue tag="ea_localid" value="5339"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Concept" xmi.id="EAID_2D0D3E74_2022_4a5c_9EA3_7A97FF07C3B4" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Op basis van het geboorteland of het geboortecontinent van een persoon wordt de etniciteit van deze persoon afgeleid. "/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-02 10:00:52"/>
+										<UML:TaggedValue tag="date_modified" value="2013-03-18 10:37:05"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_2D0D3E74_2022_4a5c_9EA3_7A97FF07C3B4"/>
+										<UML:TaggedValue tag="package_name" value="nl.PRN.Etniciteit-v0.75"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="2"/>
+										<UML:TaggedValue tag="ea_localid" value="5325"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Example of the Instrument" xmi.id="EAID_5C2EA5A1_F73F_4da3_996B_5CB15676F116" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:28"/>
+										<UML:TaggedValue tag="date_modified" value="2012-06-11 10:43:48"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_5C2EA5A1_F73F_4da3_996B_5CB15676F116"/>
+										<UML:TaggedValue tag="package_name" value="nl.PRN.Etniciteit-v0.75"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Een voorbeeld van het instrument"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="11"/>
+										<UML:TaggedValue tag="ea_localid" value="5335"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Care Process" xmi.id="EAID_6719473C_D8CC_4568_BB84_AFF55389AB3F" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Etniciteit is onder andere van invloed op de perinatale sterfte. De verloskundig zorgverlener houdt in de begeleiding en risicobeoordeling van/bij de zwangere rekening met de etniciteit van de vrouw."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:25"/>
+										<UML:TaggedValue tag="date_modified" value="2012-06-11 10:43:37"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_6719473C_D8CC_4568_BB84_AFF55389AB3F"/>
+										<UML:TaggedValue tag="package_name" value="nl.PRN.Etniciteit-v0.75"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Zorgproces / afhankelijkheid"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="10"/>
+										<UML:TaggedValue tag="ea_localid" value="5334"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="References" xmi.id="EAID_6D379AA3_59E6_4ad6_B903_3364B8651AC5" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Projecten:&lt;/b&gt;&#xA;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Literatuur:&lt;/b&gt;&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;College Bescherming Persoonsgegevens, CBP. Verkregen op 18 maart 2013, van http://www.cbpweb.nl/Pages/med_20120523_beroep-charlois-tegen-besluit-cbp-ongegrond.aspx&lt;/li&gt;&#xA;	&lt;li&gt;HL7 Internationaal, (2012). EHR-S FM R2 MAY 2012 ballot material.&lt;/li&gt;&#xA;	&lt;li&gt;Etniciteit. Verkregen op 18 maart 2013, van http://www.nationaalkompas.nl/bevolking/etniciteit/etniciteit-samengevat/&lt;/li&gt;&#xA;	&lt;li&gt;Etniciteit en gezondheid. Verkregen op 16 april 2012, van http://www.nationaalkompas.nl/bevolking/etniciteit/allochtonen-en-gezondheid/&lt;/li&gt;&#xA;	&lt;li&gt;ISO, (2006). ISO 3166-1:2006 Codes for the representation of names of countries and their subdivisions -- Part 1: Country codes. Geneve, ISO. &lt;/li&gt;&#xA;	&lt;li&gt;KNOV (2014). Protocol Classificering van etniciteiten in de verloskundige zorg. Utrecht, KNOV&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;Perinatale sterfte. Verkregen op 16 april 2012, van http://www.perinataleaudit.nl/onderwerpen/1/perinatale-sterfte&lt;/li&gt;&#xA;	&lt;li&gt;PRN Dataset versie 1.4. &lt;/li&gt;&#xA;	&lt;li&gt;Stichting Perinatale Registratie, (2011). Perinatale Zorg in Nederland 2008. Utrecht, Stichting Perinatale Registratie.&lt;/li&gt;&#xA;	&lt;li&gt;Sterfte naar doodsoorzaak: Zijn er verschillen naar etniciteit? Verkregen op 16 april 2012, van http://www.nationaalkompas.nl/gezondheid-en-ziekte/sterfte-levensverwachting-en-daly-s/sterfte-naar-doodsoorzaak/zijn-er-verschillen-naar-etniciteit/&lt;/li&gt;&#xA;	&lt;li&gt;Stuurgroep Zwangerschap en geboorte, (2009). Een goed begin. Veilige zorg rond zwangerschap en geboorte. &lt;/li&gt;&#xA;	&lt;li&gt;Wet Bescherming Persoonsgegevens. Verkregen op 18 maart 2013, van http://wetten.overheid.nl/BWBR0011468/geldigheidsdatum_18-03-2013#Hoofdstuk2_Paragraaf2_Artikel16&lt;/li&gt;&#xA;	&lt;li&gt;Zorg naar etniciteit, Ziekenhuisopnamen, Zwangerschap, bevalling en kraambed. Verkregen op 16 april 2012, van http://www.nationaalkompas.nl/thema-s/gezondheidsachterstanden/etniciteit/ziekenhuiszorg/zwangerschap-bevalling-en-kraambed/&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Vocabulary:&lt;/b&gt;&#xA;Het is mogelijk dat mensen in dit domein gebruik maken van andere coderingen en value sets dan in deze DCM zijn gebruikt. In dat geval stellen wij als ontwikkelaars het op prijs hiervan op de hoogte te worden gesteld. &#xA;Voor de coderingen is bij voorkeur gebruik gemaakt van terminologieën zoals Snomed CT en/of LOINC, dan wel van een van de classificaties uit de WHO family of classifications (b.v. ICD10, ICF, ICNP). De codes die zijn toegepast zijn naar onze mening de best mogelijke match tussen het data item (variabele en/of waardedomein) en het concept / de concepten zoals die zijn opgenomen in de terminologie of classificatie.  &#xA;Het is in sommige gevallen mogelijk dat bij zeer strikte analyse van een van deze terminologieën er variaties naar voren komen die net zo goed, of wellicht beter matchen, bijvoorbeeld als een ander perspectief wordt gekozen. Er bestaat een kleine kans dat in de toekomst codes voor bepaalde data items worden gewijzigd. &#xA;Daar waar we geen codering hebben kunnen vinden zijn voorlopig eigen coderingen gemaakt en zullen de ontbrekende concepten bij Snomed CT worden ingebracht.&#xA;De OID’s voor de gebruikte vocabulary zijn:&#xA;SNOMED CT	2.16.840.1.113883.6.96&#xA;LOINC	2.16.840.113883.6.1&#xA;&lt;font color=&quot;#ff0000&quot;&gt;PRN  ?&lt;/font&gt;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+										<UML:TaggedValue tag="date_created" value="2009-11-01 09:48:35"/>
+										<UML:TaggedValue tag="date_modified" value="2014-12-16 20:19:07"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_6D379AA3_59E6_4ad6_B903_3364B8651AC5"/>
+										<UML:TaggedValue tag="package_name" value="nl.PRN.Etniciteit-v0.75"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Referenties"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="14"/>
+										<UML:TaggedValue tag="ea_localid" value="5338"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Terms of Use" xmi.id="EAID_703DA2FC_2770_4566_9AD5_B2B81AB3F26C" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Het DCM is open source, met andere woorden vrij te gebruiken, mits in ongewijzigde vorm. &#xA;Veranderen van inhoud en coderingen wordt gezien als een inbreuk op de auteursrechten en copyrights en is schadelijk voor het gebruiksdoel: realiseren van semantische interoperabiliteit.&#xA;&#xA;U kunt wel wijzigingsvoorstellen sturen aan info@results4care.nl&#xA;&#xA;Revisievoorstellen zullen worden bekeken en kunnen leiden tot: 	&#xA;&#xA;a.   herziene DCM en uitwerkingen als e.e.a. wordt geaccepteerd.&#xA;b.   varianten van DCM die op een lokale situatie zijn toegesneden.&#xA;&#xA;Het geheel gaat uit van het uitgangspunt: een ‘common ownership’, maar een ‘special stewardship’."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+										<UML:TaggedValue tag="date_created" value="2010-01-08 13:46:48"/>
+										<UML:TaggedValue tag="date_modified" value="2012-04-16 13:23:24"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_703DA2FC_2770_4566_9AD5_B2B81AB3F26C"/>
+										<UML:TaggedValue tag="package_name" value="nl.PRN.Etniciteit-v0.75"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Gebruiksvoorwaarden"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="18"/>
+										<UML:TaggedValue tag="ea_localid" value="5342"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Copyrights" xmi.id="EAID_96C80D35_77E8_4dd0_81A5_198E054792B2" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Licenties van bronmateriaal&lt;/b&gt;&#xA;Niet van toepassing."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+										<UML:TaggedValue tag="date_created" value="2010-01-08 13:46:58"/>
+										<UML:TaggedValue tag="date_modified" value="2012-04-16 13:24:41"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_96C80D35_77E8_4dd0_81A5_198E054792B2"/>
+										<UML:TaggedValue tag="package_name" value="nl.PRN.Etniciteit-v0.75"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Copyrights"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="19"/>
+										<UML:TaggedValue tag="ea_localid" value="5343"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Evidence Base" xmi.id="EAID_9EFBFDF5_2682_4ce3_A64F_6CF1E3CC7C44" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="De KNOV (2014) beveelt aan de etniciteit van de zwangere te registreren om zorg op maat te kunnen bieden. Op grond van de Wet bescherming persoonsgegevens (Wbp) is het registreren van etniciteit verboden (CBP, 2012), tenzij er een goede reden voor is.  In artikel 16 van de Wbp is beschreven 'De verwerking van persoonsgegevens betreffende iemands godsdienst of levensovertuiging, ras, politieke gezindheid, gezondheid, seksuele leven, alsmede persoonsgegevens betreffende het lidmaatschap van een vakvereniging is verboden behoudens het bepaalde in deze paragraaf' (Wbp, 2013). In een beperkt aantal gevallen zijn uitzonderingen mogelijk (CBP, 2012). Deze uitzondering is geformuleerd in artikel 18 van de Wbp (2013). Optimale zorg valt hier onder.  &#xA;&#xA;Volgens het Nationaal Kompas Volksgezondheid (2012) is de gezondheidstoestand van allochtonen over het algemeen minder goed dan die van autochtone Nederlanders. Zo komt diabetes meer voor onder Turken, Marokkanen en Surinamers. Ook is de zuigelingensterfte en de perinatale sterfte hoger onder niet-westers allochtone groepen dan onder autochtonen. &#xA;Ook het aantal ziekenhuisopnamen voor zwangerschap, bevalling en kraambed is bij Marokkaanse vrouwen het hoogst itt autochtone vrouwen waarvan het opnames het laagst is. &#xA;Een van de belangrijkste risicofactoren voor perinatale sterfte in Nederland is een moeder van niet-westerse afkomst (PAN, 2012). Perinatale sterfte wordt in het jaarboek van PRN (2011) omschreven als &#xA;&#xA;'Perinatale sterfte omvat de sterfte tijdens de zwangerschap en bevalling (foetale sterfte) en de sterfte na de geboorte in de eerste zeven, respectievelijk 28 levensdagen (vroege, respectievelijk uitgebreide neonatale sterfte) na een zwangerschapsduur van 22.0 weken'.&#xA;De Stuurgroep Zwangerschap en Geboorte beschrijft in hun rapport 'Een goed begin' (2009) dat de perinatale sterfte bij niet-westerse allochtonen bijna 30% hoger ligt dan het landelijk gemiddelde. Aangegeven wordt dat dit met name speelt bij Antilliaanse, Arubaanse en Surinaamse vrouwen. &#xA;Dit is de reden dat een verloskundig zorgverlener de etniciteit van de moeder wil weten.&#xA;Op deze beschreven gronden kan de etniciteit van een zwangere vrouw worden vastgelegd in haar dossier. "/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:18"/>
+										<UML:TaggedValue tag="date_modified" value="2014-12-16 20:27:02"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_9EFBFDF5_2682_4ce3_A64F_6CF1E3CC7C44"/>
+										<UML:TaggedValue tag="package_name" value="nl.PRN.Etniciteit-v0.75"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Wetenschappelijke onderbouwing"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="5"/>
+										<UML:TaggedValue tag="ea_localid" value="5329"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Interpretation" xmi.id="EAID_B37977BD_59AC_41cf_8FF8_B4C7FB52D5BD" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Bepaling van de etniciteit van de zwangere vrouw vindt plaats op basis van eigen geboorteland of geboortecontinent. Echter, etniciteit kan ook feitelijk worden vastgelegd als de vrouw hier geen bezwaar tegen heeft."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:26"/>
+										<UML:TaggedValue tag="date_modified" value="2013-03-18 12:51:05"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_B37977BD_59AC_41cf_8FF8_B4C7FB52D5BD"/>
+										<UML:TaggedValue tag="package_name" value="nl.PRN.Etniciteit-v0.75"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Interpretatierichtlijnen"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="9"/>
+										<UML:TaggedValue tag="ea_localid" value="5333"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Information Model" xmi.id="EAID_C14BFF3A_2642_4a3d_9845_EEBF74DA0341" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;Give a very detailed, accurate and complete description of the concepts and codes/values/scores.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Op dit moment is een voorlopige keuze gemaakt om de DCM uit te werken in UML. Dit om een goede aansluiting te hebben met de diverse technische standaarden als openEHR en HL7 v3. Richtlijnen voor een goede uitwerking zijn beschreven in de handleiding ' Ontwikkeling van een DCM' .&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Aandachtspunten hierbij zijn: default values, flavors of null, cardinaliteit en optionaliteit. &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Voor verschillende vergelijkbare instrumenten of observaties kan een UML worden gemaakt welke als ' Pattern' kan worden gebruikt voor de uitwerking van een concrete DCM. Zo is er een pattern ontwikkeld voor 'Assessment scales' . &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Dit hoofdstuk is bedoeld voor de IT en niet voor de zorgprofessionals. Bij het verifiëren van de inhoud van de DCM bij zorgprofessionals wordt dit hoofdstuk niet voorgelegd voor verificatie. Indien het informatiemodel in narrative taal wordt weergegeven kan dit wel met zorgverleners worden doorgenomen.&lt;/i&gt;&lt;/font&gt;&#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:19"/>
+										<UML:TaggedValue tag="date_modified" value="2010-02-12 13:29:42"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_C14BFF3A_2642_4a3d_9845_EEBF74DA0341"/>
+										<UML:TaggedValue tag="package_name" value="nl.PRN.Etniciteit-v0.75"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Informatie Model"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="6"/>
+										<UML:TaggedValue tag="ea_localid" value="5330"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Instructions" xmi.id="EAID_DA602E5D_AFFE_497b_AEC2_E2D248CB8097" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="De etniciteit van een zwangere vrouw kan rechtstreeks worden vastgelegd door dit na te vragen bij de zwangeren vrouw en met toestemmming vast te leggen in het dossier van de vrouw. Een andere wijze is de etniciteit af te leiden uit het geboorteland  of -continent van de vrouw en dit vast te leggen in het dossier. Het KNOV protocol classificatie van etniciteit biedt een verdere handreiking. "/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+										<UML:TaggedValue tag="date_created" value="2009-11-01 09:49:35"/>
+										<UML:TaggedValue tag="date_modified" value="2014-12-16 20:20:13"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_DA602E5D_AFFE_497b_AEC2_E2D248CB8097"/>
+										<UML:TaggedValue tag="package_name" value="nl.PRN.Etniciteit-v0.75"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Werkwijze"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="8"/>
+										<UML:TaggedValue tag="ea_localid" value="5332"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Traceability to other Standards" xmi.id="EAID_DFC3F76F_52B6_4670_BED0_D277084A5B82" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="In de PRN Dataset is &#xA;&lt;ul&gt;&#xA;	&lt;li&gt;Geboorteland vrouw opgenomen in data items 3.1.02.01, 3.1.02.02 en 3.1.02.03. &lt;/li&gt;&#xA;	&lt;li&gt;Etniciteit opgenomen als data item 3.1.03.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;Het DCM kan gerelateerd worden aan CCR/CCD de informatiecomponent Social History. "/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:23"/>
+										<UML:TaggedValue tag="date_modified" value="2013-03-18 12:54:00"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_DFC3F76F_52B6_4670_BED0_D277084A5B82"/>
+										<UML:TaggedValue tag="package_name" value="nl.PRN.Etniciteit-v0.75"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Traceerbaarheid naar andere standaarden"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="16"/>
+										<UML:TaggedValue tag="ea_localid" value="5340"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Constraints" xmi.id="EAID_EE77C736_A9E1_4eb1_B0AA_1BCCAB8964C4" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+										<UML:TaggedValue tag="date_created" value="2010-02-12 13:38:34"/>
+										<UML:TaggedValue tag="date_modified" value="2012-06-11 10:44:00"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_EE77C736_A9E1_4eb1_B0AA_1BCCAB8964C4"/>
+										<UML:TaggedValue tag="package_name" value="nl.PRN.Etniciteit-v0.75"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Inperkingen"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="12"/>
+										<UML:TaggedValue tag="ea_localid" value="5336"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Disclaimer" xmi.id="EAID_F1F0620A_D8EA_48f6_9B1F_3569FCE74355" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Stichting Perinatale Registratie Nederland (PRN) als opdrachtgever en Results 4 Care B.V. als uitvoerder besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze DCM. Onjuistheden en onvolledigheden kunnen echter voorkomen. Stichting Perinatale Registratie Nederland en Results 4 Care zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door Stichting Perinatale Registratie Nederland of Results 4 Care, of door U aan Stichting Perinatale Registratie Nederland of Results 4 Care via een website van Stichting Perinatale Registratie Nederland of Results 4 Care of via e-mail, of anderszins langs elektronische weg. &#xA;&#xA;Tevens aanvaarden Stichting Perinatale Registratie Nederland en Results 4 Care geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of ideeën verstrekt door of namens Stichting Perinatale Registratie Nederland via deze DCM, Detailed Clinical Model. Stichting Perinatale Registratie Nederland aanvaardt geen verantwoordelijkheid voor de inhoud van informatie in deze DCM waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.&#xA;&#xA;In geval van tegenstrijdigheden in de genoemde DCM documenten en bestanden geeft de meest recente en hoogste versie van de vermelde volgorde in de revisies de prioriteit van de desbetreffende documenten weer. &#xA;&#xA;Indien informatie die in de elektronische versie van deze DCM is opgenomen ook schriftelijk wordt verstrekt, zal in geval van tekstverschillen de schriftelijke versie bepalend zijn. Dit geldt indien de versieaanduiding en datering van beiden gelijk is. Een definitieve versie heeft prioriteit echter boven een conceptversie. Een gereviseerde versie heeft prioriteit boven een eerdere versie."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+										<UML:TaggedValue tag="date_created" value="2009-11-01 10:06:44"/>
+										<UML:TaggedValue tag="date_modified" value="2013-03-18 12:54:09"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_F1F0620A_D8EA_48f6_9B1F_3569FCE74355"/>
+										<UML:TaggedValue tag="package_name" value="nl.PRN.Etniciteit-v0.75"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Disclaimer"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="17"/>
+										<UML:TaggedValue tag="ea_localid" value="5341"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Package name="Revision History" xmi.id="EAPK_112A2EF0_E5F8_40c1_9640_D718A62884CB" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Versie 0.1: eerse opzet van de DCM.&#xA;Versie 0.2 - 0.4: review en verbeteringen in informatiemodel.&#xA;Versie 0.6: Het data element Etniciteit toegevoegd en daarmaa de DCM veranderd in Etniciteit met rootconcept Etniciteit. Aanvullingen in beschrijvende onderdelen ivm de wijziging van de DCM. Toevoeging AfgeleidvanGeboorteland verwijderd ivm inhoudelijke wijziging bij PRN en perinatologie. &#xA;&#xA;Versie 0.65 nagelopen met de peri 2.1 omschrijving in Art-Decor voor element 10400&#xA;en met de PRN spreadsheet met kernitems 2013 (PRN dataset tussenversie 1.35). Geen inhoudelijke wijzigingen, alleen referenties naar andere materialen. &#xA;December 2014 versie 0.75 PRN update naar aanleiding van de definitieve vaststellen van de value set in het kader van perinatologie 2.2. en de PRN kernset. Alles t.a.v. geboorteland verwijderd. CD datatype. Peri 2.2 code naast Snomed CT code geplaatst. Nieuwe Snomed CT code voor observable entity op rootclass geplaatst. Het KNOV protocol voor classificatie van etniciteit is toegevoegd als bron. "/>
+								<UML:TaggedValue tag="parent" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+								<UML:TaggedValue tag="created" value="2010-02-19 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2010-02-19 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-04-16 12:28:33"/>
+								<UML:TaggedValue tag="lastsavedate" value="2012-04-16 12:28:33"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="1"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Concept" xmi.id="EAPK_2D0D3E74_2022_4a5c_9EA3_7A97FF07C3B4" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Op basis van het geboorteland of het geboortecontinent van een persoon wordt de etniciteit van deze persoon afgeleid. "/>
+								<UML:TaggedValue tag="parent" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+								<UML:TaggedValue tag="created" value="2010-06-02 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2010-06-02 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-04-16 12:28:33"/>
+								<UML:TaggedValue tag="lastsavedate" value="2012-04-16 12:28:33"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="2"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Mindmap" xmi.id="EAPK_276E4011_D434_41e4_9E64_DE709C5F05F8" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Geen mindmap beschikbaar."/>
+								<UML:TaggedValue tag="parent" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:14"/>
+								<UML:TaggedValue tag="modified" value="2010-07-02 09:18:07"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:15"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:14"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="3"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Mindmap"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Purpose" xmi.id="EAPK_1F9AC6D7_7684_45e1_86CC_558A4FD8FC0F" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Bepaling etniciteit vrouw op basis van eigen geboorteland/ geboortecontinent. "/>
+								<UML:TaggedValue tag="parent" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:16"/>
+								<UML:TaggedValue tag="modified" value="2009-07-04 12:17:16"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:16"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:16"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="3"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Doel"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Patient Population" xmi.id="EAPK_15A6EA51_8796_4c06_9E77_CD65374F03D2" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Zwangere vrouwen."/>
+								<UML:TaggedValue tag="parent" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+								<UML:TaggedValue tag="created" value="2010-02-05 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2011-01-14 08:56:27"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-04-16 12:28:33"/>
+								<UML:TaggedValue tag="lastsavedate" value="2012-04-16 12:28:33"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="4"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Groep cliënten"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Evidence Base" xmi.id="EAPK_9EFBFDF5_2682_4ce3_A64F_6CF1E3CC7C44" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="De KNOV (2014) beveelt aan de etniciteit van de zwangere te registreren om zorg op maat te kunnen bieden. Op grond van de Wet bescherming persoonsgegevens (Wbp) is het registreren van etniciteit verboden (CBP, 2012), tenzij er een goede reden voor is.  In artikel 16 van de Wbp is beschreven 'De verwerking van persoonsgegevens betreffende iemands godsdienst of levensovertuiging, ras, politieke gezindheid, gezondheid, seksuele leven, alsmede persoonsgegevens betreffende het lidmaatschap van een vakvereniging is verboden behoudens het bepaalde in deze paragraaf' (Wbp, 2013). In een beperkt aantal gevallen zijn uitzonderingen mogelijk (CBP, 2012). Deze uitzondering is geformuleerd in artikel 18 van de Wbp (2013). Optimale zorg valt hier onder.  &#xA;&#xA;Volgens het Nationaal Kompas Volksgezondheid (2012) is de gezondheidstoestand van allochtonen over het algemeen minder goed dan die van autochtone Nederlanders. Zo komt diabetes meer voor onder Turken, Marokkanen en Surinamers. Ook is de zuigelingensterfte en de perinatale sterfte hoger onder niet-westers allochtone groepen dan onder autochtonen. &#xA;Ook het aantal ziekenhuisopnamen voor zwangerschap, bevalling en kraambed is bij Marokkaanse vrouwen het hoogst itt autochtone vrouwen waarvan het opnames het laagst is. &#xA;Een van de belangrijkste risicofactoren voor perinatale sterfte in Nederland is een moeder van niet-westerse afkomst (PAN, 2012). Perinatale sterfte wordt in het jaarboek van PRN (2011) omschreven als &#xA;&#xA;'Perinatale sterfte omvat de sterfte tijdens de zwangerschap en bevalling (foetale sterfte) en de sterfte na de geboorte in de eerste zeven, respectievelijk 28 levensdagen (vroege, respectievelijk uitgebreide neonatale sterfte) na een zwangerschapsduur van 22.0 weken'.&#xA;De Stuurgroep Zwangerschap en Geboorte beschrijft in hun rapport 'Een goed begin' (2009) dat de perinatale sterfte bij niet-westerse allochtonen bijna 30% hoger ligt dan het landelijk gemiddelde. Aangegeven wordt dat dit met name speelt bij Antilliaanse, Arubaanse en Surinaamse vrouwen. &#xA;Dit is de reden dat een verloskundig zorgverlener de etniciteit van de moeder wil weten.&#xA;Op deze beschreven gronden kan de etniciteit van een zwangere vrouw worden vastgelegd in haar dossier. "/>
+								<UML:TaggedValue tag="parent" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:18"/>
+								<UML:TaggedValue tag="modified" value="2009-07-04 12:17:18"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:18"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:18"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="5"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Wetenschappelijke onderbouwing"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Information Model" xmi.id="EAPK_C14BFF3A_2642_4a3d_9845_EEBF74DA0341" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;Give a very detailed, accurate and complete description of the concepts and codes/values/scores.&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#408080&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;--DCM::Language=nl&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Op dit moment is een voorlopige keuze gemaakt om de DCM uit te werken in UML. Dit om een goede aansluiting te hebben met de diverse technische standaarden als openEHR en HL7 v3. Richtlijnen voor een goede uitwerking zijn beschreven in de handleiding ' Ontwikkeling van een DCM' .&lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Aandachtspunten hierbij zijn: default values, flavors of null, cardinaliteit en optionaliteit. &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Voor verschillende vergelijkbare instrumenten of observaties kan een UML worden gemaakt welke als ' Pattern' kan worden gebruikt voor de uitwerking van een concrete DCM. Zo is er een pattern ontwikkeld voor 'Assessment scales' . &lt;/i&gt;&lt;/font&gt;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Dit hoofdstuk is bedoeld voor de IT en niet voor de zorgprofessionals. Bij het verifiëren van de inhoud van de DCM bij zorgprofessionals wordt dit hoofdstuk niet voorgelegd voor verificatie. Indien het informatiemodel in narrative taal wordt weergegeven kan dit wel met zorgverleners worden doorgenomen.&lt;/i&gt;&lt;/font&gt;&#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:19"/>
+								<UML:TaggedValue tag="modified" value="2009-07-04 12:17:19"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:20"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:19"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="6"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Informatie Model"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Comment xmi.id="EAID_3D4ACD5C_64D7_4768_A107_EBDB61F9048D" visibility="public" namespace="EAPK_C14BFF3A_2642_4a3d_9845_EEBF74DA0341">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Text"/>
+										<UML:TaggedValue tag="ea_ntype" value="18"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_C14BFF3A_2642_4a3d_9845_EEBF74DA0341"/>
+										<UML:TaggedValue tag="date_created" value="2010-01-08 13:55:06"/>
+										<UML:TaggedValue tag="date_modified" value="2010-01-08 13:55:07"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="13372"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+								<UML:Class name="Etniciteit" xmi.id="EAID_50311AEE_E701_4a08_896B_A3F819BD60B0" visibility="public" namespace="EAPK_C14BFF3A_2642_4a3d_9845_EEBF74DA0341" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="data"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Etnische herkomst van de vrouw (PRN Dataset 1.4). Valueset OID 2.16.840.1.113883.2.4.11.3: EthnicGroup (2014-05-19 14:35:30) &#xA;Data element 10400 perinatologie 2.2 / PRN data element 3.1.03 uit PRN kernset 1.4 van 2014. "/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_C14BFF3A_2642_4a3d_9845_EEBF74DA0341"/>
+										<UML:TaggedValue tag="date_created" value="2013-03-18 11:11:47"/>
+										<UML:TaggedValue tag="date_modified" value="2014-12-16 19:13:31"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Anneke"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="data"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="13374"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={82281963-5550-4cf3-A444-547205D8554A}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=data;GUID={7982D69C-7F38-491f-9B8E-62E7F7AABB98};@ENDSTEREO;@STEREO;Name=enumeration;GUID={D48F3F0E-C063-433f-BFC2-0142250C0079};FQName=EAUML::enumeration;@ENDSTEREO;$DES;$CLT={50311AEE-E701-4a08-896B-A3F819BD60B0}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Classifier.feature>
+										<UML:Attribute name="Hindoestaans" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+											<UML:Attribute.initialValue>
+												<UML:Expression body="13"/>
+											</UML:Attribute.initialValue>
+											<UML:StructuralFeature.type>
+												<UML:Classifier xmi.idref="eaxmiid0"/>
+											</UML:StructuralFeature.type>
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="enum"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="derived" value="0"/>
+												<UML:TaggedValue tag="containment" value="Not Specified"/>
+												<UML:TaggedValue tag="ordered" value="0"/>
+												<UML:TaggedValue tag="stereotype" value="enum"/>
+												<UML:TaggedValue tag="collection" value="false"/>
+												<UML:TaggedValue tag="position" value="4"/>
+												<UML:TaggedValue tag="lowerBound" value="1"/>
+												<UML:TaggedValue tag="upperBound" value="1"/>
+												<UML:TaggedValue tag="duplicates" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{225D1245-A000-478e-91C4-6FE4566F9F92}"/>
+												<UML:TaggedValue tag="ea_localid" value="4336"/>
+												<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={1E9BEEDF-05D1-4571-AD12-81869D653D52}$XID;$NAM=Stereotypes$NAM;$TYP=attribute property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enum;GUID={5D458219-C6F6-4b31-BFA1-5C793114C536};@ENDSTEREO;$DES;$CLT={225D1245-A000-478e-91C4-6FE4566F9F92}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Attribute>
+										<UML:Attribute name="Kaukasisch" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+											<UML:Attribute.initialValue>
+												<UML:Expression body="12"/>
+											</UML:Attribute.initialValue>
+											<UML:StructuralFeature.type>
+												<UML:Classifier xmi.idref="eaxmiid0"/>
+											</UML:StructuralFeature.type>
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="enum"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="derived" value="0"/>
+												<UML:TaggedValue tag="containment" value="Not Specified"/>
+												<UML:TaggedValue tag="ordered" value="0"/>
+												<UML:TaggedValue tag="stereotype" value="enum"/>
+												<UML:TaggedValue tag="collection" value="false"/>
+												<UML:TaggedValue tag="position" value="0"/>
+												<UML:TaggedValue tag="lowerBound" value="1"/>
+												<UML:TaggedValue tag="upperBound" value="1"/>
+												<UML:TaggedValue tag="duplicates" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{1529E267-A4AC-4c0c-A92D-46F54546E018}"/>
+												<UML:TaggedValue tag="ea_localid" value="4335"/>
+												<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B2F60749-9FD5-4f7f-9F11-067C07D68F7A}$XID;$NAM=Stereotypes$NAM;$TYP=attribute property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enum;GUID={5D458219-C6F6-4b31-BFA1-5C793114C536};@ENDSTEREO;$DES;$CLT={1529E267-A4AC-4c0c-A92D-46F54546E018}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Attribute>
+										<UML:Attribute name="Latijns Amerikaans" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+											<UML:Attribute.initialValue>
+												<UML:Expression body="14"/>
+											</UML:Attribute.initialValue>
+											<UML:StructuralFeature.type>
+												<UML:Classifier xmi.idref="eaxmiid0"/>
+											</UML:StructuralFeature.type>
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="enum"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="derived" value="0"/>
+												<UML:TaggedValue tag="containment" value="Not Specified"/>
+												<UML:TaggedValue tag="ordered" value="0"/>
+												<UML:TaggedValue tag="stereotype" value="enum"/>
+												<UML:TaggedValue tag="collection" value="false"/>
+												<UML:TaggedValue tag="position" value="6"/>
+												<UML:TaggedValue tag="lowerBound" value="1"/>
+												<UML:TaggedValue tag="upperBound" value="1"/>
+												<UML:TaggedValue tag="duplicates" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{F01BD039-83BC-42ac-A791-4535056D2F43}"/>
+												<UML:TaggedValue tag="ea_localid" value="4337"/>
+												<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={30E552C0-17FA-48bd-9318-F6FC064E4C16}$XID;$NAM=Stereotypes$NAM;$TYP=attribute property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enum;GUID={5D458219-C6F6-4b31-BFA1-5C793114C536};@ENDSTEREO;$DES;$CLT={F01BD039-83BC-42ac-A791-4535056D2F43}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Attribute>
+										<UML:Attribute name="Meervoudige afkomst" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+											<UML:Attribute.initialValue>
+												<UML:Expression body="11"/>
+											</UML:Attribute.initialValue>
+											<UML:StructuralFeature.type>
+												<UML:Classifier xmi.idref="eaxmiid0"/>
+											</UML:StructuralFeature.type>
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="enum"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="description" value="De zwangere vrouw behoort tot de etnische groep ‘overig’ waaronder 'Meervoudige afkomst'."/>
+												<UML:TaggedValue tag="derived" value="0"/>
+												<UML:TaggedValue tag="containment" value="Not Specified"/>
+												<UML:TaggedValue tag="length" value="0"/>
+												<UML:TaggedValue tag="ordered" value="0"/>
+												<UML:TaggedValue tag="precision" value="0"/>
+												<UML:TaggedValue tag="scale" value="0"/>
+												<UML:TaggedValue tag="stereotype" value="enum"/>
+												<UML:TaggedValue tag="collection" value="false"/>
+												<UML:TaggedValue tag="position" value="7"/>
+												<UML:TaggedValue tag="lowerBound" value="1"/>
+												<UML:TaggedValue tag="upperBound" value="1"/>
+												<UML:TaggedValue tag="duplicates" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{4A7AC5A8-A861-47b5-B76F-DE4E19A4E369}"/>
+												<UML:TaggedValue tag="ea_localid" value="4323"/>
+												<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={CC205D8D-9C24-43eb-8067-18A2CDE89B54}$XID;$NAM=Stereotypes$NAM;$TYP=attribute property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enum;GUID={3352CD73-3C23-416b-A4A1-9C2DDF75DAA9};@ENDSTEREO;$DES;$CLT={4A7AC5A8-A861-47b5-B76F-DE4E19A4E369}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+												<UML:TaggedValue tag="DCM::DefinitionCode" value="SnomedCT: 315239007 mixed ethnic census group (ethnic group)&#xA;" xmi.id="EAID_55AFD366_DA0C_446f_9457_3B943A8859D2"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Attribute>
+										<UML:Attribute name="Noord-Afrikaans" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+											<UML:Attribute.initialValue>
+												<UML:Expression body="3"/>
+											</UML:Attribute.initialValue>
+											<UML:StructuralFeature.type>
+												<UML:Classifier xmi.idref="eaxmiid0"/>
+											</UML:StructuralFeature.type>
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="enum"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="description" value="De zwangere vrouw behoort to de etnische groep 'Noord-Afrikaans'."/>
+												<UML:TaggedValue tag="derived" value="0"/>
+												<UML:TaggedValue tag="containment" value="Not Specified"/>
+												<UML:TaggedValue tag="length" value="0"/>
+												<UML:TaggedValue tag="ordered" value="0"/>
+												<UML:TaggedValue tag="precision" value="0"/>
+												<UML:TaggedValue tag="scale" value="0"/>
+												<UML:TaggedValue tag="stereotype" value="enum"/>
+												<UML:TaggedValue tag="collection" value="false"/>
+												<UML:TaggedValue tag="position" value="1"/>
+												<UML:TaggedValue tag="lowerBound" value="1"/>
+												<UML:TaggedValue tag="upperBound" value="1"/>
+												<UML:TaggedValue tag="duplicates" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{1FEB138E-4068-4ee0-8D43-C8B9841D6BB3}"/>
+												<UML:TaggedValue tag="ea_localid" value="4315"/>
+												<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={742A8BB2-0AB6-47e7-A2A6-7C77571CE88B}$XID;$NAM=Stereotypes$NAM;$TYP=attribute property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enum;GUID={3352CD73-3C23-416b-A4A1-9C2DDF75DAA9};@ENDSTEREO;$DES;$CLT={1FEB138E-4068-4ee0-8D43-C8B9841D6BB3}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+												<UML:TaggedValue tag="DCM::DefinitionCode" value="SnomedCT: 275594002 North African Arab (NMO) (ethnic group)" xmi.id="EAID_E4F26E15_73F2_4ad9_AE62_AC44911C279E"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Attribute>
+										<UML:Attribute name="onbekend" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+											<UML:Attribute.initialValue>
+												<UML:Expression body="UNK"/>
+											</UML:Attribute.initialValue>
+											<UML:StructuralFeature.type>
+												<UML:Classifier xmi.idref="eaxmiid0"/>
+											</UML:StructuralFeature.type>
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="enum"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="description" value="De etnische groep waartoe een zwangere vrouw behoort is onbekend."/>
+												<UML:TaggedValue tag="derived" value="0"/>
+												<UML:TaggedValue tag="containment" value="Not Specified"/>
+												<UML:TaggedValue tag="length" value="0"/>
+												<UML:TaggedValue tag="ordered" value="0"/>
+												<UML:TaggedValue tag="precision" value="0"/>
+												<UML:TaggedValue tag="scale" value="0"/>
+												<UML:TaggedValue tag="stereotype" value="enum"/>
+												<UML:TaggedValue tag="collection" value="false"/>
+												<UML:TaggedValue tag="position" value="8"/>
+												<UML:TaggedValue tag="lowerBound" value="1"/>
+												<UML:TaggedValue tag="upperBound" value="1"/>
+												<UML:TaggedValue tag="duplicates" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{4FB41679-51BE-4331-AF43-A1B95086AAD2}"/>
+												<UML:TaggedValue tag="ea_localid" value="4324"/>
+												<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={912255FE-C5B3-42b6-A632-516380F1887D}$XID;$NAM=Stereotypes$NAM;$TYP=attribute property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enum;GUID={3352CD73-3C23-416b-A4A1-9C2DDF75DAA9};@ENDSTEREO;$DES;$CLT={4FB41679-51BE-4331-AF43-A1B95086AAD2}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Attribute>
+										<UML:Attribute name="Overig Afrikaans" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+											<UML:Attribute.initialValue>
+												<UML:Expression body="4"/>
+											</UML:Attribute.initialValue>
+											<UML:StructuralFeature.type>
+												<UML:Classifier xmi.idref="eaxmiid0"/>
+											</UML:StructuralFeature.type>
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="enum"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="description" value="De zwangere vrouw behoort tot de etnische groep 'Overig Afrikaans'."/>
+												<UML:TaggedValue tag="derived" value="0"/>
+												<UML:TaggedValue tag="containment" value="Not Specified"/>
+												<UML:TaggedValue tag="length" value="0"/>
+												<UML:TaggedValue tag="ordered" value="0"/>
+												<UML:TaggedValue tag="precision" value="0"/>
+												<UML:TaggedValue tag="scale" value="0"/>
+												<UML:TaggedValue tag="stereotype" value="enum"/>
+												<UML:TaggedValue tag="collection" value="false"/>
+												<UML:TaggedValue tag="position" value="2"/>
+												<UML:TaggedValue tag="lowerBound" value="1"/>
+												<UML:TaggedValue tag="upperBound" value="1"/>
+												<UML:TaggedValue tag="duplicates" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{8ED21E46-5BCA-456b-8A36-9BF1115A40B8}"/>
+												<UML:TaggedValue tag="ea_localid" value="4316"/>
+												<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={513F2845-197F-4202-957A-4CD4BA97B178}$XID;$NAM=Stereotypes$NAM;$TYP=attribute property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enum;GUID={3352CD73-3C23-416b-A4A1-9C2DDF75DAA9};@ENDSTEREO;$DES;$CLT={8ED21E46-5BCA-456b-8A36-9BF1115A40B8}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Attribute>
+										<UML:Attribute name="Overig Aziatisch" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+											<UML:Attribute.initialValue>
+												<UML:Expression body="8"/>
+											</UML:Attribute.initialValue>
+											<UML:StructuralFeature.type>
+												<UML:Classifier xmi.idref="eaxmiid0"/>
+											</UML:StructuralFeature.type>
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="enum"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="description" value="De zwangere vrouw behoort tot de etnische groep 'Overig Aziatisch'."/>
+												<UML:TaggedValue tag="derived" value="0"/>
+												<UML:TaggedValue tag="containment" value="Not Specified"/>
+												<UML:TaggedValue tag="length" value="0"/>
+												<UML:TaggedValue tag="ordered" value="0"/>
+												<UML:TaggedValue tag="precision" value="0"/>
+												<UML:TaggedValue tag="scale" value="0"/>
+												<UML:TaggedValue tag="stereotype" value="enum"/>
+												<UML:TaggedValue tag="collection" value="false"/>
+												<UML:TaggedValue tag="position" value="5"/>
+												<UML:TaggedValue tag="lowerBound" value="1"/>
+												<UML:TaggedValue tag="upperBound" value="1"/>
+												<UML:TaggedValue tag="duplicates" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{B387E286-2E51-4694-B408-826D8A23A81E}"/>
+												<UML:TaggedValue tag="ea_localid" value="4320"/>
+												<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={41880E27-2A7C-45fe-A602-93DC231AE66B}$XID;$NAM=Stereotypes$NAM;$TYP=attribute property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enum;GUID={3352CD73-3C23-416b-A4A1-9C2DDF75DAA9};@ENDSTEREO;$DES;$CLT={B387E286-2E51-4694-B408-826D8A23A81E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Attribute>
+										<UML:Attribute name="Turks" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+											<UML:Attribute.initialValue>
+												<UML:Expression body="5"/>
+											</UML:Attribute.initialValue>
+											<UML:StructuralFeature.type>
+												<UML:Classifier xmi.idref="eaxmiid0"/>
+											</UML:StructuralFeature.type>
+											<UML:ModelElement.stereotype>
+												<UML:Stereotype name="enum"/>
+											</UML:ModelElement.stereotype>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="description" value="De zwangere vrouw behoort tot de etnische groep 'Turks'."/>
+												<UML:TaggedValue tag="derived" value="0"/>
+												<UML:TaggedValue tag="containment" value="Not Specified"/>
+												<UML:TaggedValue tag="length" value="0"/>
+												<UML:TaggedValue tag="ordered" value="0"/>
+												<UML:TaggedValue tag="precision" value="0"/>
+												<UML:TaggedValue tag="scale" value="0"/>
+												<UML:TaggedValue tag="stereotype" value="enum"/>
+												<UML:TaggedValue tag="collection" value="false"/>
+												<UML:TaggedValue tag="position" value="3"/>
+												<UML:TaggedValue tag="lowerBound" value="1"/>
+												<UML:TaggedValue tag="upperBound" value="1"/>
+												<UML:TaggedValue tag="duplicates" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{8059E2FC-AEA1-4a43-837C-95FEF332E126}"/>
+												<UML:TaggedValue tag="ea_localid" value="4317"/>
+												<UML:TaggedValue tag="styleex" value="IsLiteral=0;volatile=0;"/>
+												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={FA578245-5B42-4f56-B762-33E655D64A7C}$XID;$NAM=Stereotypes$NAM;$TYP=attribute property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=enum;GUID={3352CD73-3C23-416b-A4A1-9C2DDF75DAA9};@ENDSTEREO;$DES;$CLT={8059E2FC-AEA1-4a43-837C-95FEF332E126}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+												<UML:TaggedValue tag="DCM::DefinitionCode" value="SnomedCT: 275601009 Turkish (NMO) (ethnic group)&#xA;" xmi.id="EAID_9D5A6B6D_24CB_47b0_8C5A_23BE6BB3F247"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Attribute>
+									</UML:Classifier.feature>
+								</UML:Class>
+								<UML:Association xmi.id="EAID_06D4AA7B_2BB1_4ca9_A6D9_47271FC58B66" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Aggregation"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="subtype" value="Strong"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="9624"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Etniciteit"/>
+										<UML:TaggedValue tag="ea_targetName" value="Etniciteit"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="13374"/>
+										<UML:TaggedValue tag="ea_targetID" value="13380"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_50311AEE_E701_4a08_896B_A3F819BD60B0">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="composite" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_98D6DF0B_A4F3_4325_AEE9_9713EE62910D">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Generalization subtype="EAID_50311AEE_E701_4a08_896B_A3F819BD60B0" supertype="EAID_76D3ED42_BC80_404e_BBBF_1664B8455D8D" xmi.id="EAID_ABD0719B_BF76_4199_BD36_BF8417167778" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Generalization"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="9680"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Etniciteit"/>
+										<UML:TaggedValue tag="ea_targetName" value="CD"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="13374"/>
+										<UML:TaggedValue tag="ea_targetID" value="13406"/>
+										<UML:TaggedValue tag="src_visibility" value="Public"/>
+										<UML:TaggedValue tag="src_aggregation" value="0"/>
+										<UML:TaggedValue tag="src_isOrdered" value="false"/>
+										<UML:TaggedValue tag="src_targetScope" value="instance"/>
+										<UML:TaggedValue tag="src_changeable" value="none"/>
+										<UML:TaggedValue tag="src_isNavigable" value="false"/>
+										<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="dst_visibility" value="Public"/>
+										<UML:TaggedValue tag="dst_aggregation" value="0"/>
+										<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+										<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+										<UML:TaggedValue tag="dst_changeable" value="none"/>
+										<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+										<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Generalization>
+								<UML:Class name="Etniciteit" xmi.id="EAID_98D6DF0B_A4F3_4325_AEE9_9713EE62910D" visibility="public" namespace="EAPK_C14BFF3A_2642_4a3d_9845_EEBF74DA0341" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="rootconcept"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Etnische herkomst van de vrouw (PRN dataset 1.4).&#xA;&#xA;Volgens het Nationaal Kompas Volksgezondheid is etniciteit een verzameling van culturele kenmerken en gedragingen die door een groep mensen worden gedeeld en van generatie op generatie overgedragen worden (2013)."/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_C14BFF3A_2642_4a3d_9845_EEBF74DA0341"/>
+										<UML:TaggedValue tag="date_created" value="2010-01-08 13:55:16"/>
+										<UML:TaggedValue tag="date_modified" value="2014-12-16 19:11:07"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="rootconcept"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="13380"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="$ea_classified" value="{AA92FA97-1268-4a8f-9815-63AFD9C30C52}"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=3;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={F2DA723D-E0D4-406b-B217-E92FE74B371A}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=rootconcept;GUID={FF7F2377-ADFA-4355-9F4E-BA247373D156};@ENDSTEREO;$DES;$CLT={98D6DF0B-A4F3-4325-AEE9-9713EE62910D}$CLT;$ENDXREF;$XREFPROP=$XID={5F966263-6AFB-4cba-874C-172B22CC0130}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={98D6DF0B-A4F3-4325-AEE9-9713EE62910D}$CLT;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Comment name="Legend" xmi.id="EAID_C8AD9F48_4069_4a60_B59C_FADEAB3C64D3" visibility="public" namespace="EAPK_C14BFF3A_2642_4a3d_9845_EEBF74DA0341">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Text"/>
+										<UML:TaggedValue tag="ea_ntype" value="76"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_C14BFF3A_2642_4a3d_9845_EEBF74DA0341"/>
+										<UML:TaggedValue tag="date_created" value="2011-01-14 08:33:18"/>
+										<UML:TaggedValue tag="date_modified" value="2011-01-14 08:40:59"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="13382"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={AA426D8B-58A1-4d0b-A5AA-83B789ED5ECB}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=rootconcept@ENDNAME;@TYPE=LEGEND_OBJECTSTYLE@ENDTYPE;@VALU=#Back_Ground_Color#=16777215;#Pen_Color#=0;#Pen_Size#=3;#Legend_Type#=LEGEND_OBJECTSTYLE;@ENDVALU;@PRMT=0@ENDPRMT;@ENDPROP;@PROP=@NAME=data@ENDNAME;@TYPE=LEGEND_OBJECTSTYLE@ENDTYPE;@VALU=#Back_Ground_Color#=15780518;#Pen_Color#=0;#Pen_Size#=1;#Legend_Type#=LEGEND_OBJECTSTYLE;@ENDVALU;@PRMT=1@ENDPRMT;@ENDPROP;@PROP=@NAME=qualifier@ENDNAME;@TYPE=LEGEND_OBJECTSTYLE@ENDTYPE;@VALU=#Back_Ground_Color#=10551295;#Pen_Color#=0;#Pen_Size#=1;#Legend_Type#=LEGEND_OBJECTSTYLE;@ENDVALU;@PRMT=2@ENDPRMT;@ENDPROP;@PROP=@NAME=state@ENDNAME;@TYPE=LEGEND_OBJECTSTYLE@ENDTYPE;@VALU=#Back_Ground_Color#=12639424;#Pen_Color#=0;#Pen_Size#=1;#Legend_Type#=LEGEND_OBJECTSTYLE;@ENDVALU;@PRMT=3@ENDPRMT;@ENDPROP;@PROP=@NAME=Legend@ENDNAME;@TYPE=LEGEND_STYLE_SETTINGS@ENDTYPE;@VALU=#TITLE#=Legend;#HEADINGSIZE#=16;#FONTCOLOR#=6303744;#BACKGROUNDCOLOR#=13741727;#BORDERCOLOR#=12754832;#BACKGROUNDISDEFAULT#=1;@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={C8AD9F48-4069-4a60-B59C-FADEAB3C64D3}$CLT;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Example Instances" xmi.id="EAPK_06463867_9773_4e69_81AB_3645CA0DAFD9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+								<UML:TaggedValue tag="created" value="2010-01-08 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2010-02-12 13:44:02"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-04-16 12:28:34"/>
+								<UML:TaggedValue tag="lastsavedate" value="2012-04-16 12:28:34"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="7"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Voorbeeld scenario"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Comment xmi.id="EAID_8EFF719B_B61A_43c3_9376_B56C9A5F9953" visibility="public" namespace="EAPK_06463867_9773_4e69_81AB_3645CA0DAFD9">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;Scenario beschrijving.&lt;/i&gt;&lt;/font&gt;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Note"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_06463867_9773_4e69_81AB_3645CA0DAFD9"/>
+										<UML:TaggedValue tag="date_created" value="2010-01-08 13:58:58"/>
+										<UML:TaggedValue tag="date_modified" value="2010-01-08 13:59:19"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Example Instances"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="13383"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Instructions" xmi.id="EAPK_DA602E5D_AFFE_497b_AEC2_E2D248CB8097" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="De etniciteit van een zwangere vrouw kan rechtstreeks worden vastgelegd door dit na te vragen bij de zwangeren vrouw en met toestemmming vast te leggen in het dossier van de vrouw. Een andere wijze is de etniciteit af te leiden uit het geboorteland  of -continent van de vrouw en dit vast te leggen in het dossier. Het KNOV protocol classificatie van etniciteit biedt een verdere handreiking. "/>
+								<UML:TaggedValue tag="parent" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+								<UML:TaggedValue tag="created" value="2009-11-01 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2009-11-01 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-04-16 12:28:34"/>
+								<UML:TaggedValue tag="lastsavedate" value="2012-04-16 12:28:34"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="8"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Werkwijze"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Interpretation" xmi.id="EAPK_B37977BD_59AC_41cf_8FF8_B4C7FB52D5BD" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Bepaling van de etniciteit van de zwangere vrouw vindt plaats op basis van eigen geboorteland of geboortecontinent. Echter, etniciteit kan ook feitelijk worden vastgelegd als de vrouw hier geen bezwaar tegen heeft."/>
+								<UML:TaggedValue tag="parent" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:26"/>
+								<UML:TaggedValue tag="modified" value="2009-07-04 12:17:26"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:27"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:26"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="9"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Interpretatierichtlijnen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Care Process" xmi.id="EAPK_6719473C_D8CC_4568_BB84_AFF55389AB3F" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Etniciteit is onder andere van invloed op de perinatale sterfte. De verloskundig zorgverlener houdt in de begeleiding en risicobeoordeling van/bij de zwangere rekening met de etniciteit van de vrouw."/>
+								<UML:TaggedValue tag="parent" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:25"/>
+								<UML:TaggedValue tag="modified" value="2009-07-04 12:17:25"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:25"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:25"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="10"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Zorgproces / afhankelijkheid"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Example of the Instrument" xmi.id="EAPK_5C2EA5A1_F73F_4da3_996B_5CB15676F116" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:28"/>
+								<UML:TaggedValue tag="modified" value="2009-07-04 12:17:28"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:29"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:28"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="11"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Een voorbeeld van het instrument"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Constraints" xmi.id="EAPK_EE77C736_A9E1_4eb1_B0AA_1BCCAB8964C4" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+								<UML:TaggedValue tag="created" value="2010-02-12 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2010-02-12 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-04-16 12:28:34"/>
+								<UML:TaggedValue tag="lastsavedate" value="2012-04-16 12:28:34"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="12"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Inperkingen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Issues" xmi.id="EAPK_1ED8D5B3_E5B8_4981_B6AF_E4942CDEC9BA" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Coderingen voor values in value set bij Etniciteit:&#xA;Noord-Afrikaans: gevonden in Snomed CT: 275594002 North African Arab (NMO) (ethnic group). Echter het concept is beperkt tot arabisch noord afrikaans. Daarnaast is een afkorting gebruikt NMO, waarvan de betekenis onduidelijk is."/>
+								<UML:TaggedValue tag="parent" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:30"/>
+								<UML:TaggedValue tag="modified" value="2009-07-04 12:17:30"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:30"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:30"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="13"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Issues en openstaande vragen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="References" xmi.id="EAPK_6D379AA3_59E6_4ad6_B903_3364B8651AC5" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;b&gt;Projecten:&lt;/b&gt;&#xA;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Literatuur:&lt;/b&gt;&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;College Bescherming Persoonsgegevens, CBP. Verkregen op 18 maart 2013, van http://www.cbpweb.nl/Pages/med_20120523_beroep-charlois-tegen-besluit-cbp-ongegrond.aspx&lt;/li&gt;&#xA;	&lt;li&gt;HL7 Internationaal, (2012). EHR-S FM R2 MAY 2012 ballot material.&lt;/li&gt;&#xA;	&lt;li&gt;Etniciteit. Verkregen op 18 maart 2013, van http://www.nationaalkompas.nl/bevolking/etniciteit/etniciteit-samengevat/&lt;/li&gt;&#xA;	&lt;li&gt;Etniciteit en gezondheid. Verkregen op 16 april 2012, van http://www.nationaalkompas.nl/bevolking/etniciteit/allochtonen-en-gezondheid/&lt;/li&gt;&#xA;	&lt;li&gt;ISO, (2006). ISO 3166-1:2006 Codes for the representation of names of countries and their subdivisions -- Part 1: Country codes. Geneve, ISO. &lt;/li&gt;&#xA;	&lt;li&gt;KNOV (2014). Protocol Classificering van etniciteiten in de verloskundige zorg. Utrecht, KNOV&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;Perinatale sterfte. Verkregen op 16 april 2012, van http://www.perinataleaudit.nl/onderwerpen/1/perinatale-sterfte&lt;/li&gt;&#xA;	&lt;li&gt;PRN Dataset versie 1.4. &lt;/li&gt;&#xA;	&lt;li&gt;Stichting Perinatale Registratie, (2011). Perinatale Zorg in Nederland 2008. Utrecht, Stichting Perinatale Registratie.&lt;/li&gt;&#xA;	&lt;li&gt;Sterfte naar doodsoorzaak: Zijn er verschillen naar etniciteit? Verkregen op 16 april 2012, van http://www.nationaalkompas.nl/gezondheid-en-ziekte/sterfte-levensverwachting-en-daly-s/sterfte-naar-doodsoorzaak/zijn-er-verschillen-naar-etniciteit/&lt;/li&gt;&#xA;	&lt;li&gt;Stuurgroep Zwangerschap en geboorte, (2009). Een goed begin. Veilige zorg rond zwangerschap en geboorte. &lt;/li&gt;&#xA;	&lt;li&gt;Wet Bescherming Persoonsgegevens. Verkregen op 18 maart 2013, van http://wetten.overheid.nl/BWBR0011468/geldigheidsdatum_18-03-2013#Hoofdstuk2_Paragraaf2_Artikel16&lt;/li&gt;&#xA;	&lt;li&gt;Zorg naar etniciteit, Ziekenhuisopnamen, Zwangerschap, bevalling en kraambed. Verkregen op 16 april 2012, van http://www.nationaalkompas.nl/thema-s/gezondheidsachterstanden/etniciteit/ziekenhuiszorg/zwangerschap-bevalling-en-kraambed/&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;font color=&quot;#0000ff&quot;&gt;&lt;i&gt;&#xA;&lt;/i&gt;&lt;/font&gt;&lt;b&gt;Vocabulary:&lt;/b&gt;&#xA;Het is mogelijk dat mensen in dit domein gebruik maken van andere coderingen en value sets dan in deze DCM zijn gebruikt. In dat geval stellen wij als ontwikkelaars het op prijs hiervan op de hoogte te worden gesteld. &#xA;Voor de coderingen is bij voorkeur gebruik gemaakt van terminologieën zoals Snomed CT en/of LOINC, dan wel van een van de classificaties uit de WHO family of classifications (b.v. ICD10, ICF, ICNP). De codes die zijn toegepast zijn naar onze mening de best mogelijke match tussen het data item (variabele en/of waardedomein) en het concept / de concepten zoals die zijn opgenomen in de terminologie of classificatie.  &#xA;Het is in sommige gevallen mogelijk dat bij zeer strikte analyse van een van deze terminologieën er variaties naar voren komen die net zo goed, of wellicht beter matchen, bijvoorbeeld als een ander perspectief wordt gekozen. Er bestaat een kleine kans dat in de toekomst codes voor bepaalde data items worden gewijzigd. &#xA;Daar waar we geen codering hebben kunnen vinden zijn voorlopig eigen coderingen gemaakt en zullen de ontbrekende concepten bij Snomed CT worden ingebracht.&#xA;De OID’s voor de gebruikte vocabulary zijn:&#xA;SNOMED CT	2.16.840.1.113883.6.96&#xA;LOINC	2.16.840.113883.6.1&#xA;&lt;font color=&quot;#ff0000&quot;&gt;PRN  ?&lt;/font&gt;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+								<UML:TaggedValue tag="created" value="2009-11-01 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2009-11-01 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-04-16 12:28:34"/>
+								<UML:TaggedValue tag="lastsavedate" value="2012-04-16 12:28:34"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="14"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Referenties"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Functional Model" xmi.id="EAPK_2B521DB2_30F2_4607_90DE_2CC56FEA8886" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="De DCM kan gerelateerd worden aan het EHR-S FM R2: Population Health Support, functie POP-9; Support Consistent Healthcare Management of Patient Groups or Populations (HL7 EHR-S FM R2 MAY ballot material)."/>
+								<UML:TaggedValue tag="parent" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:21"/>
+								<UML:TaggedValue tag="modified" value="2009-07-04 12:17:21"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:22"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:21"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="15"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Traceability to other Standards" xmi.id="EAPK_DFC3F76F_52B6_4670_BED0_D277084A5B82" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="In de PRN Dataset is &#xA;&lt;ul&gt;&#xA;	&lt;li&gt;Geboorteland vrouw opgenomen in data items 3.1.02.01, 3.1.02.02 en 3.1.02.03. &lt;/li&gt;&#xA;	&lt;li&gt;Etniciteit opgenomen als data item 3.1.03.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;Het DCM kan gerelateerd worden aan CCR/CCD de informatiecomponent Social History. "/>
+								<UML:TaggedValue tag="parent" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:23"/>
+								<UML:TaggedValue tag="modified" value="2009-07-04 12:17:23"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:24"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:23"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="16"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Traceerbaarheid naar andere standaarden"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Disclaimer" xmi.id="EAPK_F1F0620A_D8EA_48f6_9B1F_3569FCE74355" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Stichting Perinatale Registratie Nederland (PRN) als opdrachtgever en Results 4 Care B.V. als uitvoerder besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze DCM. Onjuistheden en onvolledigheden kunnen echter voorkomen. Stichting Perinatale Registratie Nederland en Results 4 Care zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door Stichting Perinatale Registratie Nederland of Results 4 Care, of door U aan Stichting Perinatale Registratie Nederland of Results 4 Care via een website van Stichting Perinatale Registratie Nederland of Results 4 Care of via e-mail, of anderszins langs elektronische weg. &#xA;&#xA;Tevens aanvaarden Stichting Perinatale Registratie Nederland en Results 4 Care geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of ideeën verstrekt door of namens Stichting Perinatale Registratie Nederland via deze DCM, Detailed Clinical Model. Stichting Perinatale Registratie Nederland aanvaardt geen verantwoordelijkheid voor de inhoud van informatie in deze DCM waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.&#xA;&#xA;In geval van tegenstrijdigheden in de genoemde DCM documenten en bestanden geeft de meest recente en hoogste versie van de vermelde volgorde in de revisies de prioriteit van de desbetreffende documenten weer. &#xA;&#xA;Indien informatie die in de elektronische versie van deze DCM is opgenomen ook schriftelijk wordt verstrekt, zal in geval van tekstverschillen de schriftelijke versie bepalend zijn. Dit geldt indien de versieaanduiding en datering van beiden gelijk is. Een definitieve versie heeft prioriteit echter boven een conceptversie. Een gereviseerde versie heeft prioriteit boven een eerdere versie."/>
+								<UML:TaggedValue tag="parent" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+								<UML:TaggedValue tag="created" value="2009-11-01 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2009-11-01 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-04-16 12:28:34"/>
+								<UML:TaggedValue tag="lastsavedate" value="2012-04-16 12:28:34"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="17"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Disclaimer"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Terms of Use" xmi.id="EAPK_703DA2FC_2770_4566_9AD5_B2B81AB3F26C" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Het DCM is open source, met andere woorden vrij te gebruiken, mits in ongewijzigde vorm. &#xA;Veranderen van inhoud en coderingen wordt gezien als een inbreuk op de auteursrechten en copyrights en is schadelijk voor het gebruiksdoel: realiseren van semantische interoperabiliteit.&#xA;&#xA;U kunt wel wijzigingsvoorstellen sturen aan info@results4care.nl&#xA;&#xA;Revisievoorstellen zullen worden bekeken en kunnen leiden tot: 	&#xA;&#xA;a.   herziene DCM en uitwerkingen als e.e.a. wordt geaccepteerd.&#xA;b.   varianten van DCM die op een lokale situatie zijn toegesneden.&#xA;&#xA;Het geheel gaat uit van het uitgangspunt: een ‘common ownership’, maar een ‘special stewardship’."/>
+								<UML:TaggedValue tag="parent" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+								<UML:TaggedValue tag="created" value="2010-01-08 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2010-01-08 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-04-16 12:28:34"/>
+								<UML:TaggedValue tag="lastsavedate" value="2012-04-16 12:28:34"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="18"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Gebruiksvoorwaarden"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Copyrights" xmi.id="EAPK_96C80D35_77E8_4dd0_81A5_198E054792B2" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;b&gt;Licenties van bronmateriaal&lt;/b&gt;&#xA;Niet van toepassing."/>
+								<UML:TaggedValue tag="parent" value="EAPK_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+								<UML:TaggedValue tag="created" value="2010-01-08 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2010-01-08 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-04-16 12:28:34"/>
+								<UML:TaggedValue tag="lastsavedate" value="2012-04-16 12:28:34"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="19"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Copyrights"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+				<UML:Stereotype xmi.id="EAID_85C7E5B2_7E5B_4572_90A2_C246E14DF921" name="DCM" isRoot="false" isLeaf="false" isAbstract="false">
+					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
+				</UML:Stereotype>
+				<UML:DataType xmi.id="eaxmiid0" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:TaggedValue tag="DCM::CoderList" xmi.id="EAID_499B3150_B9D8_4fd8_AA54_C5DDAE47CF76" value="Anne Marieke Schiere, Anneke Goossen-Baremans, William Goossen" modelElement="MX_EAID_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+		<UML:TaggedValue tag="DCM::ContactInformation.Address" xmi.id="EAID_B63D7ECB_3C1D_48fc_A2CD_68355E90F4D3" modelElement="MX_EAID_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+		<UML:TaggedValue tag="DCM::ContactInformation.Name" xmi.id="EAID_C04B67E4_F492_4a52_9F31_AA1017929256" value="Results 4 Care#NOTES#The contact information where questions can be asked or feedback can be send to." modelElement="MX_EAID_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+		<UML:TaggedValue tag="DCM::ContactInformation.Telecom" xmi.id="EAID_B67FAD19_3759_4f32_9343_220FF49AB309" value="info@results4care.nl" modelElement="MX_EAID_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+		<UML:TaggedValue tag="DCM::ContentAuthorList" xmi.id="EAID_BE51F328_4FFC_4550_B29C_5E8C70A4D21D" value="Anneke Goossen-Baremans, Results 4 Care B.V. #NOTES#Names of the people that contributed to the development of the DCM. The organization these people work for is also mentioned. The position of the author can be mentioned." modelElement="MX_EAID_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+		<UML:TaggedValue tag="DCM::CreationDate" xmi.id="EAID_CA0E4293_E76D_4878_AFCA_9056382D2E8D" value="16-4-2012" modelElement="MX_EAID_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+		<UML:TaggedValue tag="DCM::DeprecatedDate" xmi.id="EAID_76EE629F_2C29_4c40_8D1C_73914BCA0D80" modelElement="MX_EAID_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+		<UML:TaggedValue tag="DCM::DescriptionLanguage" xmi.id="EAID_A10BF4EB_B483_4800_A9AA_3D006A192D8F" value="nl#NOTES#The languages in which the DCM is developed. This can be only Dutch or English, or both, or other languages." modelElement="MX_EAID_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+		<UML:TaggedValue tag="DCM::EndorsingAuthority.Address" xmi.id="EAID_794D9395_97A4_4b5f_A946_57CB20B037F8" modelElement="MX_EAID_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+		<UML:TaggedValue tag="DCM::EndorsingAuthority.Address" xmi.id="EAID_28B634BD_B03B_4930_9128_7B1DFF879408" modelElement="MX_EAID_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+		<UML:TaggedValue tag="DCM::EndorsingAuthority.Name" xmi.id="EAID_50851D1F_AFE1_42e0_B9C7_245AFBEC69A2" value="#NOTES#This is the authority that approved the clinical contents of the DCM. This can be scientific or professional organisations, or institutes of quality, normalisation institutes, governments etc." modelElement="MX_EAID_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+		<UML:TaggedValue tag="DCM::EndorsingAuthority.Telecom" xmi.id="EAID_ED88050B_5B4C_4237_B3BC_4C62026CC1C1" modelElement="MX_EAID_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+		<UML:TaggedValue tag="DCM::Id" xmi.id="EAID_4574860E_541F_403a_8D63_A2F319CE0820" value="*" modelElement="MX_EAID_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+		<UML:TaggedValue tag="DCM::KeywordList" xmi.id="EAID_C4A76963_F863_48d9_9346_CD3FF7110C7C" value="#NOTES#Here keywords and codes for keywords are mentioned. This concerns keywords by which the DCM can be found in a repository. A keyword can be a synonym, a derivative term or a generic ( like the Bradenscale with a keyword Pressure Ulcer Risk).&#xA;Concepts and identifications from MeSH Heading can also be mentioned here." modelElement="MX_EAID_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+		<UML:TaggedValue tag="DCM::LifecycleStatus" xmi.id="EAID_6B80F017_AE33_47cd_8F17_94233CDC9D6E" modelElement="MX_EAID_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+		<UML:TaggedValue tag="DCM::ModelerList" xmi.id="EAID_620B399F_6388_4e92_98A6_298D31A4C237" value="Micheal van der Zel, Results 4 Care B.V." modelElement="MX_EAID_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+		<UML:TaggedValue tag="DCM::Name" xmi.id="EAID_93434A5A_A47B_4ccd_BB92_6A3F2E50E4A1" value="nl.PRN.Etniciteit" modelElement="MX_EAID_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+		<UML:TaggedValue tag="DCM::PublicationDate" xmi.id="EAID_CF6EF5C7_0A05_4185_8CBA_F784665B131A" value="16-12-2014#NOTES#The date this version was made." modelElement="MX_EAID_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+		<UML:TaggedValue tag="DCM::PublicationStatus" xmi.id="EAID_33A08AE6_B44E_422a_A6FA_003EE845435F" value="Unpublished#NOTES#The status of the DCM on that moment. Strike out the other status.&#xA;All status levels are mentioned after the process of development and review are clear (concept).&#xA;&#xA;Author Draft(en);&#xA;Committee Draft(en);&#xA;Organisation Draft(en);&#xA;Submitted(en);&#xA;Withdrawn&#xA;Rejected(en) &#xA;Obsolete&#xA;Approved for testing&#xA;Approved for Production Use&#xA;Superseded" modelElement="MX_EAID_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+		<UML:TaggedValue tag="DCM::ReviewerList" xmi.id="EAID_CF436C09_DBC4_4175_A94A_FA0EB040B569" value="Anne Marieke Schiere, William Goossen" modelElement="MX_EAID_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+		<UML:TaggedValue tag="DCM::RevisionDate" xmi.id="EAID_170A7933_EE51_4df8_AA3F_445BFFC01BFB" modelElement="MX_EAID_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+		<UML:TaggedValue tag="DCM::Superseeds" xmi.id="EAID_437C82AF_0FE2_4e8f_9AE8_944B485C0A87" modelElement="MX_EAID_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+		<UML:TaggedValue tag="DCM::Version" xmi.id="EAID_D150EE73_5905_4ad7_A18F_D979D0F58463" value="0.75" modelElement="MX_EAID_CE0A2151_5A76_4f75_8119_05827EB08423"/>
+		<UML:TaggedValue tag="DCM::DefinitionCode" xmi.id="EAID_60CE3B07_9F09_49de_A3E5_200C13C523AE" value="SnomedCT: 397731000 ethnic group finding (finding)" modelElement="EAID_50311AEE_E701_4a08_896B_A3F819BD60B0"/>
+		<UML:TaggedValue tag="DCM::DefinitionCode2" xmi.id="EAID_51C604ED_D396_4ea5_B945_A68019D8251E" value="Perinatologie 2.2: 10400 etniciteit" modelElement="EAID_50311AEE_E701_4a08_896B_A3F819BD60B0"/>
+		<UML:TaggedValue tag="DCM::DefinitionCode" xmi.id="EAID_9C7ED027_52E7_47b8_AB32_9C1AF0B8A6D0" value="SnomedCT: 186034007 Ethnicity / related nationality data (observable entity)" modelElement="EAID_98D6DF0B_A4F3_4325_AEE9_9713EE62910D"/>
+		<UML:Diagram name="Information Model" xmi.id="EAID_9A0AA11F_FE69_4533_976A_93601F74F7A1" diagramType="ClassDiagram" owner="EAPK_C14BFF3A_2642_4a3d_9845_EEBF74DA0341" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="0.75"/>
+				<UML:TaggedValue tag="author" value="ZelM"/>
+				<UML:TaggedValue tag="created_date" value="2010-01-08 13:51:46"/>
+				<UML:TaggedValue tag="modified_date" value="2014-12-16 19:13:37"/>
+				<UML:TaggedValue tag="package" value="EAPK_C14BFF3A_2642_4a3d_9845_EEBF74DA0341"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
+				<UML:TaggedValue tag="ea_localid" value="859"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1169;DocSize.cy=827;ShowDetails=0;Orientation=L;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=40AFD3A2;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=212;Top=182;Right=384;Bottom=401;" subject="EAID_50311AEE_E701_4a08_896B_A3F819BD60B0" seqno="1" style="DUID=6E8C755F;"/>
+				<UML:DiagramElement geometry="Left=10;Top=100;Right=111;Bottom=218;" subject="EAID_C8AD9F48_4069_4a60_B59C_FADEAB3C64D3" seqno="2" style="DUID=5AC6C59D;"/>
+				<UML:DiagramElement geometry="Left=250;Top=30;Right=350;Bottom=110;" subject="EAID_98D6DF0B_A4F3_4325_AEE9_9713EE62910D" seqno="3" style="DUID=33F970C2;"/>
+				<UML:DiagramElement geometry="Left=10;Top=10;Right=175;Bottom=85;" subject="EAID_3D4ACD5C_64D7_4768_A107_EBDB61F9048D" seqno="4" style="DUID=98E9722F;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_06D4AA7B_2BB1_4ca9_A6D9_47271FC58B66" style="Mode=3;EOID=33F970C2;SOID=6E8C755F;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Example Instances" xmi.id="EAID_FC3CD380_3E8B_45b8_A58B_6824E0A657B5" diagramType="ObjectDiagram" owner="EAPK_06463867_9773_4e69_81AB_3645CA0DAFD9" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="ZelM"/>
+				<UML:TaggedValue tag="created_date" value="2010-01-08 13:57:20"/>
+				<UML:TaggedValue tag="modified_date" value="2010-02-12 15:19:46"/>
+				<UML:TaggedValue tag="package" value="EAPK_06463867_9773_4e69_81AB_3645CA0DAFD9"/>
+				<UML:TaggedValue tag="type" value="Object"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=true;swimlanesactive=false;width=3;"/>
+				<UML:TaggedValue tag="ea_localid" value="860"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1169;DocSize.cy=827;ShowDetails=0;Orientation=L;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=7DDEA795;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=1;SwimlanesActive=0;MatrixLineWidth=3;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=0;Top=150;Right=160;Bottom=240;" subject="EAID_8EFF719B_B61A_43c3_9376_B56C9A5F9953" seqno="1" style="DUID=6A4D75F0;"/>
+				<UML:DiagramElement subject="EAID_308B6FAC_A236_40b6_80EE_4BDFBE46D356" style="matrixitem,Column,Tijdstip 1,,,0,0,0,0,0,0,0,0,Arial,Arial,Arial,12,12,12,0,0,0,0,0,0,0,0,0,0,0,0,242,200," geometry=""/>
+				<UML:DiagramElement subject="EAID_8D28C0AF_611A_4ff8_8D60_31E3FE26A594" style="matrixitem,Column,Tijdstip 2,,,0,0,0,0,0,0,0,0,Arial,Arial,Arial,12,12,12,0,0,0,0,0,0,0,0,0,0,0,0,247,200," geometry=""/>
+				<UML:DiagramElement subject="EAID_7FC5EB8F_211B_423e_B7CE_49AC761F3C14" style="matrixitem,Row,Scenario 1,,,0,0,0,0,0,0,0,0,Arial,Arial,Arial,12,12,12,0,0,0,0,0,0,0,0,0,0,0,0,200,147," geometry=""/>
+				<UML:DiagramElement subject="EAID_FFC4BCF4_D835_43f2_B5DC_50861D287E34" style="matrixitem,Row,Scenario n,,,0,0,0,0,0,0,0,0,Arial,Arial,Arial,12,12,12,0,0,0,0,0,0,0,0,0,0,0,0,200,157," geometry=""/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EAStub xmi.id="EAID_76D3ED42_BC80_404e_BBBF_1664B8455D8D" name="CD" UMLType="Class"/>
+		<EAModel.paramSub/>
+	</XMI.extensions>
+</XMI>
