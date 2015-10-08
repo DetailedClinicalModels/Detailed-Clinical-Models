@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2011-03-12 15:22:50">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_A4E2697B_6842_4be8_9556_6870944C33A1">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="nl.nictiz.Middelomtrek-v0.97" xmi.id="EAPK_A4E2697B_6842_4be8_9556_6870944C33A1" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_E147D619_FA58_4746_BAF4_944B912F117E"/>
+						<UML:TaggedValue tag="created" value="2009-11-12 00:00:00"/>
+						<UML:TaggedValue tag="modified" value="2011-03-12 14:40:54"/>
+						<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+						<UML:TaggedValue tag="lastloaddate" value="2011-03-12 14:35:08"/>
+						<UML:TaggedValue tag="lastsavedate" value="2011-03-12 14:35:08"/>
+						<UML:TaggedValue tag="version" value="0.97"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="tpos" value="8"/>
+						<UML:TaggedValue tag="packageFlags" value="CRC=0;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+						<UML:TaggedValue tag="phase" value="0.97"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="Abel"/>
+						<UML:TaggedValue tag="alias" value="Middelomtrek.v0.97"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="8"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_A4E2697B_6842_4be8_9556_6870944C33A1_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Purpose" xmi.id="EAID_08B7CDC5_B716_44cd_BD12_4F6E8EA3B5C9" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Doel: het meten en vastleggen van de middelomtrek van de patient in het dossier van de patient.&#xA;&#xA;Reden: de middelomtrek wordt gebruikt voor het maken van een inschatting van de gezondheidsrisico's die gerelateerd zijn aan viscerale vetstapeling (Codex Medicus, 2010). De hoeveelheid buikvet is een belangrijke risicofactor voor diabetes type II en hart- en vaatziekten (Frank, 2003).&#xA;&#xA;Patientengroep: patienten met overgewicht, diabetes type 2 en patienten met hart- en vaatziekten.&#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+										<UML:TaggedValue tag="date_created" value="2009-11-12 13:21:38"/>
+										<UML:TaggedValue tag="date_modified" value="2010-03-19 14:18:32"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_08B7CDC5_B716_44cd_BD12_4F6E8EA3B5C9"/>
+										<UML:TaggedValue tag="package_name" value="nl.nictiz.Middelomtrek-v0.97"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Doel"/>
+										<UML:TaggedValue tag="author" value="Abel"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="2"/>
+										<UML:TaggedValue tag="ea_localid" value="45"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Interpretation" xmi.id="EAID_2306DFEE_CD15_44c0_86CE_4532CBC7C67E" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="De ideale middelomtrek dient lager te zijn dan of gelijk te zijn aan 88 cm bij vrouwen en lager dan of gelijk aan 102 cm bij mannen. Boven deze limiet is er een verhoogd risico op met overgewicht gerelateerde stofwisselingsproblemen. Een hoge middelomtrek is in verband gebracht met een toegenomen risico voor diabetes mellitus en met verschillende hart- en vaat ziekten (Medinet, 2008). &#xA;Onderstaande indeling geldt voor volwassenen van 18 tot ongeveer 60 jaar. Dat heeft te maken met een andere lichaamsbouw. Over deze grenswaarden is nog discussie. (Voedingscentrum, 2008).  &#xA;&#xA;Middelomtrek mannen &amp;lt;94, vrouwen&amp;lt;80: probeer op gewicht te blijven (geen verhoogd risico).&#xA;Middelomtrek mannen 94-102, vrouwen 80-88: blijf op gewicht (nog geen verhoogd risico, maar de gevaren zone komt in beeld)&#xA;Middelomtrek mannen 102 en hoger, vrouwen 88 en hoger: probeer af te vallen (verhoogd risico)"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+										<UML:TaggedValue tag="date_created" value="2009-11-12 13:23:32"/>
+										<UML:TaggedValue tag="date_modified" value="2010-03-12 16:57:25"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_2306DFEE_CD15_44c0_86CE_4532CBC7C67E"/>
+										<UML:TaggedValue tag="package_name" value="nl.nictiz.Middelomtrek-v0.97"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Interpretatierichtlijnen"/>
+										<UML:TaggedValue tag="author" value="Abel"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="6"/>
+										<UML:TaggedValue tag="ea_localid" value="49"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Evidence base" xmi.id="EAID_24AFB155_F985_4908_B41F_C5C364D42D77" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="De Body Mass Index (BMI) wordt veel gebruikt bij het vaststellen van overgewicht en de daarbij komende gezondheidsrisico's. De BMI zegt echter niets over hoe het vet in het lichaam verdeeld is. De aanwezigheid van veel buikvet is een belangrijke risicofactor voor diabetes type II en hart- en vaatziekten. &#xA;De middelomtrek is een maat voor de hoeveelheid vet in de buikholte. De middelomtrek is onafhankelijk van de lengte maar hangt nauw samen met de BMI en het totale gehalte lichaamsvet (Voedingscentrum, 2008). Barceló e.a. (2007) hebben een onderzoek gedaan naar de prevalentie van diabetes bij mensen ouder dan 60 jaar in Amerika, Zuid-Amerika en de Caraïben. In de onderzoeksgroep van in totaal 10.518 deelnemers bleek dat de diagnose diabetes in alle gevallen in verband gebracht kon worden met de middelomtrek, behalve in Mexico City. De BMI kon slechts in twee steden en drie etnische groepen de prevalentie van diabetes significant verklaren (Barceló e.a., 2007). &#xA;Het gebruik van het meten van de middelomtrek voor het vaststellen van overgewicht in de buikstreek is de laatste jaren breed geaccepteerd. Jermendy heeft in een onderzoek bij 150 volwassenen vastgesteld dat de intra-, en interbeoordelaars betrouwbaarheid geen klinische relevantie heeft en dat het meten van de middelomtrek een betrouwbare parameter is (Jermendy, 2006).&#xA;Over de reden waarom buikvet zoveel risico's geeft is nog veel onduidelijkheid. Het is mogelijk dat buikvet terecht komt in de poortader en snel in de lever. Een andere mogelijkheid is dat het buikvet meer stoffen bevat die een negatieve invloed op de gezondheid hebben. Ook wordt gedacht dat het vet in de buik pas daar wordt opgeslagen als het elders in het lichaam &quot;vol&quot; is. Tevens kan het vet zelfs in de organen (zoals alvleesklier en lever) terecht komen, waar het een negatieve invloed heeft op de stofwisseling (Voedingscentrum, 2008).&#xA;De middelomtrek wordt ook gebruikt voor het bepalen van de middel - heup ratio, waarbij gekeken wordt naar de verhouding van de middelomtrek en die van de heupen. (Waist-Hip ratio). Onderzoek heeft aangetoond dat het meten van de middelomtrek voor de meeste doeleinden al voldoende is (WHO, 2002). &#xA;Mannen hebben vaak een appelvormige vetverdeling (vet op de buik) en vrouwen een peervormige vetverdeling (meer vet op de heupen dan op de buik). Echter: Ten opzichte van mannen met dezelfde middelomtrek hebben vrouwen een hoger risico op het krijgen van hartaandoeningen. Bepaalde etnische groepen, zoals Hindoestanen en ook mensen met een zeer donkere huidskleur, zijn uitzonderlijk gevoelig voor het stapelen van vet in de buikholte. Deze groepen mensen zijn daarom veel gevoeliger voor het ontwikkelen van Diabetes Mellitus en hebben een hoger risico op het ontwikkelen van hart- en vaatziekten (Sadikot, 2008). &#xA;Okosun beschrijft dat ondanks een gelijke BMI de Zuid Aziaten een groter vetpercentage hebben, met name in de buikstreek en dat dus bij Aziaten de middelomtrek groter is. Ook in andere Etnische groepen lijkt er verschil te zitten. Okosun pleit voor een uitsplitsing van de optimale middelomtrek naar verschillende etnische groepen.(Okosun, 2008)."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+										<UML:TaggedValue tag="date_created" value="2009-11-12 13:23:12"/>
+										<UML:TaggedValue tag="date_modified" value="2010-03-12 16:56:13"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_24AFB155_F985_4908_B41F_C5C364D42D77"/>
+										<UML:TaggedValue tag="package_name" value="nl.nictiz.Middelomtrek-v0.97"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Wetenschappelijke onderbouwing"/>
+										<UML:TaggedValue tag="author" value="Abel"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="3"/>
+										<UML:TaggedValue tag="ea_localid" value="46"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Instructions" xmi.id="EAID_449E597E_4D1C_444f_A002_231EAC7D7B9B" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Er zijn 4 plaatsen waar de middelomtrek over het algemeen gemeten wordt:&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;meteen onder de onderste rib;&lt;/li&gt;&#xA;	&lt;li&gt;op het smalste deel van het middel;&lt;/li&gt;&#xA;	&lt;li&gt;het middelpunt tussen de onderste rib en het bekken;&lt;/li&gt;&#xA;	&lt;li&gt;meteen boven het bekken (Wang e.a., 2003).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;Zowel de WHO als het RIVM geven het middelpunt tussen de onderste rib en het bekken aan als plaats van meten (RIVM, 2008).&#xA;Leg een soepele centimeter om het blote middel. Trek de centimeter niet te strak aan, maar laat deze rond het middel aansluiten. Adem uit en meet de middelomtrek rond het slankste deel van de taille. Dit is het punt tussen de onderkant van de onderste rib en de bovenkant van het bekken."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+										<UML:TaggedValue tag="date_created" value="2009-11-12 13:22:55"/>
+										<UML:TaggedValue tag="date_modified" value="2010-03-12 16:56:59"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_449E597E_4D1C_444f_A002_231EAC7D7B9B"/>
+										<UML:TaggedValue tag="package_name" value="nl.nictiz.Middelomtrek-v0.97"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Werkwijze"/>
+										<UML:TaggedValue tag="author" value="Abel"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="5"/>
+										<UML:TaggedValue tag="ea_localid" value="48"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="References" xmi.id="EAID_55729589_B835_43fc_BE70_D6D87BD1C795" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;ul&gt;&#xA;	&lt;li&gt;Barceló, A., Gregg, E.W., Pastor-Valero, M., Robles, S.C. (2007). Waist circumference, BMI and the prevalence of self reported diabetes among the elderly of the United States and six cities of Latin America and Caribbean. Diabetes Researchand Clinical Paractice, 78, 418-427.&lt;/li&gt;&#xA;	&lt;li&gt;Queteletindex (body mass index, BMI). Verkregen op 16 maart 2010, van http://www.codexmedicus.nl/sectie/42/Chap42disp8800/Queteletindex_%28body_mass_index_BMI%29.html&lt;/li&gt;&#xA;	&lt;li&gt;Frank, B. (2003) Overweight and obesity in women: health risks and consequences. Journal of women's health. 12 (2), 163-172.&lt;/li&gt;&#xA;	&lt;li&gt;Jermendy, G., Nádas, Z., Putz, Z. Assessing the reliability of measuring waist circumference. Review published in 2006 in Diabetic Medicine 23 (suppl 4) 608-753&lt;/li&gt;&#xA;	&lt;li&gt;Leent-Loenen HMJA (2008). Wat is overgewicht en wat is ondergewicht? In: Volksgezondheid Toekomst Verkenning, Nationaal Kompas Volksgezondheid. Bilthoven: RIVM, http://www.nationaalkompas.nl Gezondheidsdeterminanten\ Persoonsgebonden\ Lichaamsgewicht, 22 september 2008.&lt;/li&gt;&#xA;	&lt;li&gt;Medinet (2008). Vermageren: een belangrijk gebaar voor de gezondheid. Verkregen op 6 februari 2009 van http://www.medinet.be/shownews.asp?ID=1718&lt;/li&gt;&#xA;	&lt;li&gt;Middelomtrek en BMI voorspellen hart- en vaatziekten. Verkregen op 16 maart 2010, van http://www.hartstichting.nl&lt;/li&gt;&#xA;	&lt;li&gt;Okosun, (2008). Tightening the belt?but by how much? Diabetic and metabolic syndrome. Clinical research and reviews. 2, 235-238.&lt;/li&gt;&#xA;	&lt;li&gt;Sadikot, S.M. (2008) Tightening the belt? but by how much? Diabetes and metabolic syndromes: Clinical Research and Reviews. 2, 235-238.&lt;/li&gt;&#xA;	&lt;li&gt;Voedingscentrum (2008). Middelomtrek. Verkregen op 6 februari 2009 van http://www.voedingscentrum.nl/EtenEnGezondheid/Gewicht/gezond+gewicht/middelomtrek.htmWang, J., Thornton, J.C., Bari, S., Williamson, B., Gallagher, D., Heymsfield, S.B., Horlick, M., Kotler, D., Laferrére, B., Mayer, L., Pi-Sunyer, F.X., Pierson, R.N. (2003) Comparison of waist circumferences measured at 4 sites. The American Journal of Clinical Nutrition.  77, 379-384.&lt;/li&gt;&#xA;	&lt;li&gt;WHO (2002) Obesity: Preventing and managing the global epidemic . Report of WHO Consultation . In Overgewicht en Obesitas: Rapport Gezondheidsraad Den Haag, 2002.&lt;/li&gt;&#xA;&lt;/ul&gt;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+										<UML:TaggedValue tag="date_created" value="2009-11-20 16:22:50"/>
+										<UML:TaggedValue tag="date_modified" value="2010-03-12 16:59:04"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_55729589_B835_43fc_BE70_D6D87BD1C795"/>
+										<UML:TaggedValue tag="package_name" value="nl.nictiz.Middelomtrek-v0.97"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Referenties"/>
+										<UML:TaggedValue tag="author" value="Abel"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="13"/>
+										<UML:TaggedValue tag="ea_localid" value="51"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Information model" xmi.id="EAID_5DF50741_FF72_47f6_9605_DFD5E48D2B00" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+										<UML:TaggedValue tag="date_created" value="2009-11-12 13:23:51"/>
+										<UML:TaggedValue tag="date_modified" value="2010-03-12 16:56:46"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_5DF50741_FF72_47f6_9605_DFD5E48D2B00"/>
+										<UML:TaggedValue tag="package_name" value="nl.nictiz.Middelomtrek-v0.97"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Informatiemodel"/>
+										<UML:TaggedValue tag="author" value="Abel"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="4"/>
+										<UML:TaggedValue tag="ea_localid" value="47"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Care process" xmi.id="EAID_6A004A06_A972_4b9f_84D3_EDAC580068BF" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="De middelomtrek geeft samen met de BMI en het totale vetgehalte van het lichaam een goede indicatie van de gezondheidsrisico's. De middel omtrek wordt ook gebruikt voor het bepalen van de Middel-Heup ratio."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+										<UML:TaggedValue tag="date_created" value="2009-11-12 13:21:48"/>
+										<UML:TaggedValue tag="date_modified" value="2010-03-12 16:58:55"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_6A004A06_A972_4b9f_84D3_EDAC580068BF"/>
+										<UML:TaggedValue tag="package_name" value="nl.nictiz.Middelomtrek-v0.97"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Zorgproces/afhankelijkheid"/>
+										<UML:TaggedValue tag="author" value="Abel"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="8"/>
+										<UML:TaggedValue tag="ea_localid" value="50"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Copyrights" xmi.id="EAID_874E08DC_CEB1_4648_9C2E_EE045786FCDC" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&#xA;&lt;b&gt;&lt;i&gt;Licenties van bronmateriaal&lt;/i&gt;&lt;/b&gt;&#xA;Niet van toepassing, voor deze DCM worden geen licenties gevraagd."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+										<UML:TaggedValue tag="date_created" value="2009-11-12 13:25:28"/>
+										<UML:TaggedValue tag="date_modified" value="2010-03-12 16:59:20"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_874E08DC_CEB1_4648_9C2E_EE045786FCDC"/>
+										<UML:TaggedValue tag="package_name" value="nl.nictiz.Middelomtrek-v0.97"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Copyrights"/>
+										<UML:TaggedValue tag="author" value="Abel"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="17"/>
+										<UML:TaggedValue tag="ea_localid" value="53"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Disclaimer" xmi.id="EAID_89CA601A_E187_4ce2_8E3A_B8ACF85D2794" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Nictiz als opdrachtgever en Results 4 Care B.V. en Parelsnoer als uitvoerders besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze DCM. Onjuistheden en onvolledigheden kunnen echter voorkomen. Nictiz, Results 4 Care en Parelsnoer zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door Nictiz, Results 4 Care, Parelsnoer of door U aan Nictiz, Results 4 Care of Parelsnoer via een website van Nictiz, Results 4 Care of Parelsnoer of via e-mail, of anderszins langs elektronische weg. &#xA;&#xA;Tevens aanvaarden Nictiz, Results 4 Care en Parelsnoer geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of ideeën verstrekt door of namens Nictiz via deze DCM, Detailed Clinical Model. Nictiz  aanvaardt geen verantwoordelijkheid voor de inhoud van informatie in deze DCM waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.&#xA;&#xA;In geval van tegenstrijdigheden in de genoemde DCM documenten en bestanden geeft de meest recente en hoogste versie van de vermelde volgorde in de revisies de prioriteit van de desbetreffende documenten weer. &#xA;&#xA;Indien informatie die in de elektronische versie van deze DCM is opgenomen ook schriftelijk wordt verstrekt, zal in geval van tekstverschillen de schriftelijke versie bepalend zijn. Dit geldt indien de versieaanduiding en datering van beiden gelijk is. Een definitieve versie heeft prioriteit echter boven een conceptversie. Een gereviseerde versie heeft prioriteit boven een eerdere versie.&#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+										<UML:TaggedValue tag="date_created" value="2009-11-12 13:26:24"/>
+										<UML:TaggedValue tag="date_modified" value="2010-03-19 14:30:11"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_89CA601A_E187_4ce2_8E3A_B8ACF85D2794"/>
+										<UML:TaggedValue tag="package_name" value="nl.nictiz.Middelomtrek-v0.97"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Disclaimer"/>
+										<UML:TaggedValue tag="author" value="Abel"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="15"/>
+										<UML:TaggedValue tag="ea_localid" value="52"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Package name="Purpose" xmi.id="EAPK_08B7CDC5_B716_44cd_BD12_4F6E8EA3B5C9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Doel: het meten en vastleggen van de middelomtrek van de patient in het dossier van de patient.&#xA;&#xA;Reden: de middelomtrek wordt gebruikt voor het maken van een inschatting van de gezondheidsrisico's die gerelateerd zijn aan viscerale vetstapeling (Codex Medicus, 2010). De hoeveelheid buikvet is een belangrijke risicofactor voor diabetes type II en hart- en vaatziekten (Frank, 2003).&#xA;&#xA;Patientengroep: patienten met overgewicht, diabetes type 2 en patienten met hart- en vaatziekten.&#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+								<UML:TaggedValue tag="created" value="2009-11-12 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2009-11-12 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2011-03-12 14:35:08"/>
+								<UML:TaggedValue tag="lastsavedate" value="2011-03-12 14:35:08"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="2"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Abel"/>
+								<UML:TaggedValue tag="alias" value="Doel"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Evidence base" xmi.id="EAPK_24AFB155_F985_4908_B41F_C5C364D42D77" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="De Body Mass Index (BMI) wordt veel gebruikt bij het vaststellen van overgewicht en de daarbij komende gezondheidsrisico's. De BMI zegt echter niets over hoe het vet in het lichaam verdeeld is. De aanwezigheid van veel buikvet is een belangrijke risicofactor voor diabetes type II en hart- en vaatziekten. &#xA;De middelomtrek is een maat voor de hoeveelheid vet in de buikholte. De middelomtrek is onafhankelijk van de lengte maar hangt nauw samen met de BMI en het totale gehalte lichaamsvet (Voedingscentrum, 2008). Barceló e.a. (2007) hebben een onderzoek gedaan naar de prevalentie van diabetes bij mensen ouder dan 60 jaar in Amerika, Zuid-Amerika en de Caraïben. In de onderzoeksgroep van in totaal 10.518 deelnemers bleek dat de diagnose diabetes in alle gevallen in verband gebracht kon worden met de middelomtrek, behalve in Mexico City. De BMI kon slechts in twee steden en drie etnische groepen de prevalentie van diabetes significant verklaren (Barceló e.a., 2007). &#xA;Het gebruik van het meten van de middelomtrek voor het vaststellen van overgewicht in de buikstreek is de laatste jaren breed geaccepteerd. Jermendy heeft in een onderzoek bij 150 volwassenen vastgesteld dat de intra-, en interbeoordelaars betrouwbaarheid geen klinische relevantie heeft en dat het meten van de middelomtrek een betrouwbare parameter is (Jermendy, 2006).&#xA;Over de reden waarom buikvet zoveel risico's geeft is nog veel onduidelijkheid. Het is mogelijk dat buikvet terecht komt in de poortader en snel in de lever. Een andere mogelijkheid is dat het buikvet meer stoffen bevat die een negatieve invloed op de gezondheid hebben. Ook wordt gedacht dat het vet in de buik pas daar wordt opgeslagen als het elders in het lichaam &quot;vol&quot; is. Tevens kan het vet zelfs in de organen (zoals alvleesklier en lever) terecht komen, waar het een negatieve invloed heeft op de stofwisseling (Voedingscentrum, 2008).&#xA;De middelomtrek wordt ook gebruikt voor het bepalen van de middel - heup ratio, waarbij gekeken wordt naar de verhouding van de middelomtrek en die van de heupen. (Waist-Hip ratio). Onderzoek heeft aangetoond dat het meten van de middelomtrek voor de meeste doeleinden al voldoende is (WHO, 2002). &#xA;Mannen hebben vaak een appelvormige vetverdeling (vet op de buik) en vrouwen een peervormige vetverdeling (meer vet op de heupen dan op de buik). Echter: Ten opzichte van mannen met dezelfde middelomtrek hebben vrouwen een hoger risico op het krijgen van hartaandoeningen. Bepaalde etnische groepen, zoals Hindoestanen en ook mensen met een zeer donkere huidskleur, zijn uitzonderlijk gevoelig voor het stapelen van vet in de buikholte. Deze groepen mensen zijn daarom veel gevoeliger voor het ontwikkelen van Diabetes Mellitus en hebben een hoger risico op het ontwikkelen van hart- en vaatziekten (Sadikot, 2008). &#xA;Okosun beschrijft dat ondanks een gelijke BMI de Zuid Aziaten een groter vetpercentage hebben, met name in de buikstreek en dat dus bij Aziaten de middelomtrek groter is. Ook in andere Etnische groepen lijkt er verschil te zitten. Okosun pleit voor een uitsplitsing van de optimale middelomtrek naar verschillende etnische groepen.(Okosun, 2008)."/>
+								<UML:TaggedValue tag="parent" value="EAPK_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+								<UML:TaggedValue tag="created" value="2009-11-12 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2009-11-12 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2011-03-12 14:35:08"/>
+								<UML:TaggedValue tag="lastsavedate" value="2011-03-12 14:35:08"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="3"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Abel"/>
+								<UML:TaggedValue tag="alias" value="Wetenschappelijke onderbouwing"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Information model" xmi.id="EAPK_5DF50741_FF72_47f6_9605_DFD5E48D2B00" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+								<UML:TaggedValue tag="created" value="2009-11-12 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2009-11-12 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2011-03-12 14:35:08"/>
+								<UML:TaggedValue tag="lastsavedate" value="2011-03-12 14:35:08"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="4"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Abel"/>
+								<UML:TaggedValue tag="alias" value="Informatiemodel"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Class name="Middelomtrek" xmi.id="EAID_F2C73018_D365_4656_A357_7876849EDAFB" visibility="public" namespace="EAPK_5DF50741_FF72_47f6_9605_DFD5E48D2B00" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="rootconcept"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_5DF50741_FF72_47f6_9605_DFD5E48D2B00"/>
+										<UML:TaggedValue tag="date_created" value="2009-11-20 16:14:17"/>
+										<UML:TaggedValue tag="date_modified" value="2010-01-07 15:18:56"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Abel"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="rootconcept"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="119"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=0;BorderWidth=3;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={C9EFB6F9-81B2-4417-A787-491B47830D30}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={F2C73018-D365-4656-A357-7876849EDAFB}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={AB65016D-56C3-4c48-B651-234534F396C4}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=rootconcept;GUID={29EF7A19-C858-4b55-8E90-3F4F11973CCD};@ENDSTEREO;$DES;$CLT={F2C73018-D365-4656-A357-7876849EDAFB}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Association xmi.id="EAID_9DEB0B95_680C_419f_8F0E_FB85CEA4D15F" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Aggregation"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="subtype" value="Strong"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="69"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Omtrek"/>
+										<UML:TaggedValue tag="ea_targetName" value="Middelomtrek"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="120"/>
+										<UML:TaggedValue tag="ea_targetID" value="119"/>
+										<UML:TaggedValue tag="$ea_src_xref_property" value="$XREFPROP=$XID={B5E776CF-CB81-43f1-8BA7-0645DEF54BA9}$XID;$NAM=CustomProperties$NAM;$TYP=connectorSrcEnd property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isDerivedUnion@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=false@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=isDerived@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=false@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=default@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=isReadOnly@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=false@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=isComposite@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=aggregation@ENDNAME;@TYPE=AggregationKind@ENDTYPE;@VALU=none@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={9DEB0B95-680C-419f-8F0E-FB85CEA4D15F}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+										<UML:TaggedValue tag="$ea_dst_xref_property" value="$XREFPROP=$XID={8A3DCF60-BBA5-4964-959E-2FE95E65C02F}$XID;$NAM=CustomProperties$NAM;$TYP=connectorDestEnd property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isDerivedUnion@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=false@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=isDerived@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=false@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=default@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=isReadOnly@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=false@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=isComposite@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=aggregation@ENDNAME;@TYPE=AggregationKind@ENDTYPE;@VALU=none@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={9DEB0B95-680C-419f-8F0E-FB85CEA4D15F}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_FFB42B9A_5914_426f_8C47_07CBBF8CD9EA">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="composite" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_F2C73018_D365_4656_A357_7876849EDAFB">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Class name="Omtrek" xmi.id="EAID_FFB42B9A_5914_426f_8C47_07CBBF8CD9EA" visibility="public" namespace="EAPK_5DF50741_FF72_47f6_9605_DFD5E48D2B00" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="data"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_5DF50741_FF72_47f6_9605_DFD5E48D2B00"/>
+										<UML:TaggedValue tag="date_created" value="2009-11-20 16:14:40"/>
+										<UML:TaggedValue tag="date_modified" value="2010-01-07 15:21:42"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Abel"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="data"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="120"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={DD5A84D6-DCEF-48c1-8538-A59EC314A97E}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=data;GUID={0A041525-5182-49a3-946A-19823EE00EBA};@ENDSTEREO;$DES;$CLT={FFB42B9A-5914-426f-8C47-07CBBF8CD9EA}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;$XREFPROP=$XID={75BFDDFF-2981-46ee-B63B-0338002894B6}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={FFB42B9A-5914-426f-8C47-07CBBF8CD9EA}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+									<UML:ModelElement.constraint>
+										<UML:Constraint name="Minder dan 10 meter">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="description" value="inv:value&gt;=0 and value&lt;1000"/>
+												<UML:TaggedValue tag="type" value="OCL"/>
+												<UML:TaggedValue tag="weight" value="1,00"/>
+												<UML:TaggedValue tag="status" value="Approved"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Constraint>
+										<UML:Constraint name="Omtrek in centimeters">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="description" value="inv:unit='cm'"/>
+												<UML:TaggedValue tag="type" value="OCL"/>
+												<UML:TaggedValue tag="weight" value="0,00"/>
+												<UML:TaggedValue tag="status" value="Approved"/>
+											</UML:ModelElement.taggedValue>
+										</UML:Constraint>
+									</UML:ModelElement.constraint>
+								</UML:Class>
+								<UML:Generalization subtype="EAID_FFB42B9A_5914_426f_8C47_07CBBF8CD9EA" supertype="EAID_47741A68_C41C_4203_9178_E3B577A337C8" xmi.id="EAID_59F44B69_904F_4d44_B8B0_A2CFEF8EBB32" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Generalization"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="68"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Omtrek"/>
+										<UML:TaggedValue tag="ea_targetName" value="PQ"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="120"/>
+										<UML:TaggedValue tag="ea_targetID" value="8"/>
+										<UML:TaggedValue tag="src_visibility" value="Public"/>
+										<UML:TaggedValue tag="src_aggregation" value="0"/>
+										<UML:TaggedValue tag="src_isOrdered" value="false"/>
+										<UML:TaggedValue tag="src_targetScope" value="instance"/>
+										<UML:TaggedValue tag="src_changeable" value="none"/>
+										<UML:TaggedValue tag="src_isNavigable" value="false"/>
+										<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="dst_visibility" value="Public"/>
+										<UML:TaggedValue tag="dst_aggregation" value="0"/>
+										<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+										<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+										<UML:TaggedValue tag="dst_changeable" value="none"/>
+										<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+										<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={D12AD163-2BC6-45ad-96A1-04C437B3810C}$XID;$NAM=CustomProperties$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=isSubstitutable@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={59F44B69-904F-4d44-B8B0-A2CFEF8EBB32}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Generalization>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Instructions" xmi.id="EAPK_449E597E_4D1C_444f_A002_231EAC7D7B9B" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Er zijn 4 plaatsen waar de middelomtrek over het algemeen gemeten wordt:&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;meteen onder de onderste rib;&lt;/li&gt;&#xA;	&lt;li&gt;op het smalste deel van het middel;&lt;/li&gt;&#xA;	&lt;li&gt;het middelpunt tussen de onderste rib en het bekken;&lt;/li&gt;&#xA;	&lt;li&gt;meteen boven het bekken (Wang e.a., 2003).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;Zowel de WHO als het RIVM geven het middelpunt tussen de onderste rib en het bekken aan als plaats van meten (RIVM, 2008).&#xA;Leg een soepele centimeter om het blote middel. Trek de centimeter niet te strak aan, maar laat deze rond het middel aansluiten. Adem uit en meet de middelomtrek rond het slankste deel van de taille. Dit is het punt tussen de onderkant van de onderste rib en de bovenkant van het bekken."/>
+								<UML:TaggedValue tag="parent" value="EAPK_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+								<UML:TaggedValue tag="created" value="2009-11-12 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2010-01-06 17:16:17"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2011-03-12 14:35:08"/>
+								<UML:TaggedValue tag="lastsavedate" value="2011-03-12 14:35:08"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="5"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Abel"/>
+								<UML:TaggedValue tag="alias" value="Werkwijze"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Interpretation" xmi.id="EAPK_2306DFEE_CD15_44c0_86CE_4532CBC7C67E" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="De ideale middelomtrek dient lager te zijn dan of gelijk te zijn aan 88 cm bij vrouwen en lager dan of gelijk aan 102 cm bij mannen. Boven deze limiet is er een verhoogd risico op met overgewicht gerelateerde stofwisselingsproblemen. Een hoge middelomtrek is in verband gebracht met een toegenomen risico voor diabetes mellitus en met verschillende hart- en vaat ziekten (Medinet, 2008). &#xA;Onderstaande indeling geldt voor volwassenen van 18 tot ongeveer 60 jaar. Dat heeft te maken met een andere lichaamsbouw. Over deze grenswaarden is nog discussie. (Voedingscentrum, 2008).  &#xA;&#xA;Middelomtrek mannen &amp;lt;94, vrouwen&amp;lt;80: probeer op gewicht te blijven (geen verhoogd risico).&#xA;Middelomtrek mannen 94-102, vrouwen 80-88: blijf op gewicht (nog geen verhoogd risico, maar de gevaren zone komt in beeld)&#xA;Middelomtrek mannen 102 en hoger, vrouwen 88 en hoger: probeer af te vallen (verhoogd risico)"/>
+								<UML:TaggedValue tag="parent" value="EAPK_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+								<UML:TaggedValue tag="created" value="2009-11-12 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2009-11-12 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2011-03-12 14:35:08"/>
+								<UML:TaggedValue tag="lastsavedate" value="2011-03-12 14:35:08"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="6"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Abel"/>
+								<UML:TaggedValue tag="alias" value="Interpretatierichtlijnen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Care process" xmi.id="EAPK_6A004A06_A972_4b9f_84D3_EDAC580068BF" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="De middelomtrek geeft samen met de BMI en het totale vetgehalte van het lichaam een goede indicatie van de gezondheidsrisico's. De middel omtrek wordt ook gebruikt voor het bepalen van de Middel-Heup ratio."/>
+								<UML:TaggedValue tag="parent" value="EAPK_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+								<UML:TaggedValue tag="created" value="2009-11-12 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2009-11-12 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2011-03-12 14:35:08"/>
+								<UML:TaggedValue tag="lastsavedate" value="2011-03-12 14:35:08"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="8"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Abel"/>
+								<UML:TaggedValue tag="alias" value="Zorgproces/afhankelijkheid"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="References" xmi.id="EAPK_55729589_B835_43fc_BE70_D6D87BD1C795" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;ul&gt;&#xA;	&lt;li&gt;Barceló, A., Gregg, E.W., Pastor-Valero, M., Robles, S.C. (2007). Waist circumference, BMI and the prevalence of self reported diabetes among the elderly of the United States and six cities of Latin America and Caribbean. Diabetes Researchand Clinical Paractice, 78, 418-427.&lt;/li&gt;&#xA;	&lt;li&gt;Queteletindex (body mass index, BMI). Verkregen op 16 maart 2010, van http://www.codexmedicus.nl/sectie/42/Chap42disp8800/Queteletindex_%28body_mass_index_BMI%29.html&lt;/li&gt;&#xA;	&lt;li&gt;Frank, B. (2003) Overweight and obesity in women: health risks and consequences. Journal of women's health. 12 (2), 163-172.&lt;/li&gt;&#xA;	&lt;li&gt;Jermendy, G., Nádas, Z., Putz, Z. Assessing the reliability of measuring waist circumference. Review published in 2006 in Diabetic Medicine 23 (suppl 4) 608-753&lt;/li&gt;&#xA;	&lt;li&gt;Leent-Loenen HMJA (2008). Wat is overgewicht en wat is ondergewicht? In: Volksgezondheid Toekomst Verkenning, Nationaal Kompas Volksgezondheid. Bilthoven: RIVM, http://www.nationaalkompas.nl Gezondheidsdeterminanten\ Persoonsgebonden\ Lichaamsgewicht, 22 september 2008.&lt;/li&gt;&#xA;	&lt;li&gt;Medinet (2008). Vermageren: een belangrijk gebaar voor de gezondheid. Verkregen op 6 februari 2009 van http://www.medinet.be/shownews.asp?ID=1718&lt;/li&gt;&#xA;	&lt;li&gt;Middelomtrek en BMI voorspellen hart- en vaatziekten. Verkregen op 16 maart 2010, van http://www.hartstichting.nl&lt;/li&gt;&#xA;	&lt;li&gt;Okosun, (2008). Tightening the belt?but by how much? Diabetic and metabolic syndrome. Clinical research and reviews. 2, 235-238.&lt;/li&gt;&#xA;	&lt;li&gt;Sadikot, S.M. (2008) Tightening the belt? but by how much? Diabetes and metabolic syndromes: Clinical Research and Reviews. 2, 235-238.&lt;/li&gt;&#xA;	&lt;li&gt;Voedingscentrum (2008). Middelomtrek. Verkregen op 6 februari 2009 van http://www.voedingscentrum.nl/EtenEnGezondheid/Gewicht/gezond+gewicht/middelomtrek.htmWang, J., Thornton, J.C., Bari, S., Williamson, B., Gallagher, D., Heymsfield, S.B., Horlick, M., Kotler, D., Laferrére, B., Mayer, L., Pi-Sunyer, F.X., Pierson, R.N. (2003) Comparison of waist circumferences measured at 4 sites. The American Journal of Clinical Nutrition.  77, 379-384.&lt;/li&gt;&#xA;	&lt;li&gt;WHO (2002) Obesity: Preventing and managing the global epidemic . Report of WHO Consultation . In Overgewicht en Obesitas: Rapport Gezondheidsraad Den Haag, 2002.&lt;/li&gt;&#xA;&lt;/ul&gt;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+								<UML:TaggedValue tag="created" value="2009-11-20 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2009-11-20 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2011-03-12 14:35:08"/>
+								<UML:TaggedValue tag="lastsavedate" value="2011-03-12 14:35:08"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="13"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Abel"/>
+								<UML:TaggedValue tag="alias" value="Referenties"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Disclaimer" xmi.id="EAPK_89CA601A_E187_4ce2_8E3A_B8ACF85D2794" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Nictiz als opdrachtgever en Results 4 Care B.V. en Parelsnoer als uitvoerders besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze DCM. Onjuistheden en onvolledigheden kunnen echter voorkomen. Nictiz, Results 4 Care en Parelsnoer zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door Nictiz, Results 4 Care, Parelsnoer of door U aan Nictiz, Results 4 Care of Parelsnoer via een website van Nictiz, Results 4 Care of Parelsnoer of via e-mail, of anderszins langs elektronische weg. &#xA;&#xA;Tevens aanvaarden Nictiz, Results 4 Care en Parelsnoer geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of ideeën verstrekt door of namens Nictiz via deze DCM, Detailed Clinical Model. Nictiz  aanvaardt geen verantwoordelijkheid voor de inhoud van informatie in deze DCM waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.&#xA;&#xA;In geval van tegenstrijdigheden in de genoemde DCM documenten en bestanden geeft de meest recente en hoogste versie van de vermelde volgorde in de revisies de prioriteit van de desbetreffende documenten weer. &#xA;&#xA;Indien informatie die in de elektronische versie van deze DCM is opgenomen ook schriftelijk wordt verstrekt, zal in geval van tekstverschillen de schriftelijke versie bepalend zijn. Dit geldt indien de versieaanduiding en datering van beiden gelijk is. Een definitieve versie heeft prioriteit echter boven een conceptversie. Een gereviseerde versie heeft prioriteit boven een eerdere versie.&#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+								<UML:TaggedValue tag="created" value="2009-11-12 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2009-11-12 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2011-03-12 14:35:08"/>
+								<UML:TaggedValue tag="lastsavedate" value="2011-03-12 14:35:08"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="15"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Abel"/>
+								<UML:TaggedValue tag="alias" value="Disclaimer"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Copyrights" xmi.id="EAPK_874E08DC_CEB1_4648_9C2E_EE045786FCDC" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&#xA;&lt;b&gt;&lt;i&gt;Licenties van bronmateriaal&lt;/i&gt;&lt;/b&gt;&#xA;Niet van toepassing, voor deze DCM worden geen licenties gevraagd."/>
+								<UML:TaggedValue tag="parent" value="EAPK_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+								<UML:TaggedValue tag="created" value="2009-11-12 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2010-03-12 16:59:20"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2011-03-12 14:35:08"/>
+								<UML:TaggedValue tag="lastsavedate" value="2011-03-12 14:35:08"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="17"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Abel"/>
+								<UML:TaggedValue tag="alias" value="Copyrights"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:TaggedValue tag="Creation.Date" xmi.id="EAID_B4623BC7_E6DC_4ba3_AFEC_30BA5E726C7E" value="20100312" modelElement="MX_EAID_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+		<UML:TaggedValue tag="DCM.authors" xmi.id="EAID_586D1E7C_9E4B_4500_9C0E_E3D0D7ECFE49" value="Drs. Y.J. Koster-de Jong" modelElement="MX_EAID_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+		<UML:TaggedValue tag="DCM.authors.informationmodel" xmi.id="EAID_108985D2_54E1_409e_8EBA_16E0152FE5B9" value="Abel Enthoven" modelElement="MX_EAID_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+		<UML:TaggedValue tag="DCM.descriptionLanguage" xmi.id="EAID_8275FB5D_BBD3_45d6_95A2_EF4643612261" value="nl" modelElement="MX_EAID_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+		<UML:TaggedValue tag="DCM.effective.Date" xmi.id="EAID_4BD2EFA1_49A7_47cd_9D6C_A731F612487A" value="20100312" modelElement="MX_EAID_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+		<UML:TaggedValue tag="DCM.format" xmi.id="EAID_994C0AF7_479C_45af_BEAF_8D5945F34421" value="UML/XMI" modelElement="MX_EAID_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+		<UML:TaggedValue tag="DCM.id" xmi.id="EAID_65F3B8A1_88CB_4cb1_B9F5_7EF974EA0D8A" value="DCMR4C48" modelElement="MX_EAID_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+		<UML:TaggedValue tag="DCM.Name" xmi.id="EAID_E02E04E5_49AC_4db6_8136_A98D325D3986" value="nl.nictiz.Middelomtrek.v0.96" modelElement="MX_EAID_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+		<UML:TaggedValue tag="DCM.Publisher" xmi.id="EAID_EA53C40D_8EB9_401e_A252_26D2438452A1" value="Results4Care, Parelsnoer Initiatief" modelElement="MX_EAID_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+		<UML:TaggedValue tag="DCM.version" xmi.id="EAID_CC39E4DE_D641_49e8_B168_DA0EF1155FA8" value="0.96" modelElement="MX_EAID_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+		<UML:TaggedValue tag="Development status" xmi.id="EAID_05B04D69_5569_4db1_A080_E7D29F1360DB" value="Author Draft" modelElement="MX_EAID_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+		<UML:TaggedValue tag="Publication status" xmi.id="EAID_86DD1D2E_5B2C_43b4_B7BD_BE136A2E3E25" value="Approved for testing" modelElement="MX_EAID_A4E2697B_6842_4be8_9556_6870944C33A1"/>
+		<UML:TaggedValue tag="DCM.id" xmi.id="EAID_55877B59_9749_483a_ADD8_BB7CC990C947" value="DCMR4C48" modelElement="EAID_F2C73018_D365_4656_A357_7876849EDAFB"/>
+		<UML:TaggedValue tag="DefinitionCode" xmi.id="EAID_05A95FC5_8797_4163_A4FA_6C07A50A5A20" value="Parelsnoer: 10.1" modelElement="EAID_F2C73018_D365_4656_A357_7876849EDAFB"/>
+		<UML:TaggedValue tag="DefinitionCode" xmi.id="EAID_D814BBC8_05A7_47c2_B06A_3B36DE838FEB" value="SNOMED-CT: 276361009 waist circumference" modelElement="EAID_FFB42B9A_5914_426f_8C47_07CBBF8CD9EA"/>
+		<UML:Diagram name="Information model" xmi.id="EAID_685684EB_B57F_4045_92AA_2D089C3C0E75" diagramType="ClassDiagram" owner="EAPK_5DF50741_FF72_47f6_9605_DFD5E48D2B00" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="0.96"/>
+				<UML:TaggedValue tag="author" value="Abel Enthoven"/>
+				<UML:TaggedValue tag="created_date" value="2009-11-20 16:14:14"/>
+				<UML:TaggedValue tag="modified_date" value="2010-03-19 15:07:12"/>
+				<UML:TaggedValue tag="package" value="EAPK_5DF50741_FF72_47f6_9605_DFD5E48D2B00"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
+				<UML:TaggedValue tag="ea_localid" value="6"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=780;DocSize.cy=1134;ShowDetails=1;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=410;Top=190;Right=526;Bottom=344;" subject="EAID_FFB42B9A_5914_426f_8C47_07CBBF8CD9EA" seqno="1" style="DUID=A93E9EF1;RzO=1;Constraint=1;"/>
+				<UML:DiagramElement geometry="Left=210;Top=260;Right=320;Bottom=340;" subject="EAID_F2C73018_D365_4656_A357_7876849EDAFB" seqno="2" style="DUID=22B5AE34;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_9DEB0B95_680C_419f_8F0E_FB85CEA4D15F" style="Mode=3;EOID=22B5AE34;SOID=A93E9EF1;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EAStub xmi.id="EAID_47741A68_C41C_4203_9178_E3B577A337C8" name="PQ" UMLType="Class"/>
+	</XMI.extensions>
+</XMI>
