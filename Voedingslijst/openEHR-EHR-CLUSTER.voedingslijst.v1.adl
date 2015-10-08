@@ -1,0 +1,702 @@
+archetype (adl_version=1.4)
+	openEHR-EHR-CLUSTER.voedingslijst.v1
+
+concept
+	[at0000]	-- Voedingslijst
+language
+	original_language = <[ISO_639-1::nl]>
+description
+	original_author = <
+		["name"] = <"Anneke Goossen">
+		["organisation"] = <"Results 4 Care (www.results4care.nl)">
+		["email"] = <"results4care@cs.com">
+		["date"] = <"13-7-2009">
+	>
+	details = <
+		["nl"] = <
+			language = <[ISO_639-1::nl]>
+			purpose = <"Het doel van de voedingslijst is het verkrijgen van inzicht in de voedingsinname van de patiënt. Zodoende kan een goede voedingstoestand gehandhaafd blijven of worden bevorderd. 
+
+Wetenschappelijke onderbouwing
+Ongeveer 25-40% van de ziekenhuis patiënten is bij binnenkomst ondervoed, slechts de helft hiervan wordt herkend en behandeld. Ondanks de campagne “Wie beter eet wordt sneller beter” in 2001 is dit niet verbeterd. De bovengenoemde cijfers lopen na de opname nog verder op. Onvoldoende voeding kan leiden tot verminderde wondgenezing, decubitus, post operatieve complicaties en orgaanfalen. Hierdoor is er bij deze groep een hogere sterfte (Kruizinga, 2005 en Evers, 2008). Om patiënten op tijd te kunnen behandelen is herkenning van een patiënt met ondervoeding bij opname een eerste vereiste. Hiervoor is het systematisch gebruik van een gevalideerd meetinstrument voor ondervoeding noodzakelijk (IGZ et al., 2007).
+In de Basisset Prestatie-indicatoren Ziekenhuizen wordt de SNAQ als hulpmiddel genoemd bij het screenen op ondervoeding. Uit recent onderzoek in Nederland blijkt dat bijvoeding van hoogrisicopatiënten geïdentificeerd met de SNAQ het aantal verpleegdagen met 1 dag verkort (IGZ, 2008). Bij een SNAQ score van 0 tot 2 punten dient er een voedingslijst te worden bijgehouden (Stuurgroep Ondervoeding, 2009)
+De voedingslijst wordt ingevuld om een goed inzicht te krijgen in de hoeveelheid voeding die de patiënt eet. Met een uitkomst van een scorelijst als de SNAQ kan dan bepaald worden of de patiënt voldoende voedingsstoffen binnenkrijgt of dat er met aanvullende voeding gestart moet worden. De SNAQ is uitgewerkt in een aparte DCM SNAQ met DCMR4C13.
+">
+			use = <"De voedingslijst wordt minstens 4 dagen achtereen ingevuld. Dit dienen normale dagen te zijn, geen feestdagen of dieetdagen. De lijst geeft dan een representatief beeld van de voedingsinname (Erasmus, 2009). 
+
+Op de lijst worden per maaltijd de ingenomen voedingsmiddelen aangegeven. Voor het vocht wordt de hoeveelheid in ml aangegeven. Aan het eind van de dag kan het totaal van ingenomen vocht worden berekend.  
+Van elk voedingsmiddel wordt het aantal vermenigvuldigd met het aangegeven puntenaantal. Dit aantal stuks voeding x het aantal punten geeft een indicatie van de calorieën. Deze totaal punten worden opgeteld. 
+
+
+Interpretatierichtlijnen
+De voedingslijst kan worden vergeleken met de normale voedingsinname van de patiënt of met de richtlijn voor gezonde voeding van de Gezondheidsraad (Gezondheidsraad, 2006). Zo kan worden beoordeeld of de voedingsinname van de patiënt voldoende is. Bij de voedingslijst van het Medisch Centrum Alkmaar wordt tevens de hoeveelheid drinken en de calorieënintake bijgehouden. De vochtintake dient 1500-1700 ml per dag te zijn, indien dit minder is dient er vaker drinken aangeboden te worden. Bij een calorieënintake rond de 1500 kcal is er geen actie nodig. Is de calorieënintake 1000-1500 kcal dan dienen er twee pakjes drinkvoeding gegeven te worden en dient er een bespreking in het multidisciplinair overleg gehouden te worden. Is de calorieënintake minder dan 1000kcal dan dient een diëtiste ingeschakeld te worden. Indien er wel een goede calorieënintake is maar de patiënt toch gewichtsverlies heeft dient ook contact te worden opgenomen met een diëtist.
+
+Zorgproces/ afhankelijkheid
+Indien blijkt dat de voedingsinname onvoldoende is zal er als dat nog niet gebeurd is een SNAQ inventarisatie gedaan worden. Indien er een risico is op ondervoeding kan gestart worden met het geven van aanvullende voeding. ">
+			keywords = <"Voedingslijst", "Intake lijst", "Voedingsinnamelijst", "Lijst">
+			misuse = <"">
+		>
+	>
+	lifecycle_state = <"NotSet">
+	other_contributors = <"Y. Koster- de Jong, Results 4 Care", "W. Goossen, Results 4 Care">
+	other_details = <
+		["references"] = <"ErasmusMC (2009). Instructie voedingslijst. Verkregen op 7 mei 2009, van  www.erasmusmc.nl/alkg-cs/34690131/51016/659264/665805/669779/instructievoedlijst.doc?lang=nl
+
+Evers, A.M., Kruizenga, H.M., (2009). Vroege herkenning en behandeling ondervoeding loont. Zorgvisie 2009. Verkregen op 10 februari 2009, van http://www.zorgvisie.nl/opinie/ingezonden-bijdragen/Vroege-herkenning-en-behandeling-ondervoeding-loont.htm
+
+Gezondheidsraad (2006). Richtlijnen Gezonde Voeding. Gezondheidsraad, Den Haag. Publicatie nr. 2006/21
+
+IGZ (2008) Prestatie-Indicatoren Ziekenhuizen Basisset 2009. Verkregen op 7 mei 2009, van http://www.igz.nl/997786/Basisset_Ziekenhuizen_2009.pdf
+
+Kruizenga, H.M., Van Tulder, M.W., Seidell, J.C., Thijs, A., Ader, H.J., Van Bokhorst-de van der Schueren, M.A.E. (2005) Effectiveness and cost-effectiveness of early screening and treatment of malnourished patients. American  Journal of  Clinical Nutrition;62:1082-1089.
+
+Stuurgroep Ondervoeding (2009).  Prestatie-indicator Ondervoeding: screening en behandeling. Verkregen op 7 mei 2099, van  www.stuurgroepondervoeding.nl/fileadmin/snellerbeter/documenten/.../3-3-2008/Leeswijzer_PI_ondervoeding_2008_def.doc
+">
+	>
+
+definition
+	CLUSTER[at0000] matches {	-- Voedingslijst
+		items cardinality matches {0..*; unordered} matches {
+			ELEMENT[at0008] occurrences matches {0..1} matches {	-- Datum
+				value matches {
+					DV_DATE matches {
+						value matches {yyyy-??-??}
+					}
+				}
+			}
+			CLUSTER[at0007] occurrences matches {1..*} matches {	-- Soort voedingsmiddel
+				items cardinality matches {0..*; unordered} matches {
+					ELEMENT[at0005] occurrences matches {0..1} matches {	-- Brood
+						value matches {
+							C_DV_QUANTITY <
+								property = <[openehr::118]>
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0009] occurrences matches {0..1} matches {	-- Brood zonder korst
+						value matches {
+							C_DV_QUANTITY <
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0010] occurrences matches {0..1} matches {	-- Krentenbrood
+						value matches {
+							C_DV_QUANTITY <
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0011] occurrences matches {0..1} matches {	-- Beschuit
+						value matches {
+							C_DV_QUANTITY <
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0012] occurrences matches {0..1} matches {	-- Ontbijtkoek
+						value matches {
+							C_DV_QUANTITY <
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0013] occurrences matches {0..1} matches {	-- Margarine/ boter
+						value matches {
+							C_DV_QUANTITY <
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0014] occurrences matches {0..1} matches {	-- Kaas
+						value matches {
+							C_DV_QUANTITY <
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0015] occurrences matches {0..1} matches {	-- Vleeswaren
+						value matches {
+							C_DV_QUANTITY <
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0016] occurrences matches {0..1} matches {	-- Zoet beleg
+						value matches {
+							C_DV_QUANTITY <
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0017] occurrences matches {0..1} matches {	-- Pap zonder suiker
+						value matches {
+							C_DV_QUANTITY <
+								property = <[openehr::129]>
+								list = <
+									["1"] = <
+										units = <"ml">
+									>
+								>
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0018] occurrences matches {0..1} matches {	-- Pap en roomboter
+						value matches {
+							C_DV_QUANTITY <
+								property = <[openehr::129]>
+								list = <
+									["1"] = <
+										units = <"ml">
+									>
+								>
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0049] occurrences matches {0..1} matches {	-- Thee/koffie
+						value matches {
+							C_DV_QUANTITY <
+								property = <[openehr::129]>
+								list = <
+									["1"] = <
+										units = <"ml">
+									>
+								>
+							>
+						}
+					}
+					ELEMENT[at0020] occurrences matches {0..1} matches {	-- Suiker
+						value matches {
+							C_DV_QUANTITY <
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0021] occurrences matches {0..1} matches {	-- Halfvolle melk
+						value matches {
+							C_DV_QUANTITY <
+								property = <[openehr::129]>
+								list = <
+									["1"] = <
+										units = <"ml">
+									>
+								>
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0022] occurrences matches {0..1} matches {	-- Karnemelk
+						value matches {
+							C_DV_QUANTITY <
+								property = <[openehr::129]>
+								list = <
+									["1"] = <
+										units = <"ml">
+									>
+								>
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0023] occurrences matches {0..1} matches {	-- Chocolademelk
+						value matches {
+							C_DV_QUANTITY <
+								property = <[openehr::129]>
+								list = <
+									["1"] = <
+										units = <"ml">
+									>
+								>
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0024] occurrences matches {0..1} matches {	-- Vruchtensap
+						value matches {
+							C_DV_QUANTITY <
+								property = <[openehr::129]>
+								list = <
+									["1"] = <
+										units = <"ml">
+									>
+								>
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0025] occurrences matches {0..1} matches {	-- Frisdrank
+						value matches {
+							C_DV_QUANTITY <
+								property = <[openehr::129]>
+								list = <
+									["1"] = <
+										units = <"ml">
+									>
+								>
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0048] occurrences matches {0..1} matches {	-- Water/ bouillon
+						value matches {
+							C_DV_QUANTITY <
+								property = <[openehr::129]>
+								list = <
+									["1"] = <
+										units = <"ml">
+									>
+								>
+							>
+						}
+					}
+					ELEMENT[at0027] occurrences matches {0..1} matches {	-- Nutridrink/Ensini/Fortifresh
+						value matches {
+							C_DV_QUANTITY <
+								property = <[openehr::129]>
+								list = <
+									["1"] = <
+										units = <"ml">
+									>
+								>
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0028] occurrences matches {0..1} matches {	-- Fortimel
+						value matches {
+							C_DV_QUANTITY <
+								property = <[openehr::129]>
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0029] occurrences matches {0..1} matches {	-- Forticrème
+						value matches {
+							C_DV_QUANTITY <
+								property = <[openehr::129]>
+								list = <
+									["1"] = <
+										units = <"ml">
+									>
+								>
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0030] occurrences matches {0..1} matches {	-- 2 eetlepels slagroom
+						value matches {
+							C_DV_QUANTITY <
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0047] occurrences matches {0..1} matches {	-- Sondevoeding
+						value matches {
+							C_DV_QUANTITY <
+								property = <[openehr::129]>
+								list = <
+									["1"] = <
+										units = <"ml">
+									>
+								>
+							>
+						}
+					}
+					ELEMENT[at0032] occurrences matches {0..1} matches {	-- Heldere soep
+						value matches {
+							C_DV_QUANTITY <
+								property = <[openehr::129]>
+								list = <
+									["1"] = <
+										units = <"ml">
+									>
+								>
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0033] occurrences matches {0..1} matches {	-- Gebonden soep
+						value matches {
+							C_DV_QUANTITY <
+								property = <[openehr::129]>
+								list = <
+									["1"] = <
+										units = <"ml">
+									>
+								>
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0034] occurrences matches {0..1} matches {	-- Vlees (vervanging)
+						value matches {
+							C_DV_QUANTITY <
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0035] occurrences matches {0..1} matches {	-- Jus/ saus
+						value matches {
+							C_DV_QUANTITY <
+								property = <[openehr::129]>
+								list = <
+									["1"] = <
+										units = <"ml">
+									>
+								>
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0036] occurrences matches {0..1} matches {	-- Groente
+						value matches {
+							C_DV_QUANTITY <
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0037] occurrences matches {0..1} matches {	-- Aardappelen
+						value matches {
+							C_DV_QUANTITY <
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0038] occurrences matches {0..1} matches {	-- Aardappelpuree
+						value matches {
+							C_DV_QUANTITY <
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0039] occurrences matches {0..1} matches {	-- Rijst
+						value matches {
+							C_DV_QUANTITY <
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0040] occurrences matches {0..1} matches {	-- Samengesteld gerecht Soort
+						value matches {
+							DV_TEXT matches {*}
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0041] occurrences matches {0..1} matches {	-- Vruchtenmoes
+						value matches {
+							C_DV_QUANTITY <
+								property = <[openehr::129]>
+								list = <
+									["1"] = <
+										units = <"ml">
+									>
+								>
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0042] occurrences matches {0..1} matches {	-- Volle yoghurt
+						value matches {
+							C_DV_QUANTITY <
+								property = <[openehr::129]>
+								list = <
+									["1"] = <
+										units = <"ml">
+									>
+								>
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0043] occurrences matches {0..1} matches {	-- Vla
+						value matches {
+							C_DV_QUANTITY <
+								property = <[openehr::129]>
+								list = <
+									["1"] = <
+										units = <"ml">
+									>
+								>
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0044] occurrences matches {0..1} matches {	-- Vers fruit
+						value matches {
+							C_DV_QUANTITY <
+							>
+							C_DV_QUANTITY <
+							>
+						}
+					}
+					ELEMENT[at0046] occurrences matches {0..1} matches {	-- Diversen
+						value matches {
+							DV_TEXT matches {*}
+							C_DV_QUANTITY <
+							>
+						}
+					}
+				}
+			}
+			ELEMENT[at0155] occurrences matches {0..1} matches {	-- Soort maaltijd
+				value matches {
+					DV_CODED_TEXT matches {
+						defining_code matches {
+							[local::
+							at0156, 	-- Ontbijt
+							at0157, 	-- Broodmaaltijd
+							at0158, 	-- Warme maaltijd
+							at0159]	-- Tussenmaaltijd
+						}
+					}
+				}
+			}
+			ELEMENT[at0006] matches {	--  Caloriënintake totaal
+				value matches {
+					DV_COUNT matches {*}
+				}
+			}
+			ELEMENT[at0154] matches {	-- Vochtintake totaal
+				value matches {
+					DV_COUNT matches {*}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["nl"] = <
+			items = <
+				["at0000"] = <
+					text = <"Voedingslijst">
+					description = <"Een lijst waarop de voedingsinname van een patient kan worden genoteerd.Vervolgens wordt de totale vochtintake en het totaal aantal calorieën vastgesteld ">
+				>
+				["at0005"] = <
+					text = <"Brood">
+					description = <"1) Noteer het aantal stuks brood dat de patiënt gegeten heeft. 2) Dit wordt vermenigvuldigd met 3.">
+				>
+				["at0006"] = <
+					text = <" Caloriënintake totaal">
+					description = <"De totale caloriënintake wordt berekend door alle punten bij elkaar op te tellen en met 25 te vermenigvuldigen.">
+				>
+				["at0007"] = <
+					description = <"Noteer in dit onderdeel de voeding en drank die tijdens het ontbijt gegeten en gedronken wordt. Noteer het aantal stuks of het aantal ml. Meerdere values mogelijk.">
+					text = <"Soort voedingsmiddel">
+					comment = <"Het ontbijt kan als broodmaaltijd later op de dag nog een keer terugkomen. Ook dan wordt genoteerd wat de patient gegeten of gedronken heeft.">
+				>
+				["at0008"] = <
+					text = <"Datum">
+					description = <"*">
+				>
+				["at0009"] = <
+					text = <"Brood zonder korst">
+					description = <"1) Noteer het aantal stuks brood zonder korst dat de patiënt gegeten heeft.2) Dit wordt vermenigdvuldigd met 2">
+				>
+				["at0010"] = <
+					text = <"Krentenbrood">
+					description = <"1) Noteer het aantal stuks krentenbrood dat de patiënt gegeten heeft. 2) Dit wordt vermenigdvuldigd met 4">
+				>
+				["at0011"] = <
+					text = <"Beschuit">
+					description = <"1) Noteer het aantal stuks beschuit dat de patiënt gegeten heeft. 2) Dit wordt vermenigdvuldigd met 2">
+				>
+				["at0012"] = <
+					text = <"Ontbijtkoek">
+					description = <"1) Noteer het aantal stuks ontbijtkoek dat de patiënt gegeten heeft. 2) Dit wordt vermenigdvuldigd met 2">
+				>
+				["at0013"] = <
+					text = <"Margarine/ boter">
+					description = <"1) Noteer het aantal stuks margarine/boter dat de patiënt gegeten heeft. 2) Dit wordt vermenigdvuldigd met 1">
+				>
+				["at0014"] = <
+					text = <"Kaas">
+					description = <"1) Noteer het aantal stuks kaas dat de patiënt gegeten heeft. 2) Dit wordt vermenigdvuldigd met 3">
+				>
+				["at0015"] = <
+					text = <"Vleeswaren">
+					description = <"1) Noteer het aantal stuks vleeswaren dat de patiënt gegeten heeft. 2) Dit wordt vermenigdvuldigd met 2">
+				>
+				["at0016"] = <
+					text = <"Zoet beleg">
+					description = <"1) Noteer het aantal stuks zoet beleg dat de patiënt gegeten heeft. 2) Dit wordt vermenigdvuldigd met 2.">
+				>
+				["at0017"] = <
+					text = <"Pap zonder suiker">
+					description = <"1) Noter hier het aantal ml pap zonder suiker dat de patiënt gegeten heeft. Indien pap met suiker gegeten is, dan ook een aantal invullen bij suiker. 2) Dit wordt vermenigdvuldigd met 5">
+				>
+				["at0018"] = <
+					text = <"Pap en roomboter">
+					description = <"1) Noteer hier het aantal ml pap met roomboter dat de patiënt gegeten heeft. 2) Dit wordt vermenigdvuldigd met 7">
+				>
+				["at0020"] = <
+					text = <"Suiker">
+					description = <"1) Noteer het aantal stuks suiker dat de patiënt gegeten heeft. 2) Dit wordt vermenigdvuldigd met 1">
+				>
+				["at0021"] = <
+					text = <"Halfvolle melk">
+					description = <"1) Noteer hier het aantal ml halfvolle melk die de patiënt gedronken heeft. 2) Dit wordt vermenigdvuldigd met 4">
+				>
+				["at0022"] = <
+					text = <"Karnemelk">
+					description = <"1) Noteer hier het aantal ml karnemelk die de patiënt gedronken heeft. 2) Dit wordt vermenigdvuldigd met 3">
+				>
+				["at0023"] = <
+					text = <"Chocolademelk">
+					description = <"1) Noteer hier het aantal ml chocolademelk die de patiënt gedronken heeft. 2) Dit wordt vermenigdvuldigd met 6">
+				>
+				["at0024"] = <
+					text = <"Vruchtensap">
+					description = <"1) Noteer hier het aantal ml vruchtensap die de patiënt gedronken heeft. 2) Dit wordt vermenigdvuldigd met 2">
+				>
+				["at0025"] = <
+					text = <"Frisdrank">
+					description = <"1) Noteer hier het aantal ml frisdrank die de patiënt gedronken heeft. 2)  Dit wordt vermenigdvuldigd met 3">
+				>
+				["at0027"] = <
+					text = <"Nutridrink/Ensini/Fortifresh">
+					description = <"1) Noteer hier het aantal ml Nutridrink/Ensini/Fortifresh die de patiënt gedronken heeft. 2) Dit wordt vermenigdvuldigd met 12">
+				>
+				["at0028"] = <
+					text = <"Fortimel">
+					description = <"1) Noteer hier het aantal ml Fortimel melk die de patiënt gedronken heeft. 2) Dit wordt vermenigdvuldigd met 8">
+				>
+				["at0029"] = <
+					text = <"Forticrème">
+					description = <"1) Noteer het aantal ml Forticrème dat de patiënt gegeten heeft. 2) Dit wordt vermenigdvuldigd met 8">
+				>
+				["at0030"] = <
+					text = <"2 eetlepels slagroom">
+					description = <"1) Noteer hier het aantal stuks slagroom dat de patiënt gegeten heeft, 2 eetlepels tellen hierbij als 1 stuk. 2) Dit wordt vermenigdvuldigd met 3">
+				>
+				["at0032"] = <
+					text = <"Heldere soep">
+					description = <"1) Noteer hier het aantal ml heldere soep die de patiënt gedronken heeft.2) Dit wordt vermenigdvuldigd met 1">
+				>
+				["at0033"] = <
+					text = <"Gebonden soep">
+					description = <"1) Noteer hier het aantal ml gebonden soep die de patiënt gedronken heeft. 2) Dit wordt vermenigdvuldigd met 3">
+				>
+				["at0034"] = <
+					text = <"Vlees (vervanging)">
+					description = <"1) Noteer het aantal stuks vlees of vleesvervanging dat de patiënt gegeten heeft. 2) Dit wordt vermenigdvuldigd met 3">
+				>
+				["at0035"] = <
+					text = <"Jus/ saus">
+					description = <"1) Noteer hier het aantal ml jus/saus die de patiënt gedronken heeft. 2) Dit wordt vermenigdvuldigd met 1">
+				>
+				["at0036"] = <
+					text = <"Groente">
+					description = <"1) Noteer het aantal stuks groente dat de patiënt gegeten heeft. 2) Dit wordt vermenigdvuldigd met 1">
+				>
+				["at0037"] = <
+					text = <"Aardappelen">
+					description = <"1) Noteer het aantal stuks aardappelen dat de patiënt gegeten heeft. 2) Dit wordt vermenigdvuldigd met 3">
+				>
+				["at0038"] = <
+					text = <"Aardappelpuree">
+					description = <"1) Noteer het aantal stuks aardappelpuree dat de patiënt gegeten heeft.2)  Dit wordt vermenigdvuldigd met 4">
+				>
+				["at0039"] = <
+					text = <"Rijst">
+					description = <"1) Noteer het aantal stuks rijst dat de patiënt gegeten heeft. 2) Dit wordt vermenigdvuldigd met 6">
+				>
+				["at0040"] = <
+					text = <"Samengesteld gerecht Soort">
+					description = <"1) Noteer het aantal stuks van een samengesteld gerecht dat de patiënt gegeten heeft. 2) Noteer in het deel vrije tekst wat het gerecht was/ waar het gerecht uit bestond.">
+				>
+				["at0041"] = <
+					text = <"Vruchtenmoes">
+					description = <"1) Noteer hier het aantal ml vruchtenmoes die de patiënt gedronken heeft. 2) Dit wordt vermenigdvuldigd met 3">
+				>
+				["at0042"] = <
+					text = <"Volle yoghurt">
+					description = <"1) Noteer hier het aantal ml yoghurt die de patiënt gedronken heeft. 2) Dit wordt vermenigdvuldigd met 3">
+				>
+				["at0043"] = <
+					text = <"Vla">
+					description = <"1) Noteer hier het aantal ml vla die de patiënt gedronken heeft. 2) Dit wordt vermenigdvuldigd met 5">
+				>
+				["at0044"] = <
+					text = <"Vers fruit">
+					description = <"1) Noteer het aantal stuks vers fruit dat de patiënt gegeten heeft. 2) Dit wordt vermenigdvuldigd met 2">
+				>
+				["at0046"] = <
+					text = <"Diversen">
+					description = <"1) Noteer hier indien een patiënt iets gegeten heeft dat niet in deze rij staat genoemd.2) Noteer het soort en het aantal (stuks of ml)">
+				>
+				["at0047"] = <
+					text = <"Sondevoeding">
+					description = <"Noteer hier het aantal ml sondevoeding die de patiënt gekregen heeft.">
+				>
+				["at0048"] = <
+					text = <"Water/ bouillon">
+					description = <"Noteer hier het aantal ml water/bouillon die de patiënt gedronken heeft.">
+				>
+				["at0049"] = <
+					text = <"Thee/koffie">
+					description = <"Noteer hier het aantal ml thee en/of koffie die de patiënt gedronken heeft. Deze hebben geen punten waarde, indien de thee of koffie met suiker gedronken wordt dan wel een aantal invullen bij item suiker.">
+				>
+				["at0154"] = <
+					text = <"Vochtintake totaal">
+					description = <"De totale vochtintake wordt berekend door alle ml bij elkaar op te tellen.">
+				>
+				["at0155"] = <
+					text = <"Soort maaltijd">
+					description = <"Een maaltijd vindt op meerdere momenten van de dag plaats. Meestal worden er dan verschillende soorten voedingsmiddelen gegeten/ gedronken.">
+				>
+				["at0156"] = <
+					text = <"Ontbijt">
+					description = <"De eerste maaltijd van de dag">
+				>
+				["at0157"] = <
+					text = <"Broodmaaltijd">
+					description = <"Een maaltijd tijdens lunchtijd of eind van de middag">
+				>
+				["at0158"] = <
+					text = <"Warme maaltijd">
+					description = <"Een maaltijd tijdens lunchtijd of eind van de middag">
+				>
+				["at0159"] = <
+					text = <"Tussenmaaltijd">
+					description = <"Een, meestal kleine, maaltijd tussen ontbijt en lunch en/of tussen lunch en diner en/of een mmaltij in de loop van de avond..">
+				>
+			>
+		>
+	>
