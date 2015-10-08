@@ -1,0 +1,1800 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2013-06-28 16:13:21">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_C98A4755_24D2_49c4_A9B0_25CF868BBB03">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="nl.nfu.OverdrachtOpleiding-v1.1" xmi.id="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype xmi.idref="EAID_F63E3922_C9AF_4840_BC8D_5B5021FD5058"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_84855E86_47DF_4dd9_BD73_89960686AF1A"/>
+						<UML:TaggedValue tag="created" value="2009-09-19 00:00:00"/>
+						<UML:TaggedValue tag="modified" value="2013-05-24 14:25:20"/>
+						<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+						<UML:TaggedValue tag="lastloaddate" value="2012-05-21 17:06:35"/>
+						<UML:TaggedValue tag="lastsavedate" value="2012-05-21 17:06:35"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="tpos" value="25"/>
+						<UML:TaggedValue tag="packageFlags" value="CRC=0;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="MookL"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="stereotype" value="DCM"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="25"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_C98A4755_24D2_49c4_A9B0_25CF868BBB03_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Concept" xmi.id="EAID_064B38AF_0DF7_4915_AD98_3937148E4676" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#0f0f0f&quot;&gt;Hoogst genoten opleiding of opleiding die op dit moment wordt gevolgd.&lt;/font&gt;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-02 10:00:52"/>
+										<UML:TaggedValue tag="date_modified" value="2012-12-20 22:03:39"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_064B38AF_0DF7_4915_AD98_3937148E4676"/>
+										<UML:TaggedValue tag="package_name" value="nl.nfu.OverdrachtOpleiding-v1.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Concept"/>
+										<UML:TaggedValue tag="author" value="MookL"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="2"/>
+										<UML:TaggedValue tag="ea_localid" value="3184"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Terms of Use" xmi.id="EAID_34071A81_07EE_4028_BD0C_E376AC520370" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="De gebruiker mag de informatie van deze Klinische Bouwsteen zonder beperking gebruiken. Voor het kopieren, verspreiden en doorgeven van de informatie van deze Klinische bouwsteen gelden de copyrights-bepalingen uit de betreffende paragraaf."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+										<UML:TaggedValue tag="date_created" value="2010-01-08 13:46:48"/>
+										<UML:TaggedValue tag="date_modified" value="2013-02-06 12:05:42"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_34071A81_07EE_4028_BD0C_E376AC520370"/>
+										<UML:TaggedValue tag="package_name" value="nl.nfu.OverdrachtOpleiding-v1.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Gebruiksvoorwaarden"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="19"/>
+										<UML:TaggedValue tag="ea_localid" value="3201"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Patient Population" xmi.id="EAID_3B7D9553_B88C_465b_8BAE_A64502CE907A" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Vanaf 25 jaar: hoogst behaalde opleidingsniveau.&#xA;Voor respondenten jonger dan 25 jaar: de huidige opleiding die wordt gevolgd."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+										<UML:TaggedValue tag="date_created" value="2010-02-05 10:23:25"/>
+										<UML:TaggedValue tag="date_modified" value="2013-02-15 08:23:45"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_3B7D9553_B88C_465b_8BAE_A64502CE907A"/>
+										<UML:TaggedValue tag="package_name" value="nl.nfu.OverdrachtOpleiding-v1.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Groep cliënten"/>
+										<UML:TaggedValue tag="author" value="MookL"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="5"/>
+										<UML:TaggedValue tag="ea_localid" value="3187"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="References" xmi.id="EAID_3E89B96B_D09D_43d6_A299_4250FA58D8FC" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+										<UML:TaggedValue tag="date_created" value="2009-11-01 09:48:35"/>
+										<UML:TaggedValue tag="date_modified" value="2013-02-06 12:06:07"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_3E89B96B_D09D_43d6_A299_4250FA58D8FC"/>
+										<UML:TaggedValue tag="package_name" value="nl.nfu.OverdrachtOpleiding-v1.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Referenties"/>
+										<UML:TaggedValue tag="author" value="MookL"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="15"/>
+										<UML:TaggedValue tag="ea_localid" value="3197"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Copyrights" xmi.id="EAID_547CBDFD_EBDF_42d6_86F9_C89970D18381" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="De inhoud is beschikbaar onder de Creative Commons Naamsvermelding- NietCommercieel-GelijkDelen 3.0 &#xA;(zie ook &lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/3.0/nl/&quot;&gt;&lt;font color=&quot;#264eb4&quot;&gt;&lt;u&gt;http://creativecommons.org/licenses/by-nc-sa/3.0/nl/&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;)"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+										<UML:TaggedValue tag="date_created" value="2010-01-08 13:46:58"/>
+										<UML:TaggedValue tag="date_modified" value="2012-11-01 11:37:25"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_547CBDFD_EBDF_42d6_86F9_C89970D18381"/>
+										<UML:TaggedValue tag="package_name" value="nl.nfu.OverdrachtOpleiding-v1.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Copyrights"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="20"/>
+										<UML:TaggedValue tag="ea_localid" value="3202"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Traceability to other Standards" xmi.id="EAID_5B05F1C3_0A11_416d_8019_4B656976B200" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:23"/>
+										<UML:TaggedValue tag="date_modified" value="2012-11-07 18:20:42"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_5B05F1C3_0A11_416d_8019_4B656976B200"/>
+										<UML:TaggedValue tag="package_name" value="nl.nfu.OverdrachtOpleiding-v1.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Traceerbaarheid naar andere standaarden"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="17"/>
+										<UML:TaggedValue tag="ea_localid" value="3199"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Example Instances" xmi.id="EAID_65E32EAD_4D5C_4b83_932E_2163FD3837F8" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+										<UML:TaggedValue tag="date_created" value="2010-01-08 13:47:25"/>
+										<UML:TaggedValue tag="date_modified" value="2013-02-06 12:09:52"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_65E32EAD_4D5C_4b83_932E_2163FD3837F8"/>
+										<UML:TaggedValue tag="package_name" value="nl.nfu.OverdrachtOpleiding-v1.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Voorbeeld scenario"/>
+										<UML:TaggedValue tag="author" value="MookL"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="8"/>
+										<UML:TaggedValue tag="ea_localid" value="3190"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Revision History" xmi.id="EAID_76445F14_2994_451f_B85A_8CE9D2C5593D" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="1.0 15-02-2013 Eerste gepubliceerde versie&#xA;1.1 01-07-2013 Kleine aanpassingen en bugfixes"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+										<UML:TaggedValue tag="date_created" value="2010-02-19 17:16:52"/>
+										<UML:TaggedValue tag="date_modified" value="2013-06-25 10:22:26"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_76445F14_2994_451f_B85A_8CE9D2C5593D"/>
+										<UML:TaggedValue tag="package_name" value="nl.nfu.OverdrachtOpleiding-v1.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Revisie Historie"/>
+										<UML:TaggedValue tag="author" value="MookL"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="1"/>
+										<UML:TaggedValue tag="ea_localid" value="3183"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Disclaimer" xmi.id="EAID_80B86757_AEF6_48c9_88F1_7B2D0EADAAB4" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#00000a&quot;&gt;Het project ‘Generieke Overdrachtsgegevens’ is een samenwerking tussen de 8 Universitair Medische Centra in Nederland en Nictiz, hierna de Samenwerkingspartijen genoemd. De Samenwerkingspartijen besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze Klinische Bouwsteen. Onjuistheden en onvolledigheden kunnen echter voorkomen. De Samenwerkingspartijen zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door de Samenwerkingspartijen of door U aan de Samenwerkingspartijen via een website X of via e-mail, of anderszins langs elektronische weg.&lt;/font&gt;&#xA;&#xA;&lt;font color=&quot;#00000a&quot;&gt;Tevens aanvaarden de Samenwerkingspartijen geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of ideeën verstrekt door of namens de Samenwerkingspartijen via deze Klinische Bouwsteen.  &lt;/font&gt;&#xA;&lt;font color=&quot;#00000a&quot;&gt;De Samenwerkingspartijen aanvaarden geen verantwoordelijkheid voor de inhoud van informatie in deze Klinische Bouwsteen waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.&lt;/font&gt;&#xA;&lt;font color=&quot;#00000a&quot;&gt;In geval van tegenstrijdigheden in de genoemde Klinische Bouwsteen documenten en bestanden geeft de meest recente en hoogste versie van de vermelde volgorde in de revisies de prioriteit van de desbetreffende documenten weer. Indien informatie die in de elektronische versie van deze Klinische Bouwsteen is opgenomen ook schriftelijk wordt verstrekt, zal in geval van tekstverschillen de schriftelijke versie bepalend zijn. Dit geldt indien de versieaanduiding en datering van beiden gelijk is. Een definitieve versie heeft prioriteit echter boven een conceptversie. Een gereviseerde versie heeft prioriteit boven een eerdere versie.&lt;/font&gt;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+										<UML:TaggedValue tag="date_created" value="2009-11-01 10:06:44"/>
+										<UML:TaggedValue tag="date_modified" value="2012-11-07 18:20:37"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_80B86757_AEF6_48c9_88F1_7B2D0EADAAB4"/>
+										<UML:TaggedValue tag="package_name" value="nl.nfu.OverdrachtOpleiding-v1.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Disclaimer"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="18"/>
+										<UML:TaggedValue tag="ea_localid" value="3200"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Interpretation" xmi.id="EAID_A4E43D66_13C3_438f_A64B_97B9EF94CA41" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:26"/>
+										<UML:TaggedValue tag="date_modified" value="2012-12-20 22:01:45"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_A4E43D66_13C3_438f_A64B_97B9EF94CA41"/>
+										<UML:TaggedValue tag="package_name" value="nl.nfu.OverdrachtOpleiding-v1.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Interpretatierichtlijnen"/>
+										<UML:TaggedValue tag="author" value="MookL"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="10"/>
+										<UML:TaggedValue tag="ea_localid" value="3192"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Information Model" xmi.id="EAID_B30D4778_CFC0_48e1_90F4_0A5D6028CE54" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:19"/>
+										<UML:TaggedValue tag="date_modified" value="2012-11-01 11:33:34"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_B30D4778_CFC0_48e1_90F4_0A5D6028CE54"/>
+										<UML:TaggedValue tag="package_name" value="nl.nfu.OverdrachtOpleiding-v1.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Informatie Model"/>
+										<UML:TaggedValue tag="author" value="MookL"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="7"/>
+										<UML:TaggedValue tag="ea_localid" value="3189"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Constraints" xmi.id="EAID_B3ABF071_5029_4cc3_9F4F_1440B27E253C" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Deze bouwsteen is ontwikkeld voor de use case van generieke medische overdracht van patiënten tussen specialisten in ziekenhuizen."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+										<UML:TaggedValue tag="date_created" value="2010-02-12 13:38:34"/>
+										<UML:TaggedValue tag="date_modified" value="2013-02-06 12:08:16"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_B3ABF071_5029_4cc3_9F4F_1440B27E253C"/>
+										<UML:TaggedValue tag="package_name" value="nl.nfu.OverdrachtOpleiding-v1.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Inperkingen"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="13"/>
+										<UML:TaggedValue tag="ea_localid" value="3195"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Mindmap" xmi.id="EAID_BE6E79B7_2EA1_45d8_B7EA_F78D14BE4410" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+										<UML:TaggedValue tag="date_created" value="2012-12-20 08:40:16"/>
+										<UML:TaggedValue tag="date_modified" value="2012-12-20 08:41:00"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_BE6E79B7_2EA1_45d8_B7EA_F78D14BE4410"/>
+										<UML:TaggedValue tag="package_name" value="nl.nfu.OverdrachtOpleiding-v1.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="mindmap"/>
+										<UML:TaggedValue tag="author" value="MookL"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="4"/>
+										<UML:TaggedValue tag="ea_localid" value="3186"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Functional Model" xmi.id="EAID_BF35503B_4EBA_4e83_8718_0BDA111D1518" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:21"/>
+										<UML:TaggedValue tag="date_modified" value="2012-11-01 11:36:23"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_BF35503B_4EBA_4e83_8718_0BDA111D1518"/>
+										<UML:TaggedValue tag="package_name" value="nl.nfu.OverdrachtOpleiding-v1.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="16"/>
+										<UML:TaggedValue tag="ea_localid" value="3198"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Purpose" xmi.id="EAID_BFF0E8F6_DCD4_4e59_94BC_848EAF92FF64" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="De gevolgde opleiding kan een indicatie geven over de mate waarin de patiënt  in staat is om te begrijpen wat de arts uitlegt over ziekte, symptomen, behandeling en vooruitzichten als ook de mate waarin de patiënt inzicht heeft in het gebruik van de gezondheidszorg en de kans op ziektes. "/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:16"/>
+										<UML:TaggedValue tag="date_modified" value="2013-02-06 10:59:37"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_BFF0E8F6_DCD4_4e59_94BC_848EAF92FF64"/>
+										<UML:TaggedValue tag="package_name" value="nl.nfu.OverdrachtOpleiding-v1.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Doel"/>
+										<UML:TaggedValue tag="author" value="MookL"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="3"/>
+										<UML:TaggedValue tag="ea_localid" value="3185"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Issues" xmi.id="EAID_DDB22410_264F_4625_9266_07C64971961B" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="ISCED is internationaal en heeft mappingen voor alle locale opleidingen. Op dit moment heeft dit geen meerwaarde voor de uitwisseling in Nederland en iets typisch iets dat bij HL7 internationaal moet worden opgepakt. Indien de HL7 tabel internationaal wijzigt kan dit aanleiding geven tot het aanpassen van deze bouwsteen. &#xA;&#xA;http://www.uis.unesco.org/Education/Pages/international-standard-classification-of-education.aspx"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:30"/>
+										<UML:TaggedValue tag="date_modified" value="2013-02-06 12:10:34"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_DDB22410_264F_4625_9266_07C64971961B"/>
+										<UML:TaggedValue tag="package_name" value="nl.nfu.OverdrachtOpleiding-v1.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Issues en openstaande vragen"/>
+										<UML:TaggedValue tag="author" value="MookL"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="14"/>
+										<UML:TaggedValue tag="ea_localid" value="3196"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Instructions" xmi.id="EAID_DF5A9D36_5DC4_4436_A34F_548EB34F90BF" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Indien relevant geacht voor de overdracht kan middels de toelichting een specificatie van de opleiding (bijv. patient studeert Geneeskunde) worden toegevoegd.&#xA;&#xA;Voor de NHG tabel codes 'onbekend' en 'anders' wordt door de werkgroep wel de Nullflavors methodiek voor UNK en OTH voorgesteld omdat hiermee in tegenstelling tot de NHG tabel ook internationale opleidingen niet direct vertaalbaar naar de nederlandse situatie kunnen worden doorgegeven."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+										<UML:TaggedValue tag="date_created" value="2009-11-01 09:49:35"/>
+										<UML:TaggedValue tag="date_modified" value="2013-02-20 20:46:21"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_DF5A9D36_5DC4_4436_A34F_548EB34F90BF"/>
+										<UML:TaggedValue tag="package_name" value="nl.nfu.OverdrachtOpleiding-v1.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Werkwijze"/>
+										<UML:TaggedValue tag="author" value="MookL"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="9"/>
+										<UML:TaggedValue tag="ea_localid" value="3191"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Evidence Base" xmi.id="EAID_E2E77FA8_3B8C_4174_A1E4_62853C5AEA5B" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Het opleidingsniveau van een persoon wordt in de meeste zorginstellingen niet vastgelegd. In de implementatiehandleiding voor HL7v3 basiscomponenten worden twee tabellen genoemd die kunnen worden gebruikt. De internationale HL7 tabel en de in Nederland vaak gebruikte NHG tabel 20 -code opleiding.&#xA;&#xA;De (internationale) HL7 tabel is zeer sterk op de Verenigde Staten ingesteld, terwijl de Nederlandse tabel veel meer aansluit bij het systeem met verschillende niveaus van algemeen en beroepsonderwijs (MAVO, HAVO, VWO, etc.). Zo is het in de HL7 tabel onduidelijk hoe 'MBO' en 'geen opleiding' moet worden gecodeerd. &#xA;De projectgroep is daarom van mening dat een keuze voor de inhoud van de NHG tabel 20 de beste keuze is en wijkt daarin niet af van wat er in de implementatiehandleiding basiscomponenten wordt geadviseerd. "/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:18"/>
+										<UML:TaggedValue tag="date_modified" value="2013-02-15 08:24:22"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_E2E77FA8_3B8C_4174_A1E4_62853C5AEA5B"/>
+										<UML:TaggedValue tag="package_name" value="nl.nfu.OverdrachtOpleiding-v1.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Wetenschappelijke onderbouwing"/>
+										<UML:TaggedValue tag="author" value="MookL"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="6"/>
+										<UML:TaggedValue tag="ea_localid" value="3188"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Example of the Instrument" xmi.id="EAID_E520CA5D_76D7_4b22_947A_89CB4810DBF3" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:28"/>
+										<UML:TaggedValue tag="date_modified" value="2012-11-02 09:58:05"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_E520CA5D_76D7_4b22_947A_89CB4810DBF3"/>
+										<UML:TaggedValue tag="package_name" value="nl.nfu.OverdrachtOpleiding-v1.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Een voorbeeld van het instrument"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="12"/>
+										<UML:TaggedValue tag="ea_localid" value="3194"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Care Process" xmi.id="EAID_FDEB296A_8122_4a38_85AB_2498910550ED" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+										<UML:TaggedValue tag="date_created" value="2009-07-04 12:17:25"/>
+										<UML:TaggedValue tag="date_modified" value="2012-11-01 11:35:02"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_FDEB296A_8122_4a38_85AB_2498910550ED"/>
+										<UML:TaggedValue tag="package_name" value="nl.nfu.OverdrachtOpleiding-v1.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Zorgproces / afhankelijkheid"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="11"/>
+										<UML:TaggedValue tag="ea_localid" value="3193"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Package name="Revision History" xmi.id="EAPK_76445F14_2994_451f_B85A_8CE9D2C5593D" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="1.0 15-02-2013 Eerste gepubliceerde versie&#xA;1.1 01-07-2013 Kleine aanpassingen en bugfixes"/>
+								<UML:TaggedValue tag="parent" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+								<UML:TaggedValue tag="created" value="2010-02-19 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2012-12-17 14:42:46"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-05-21 17:06:35"/>
+								<UML:TaggedValue tag="lastsavedate" value="2012-05-21 17:06:35"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="1"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="MookL"/>
+								<UML:TaggedValue tag="alias" value="Revisie Historie"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Concept" xmi.id="EAPK_064B38AF_0DF7_4915_AD98_3937148E4676" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#0f0f0f&quot;&gt;Hoogst genoten opleiding of opleiding die op dit moment wordt gevolgd.&lt;/font&gt;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+								<UML:TaggedValue tag="created" value="2010-06-02 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2012-11-01 11:22:11"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-05-21 17:06:35"/>
+								<UML:TaggedValue tag="lastsavedate" value="2012-05-21 17:06:35"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="2"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="MookL"/>
+								<UML:TaggedValue tag="alias" value="Concept"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Purpose" xmi.id="EAPK_BFF0E8F6_DCD4_4e59_94BC_848EAF92FF64" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="De gevolgde opleiding kan een indicatie geven over de mate waarin de patiënt  in staat is om te begrijpen wat de arts uitlegt over ziekte, symptomen, behandeling en vooruitzichten als ook de mate waarin de patiënt inzicht heeft in het gebruik van de gezondheidszorg en de kans op ziektes. "/>
+								<UML:TaggedValue tag="parent" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:16"/>
+								<UML:TaggedValue tag="modified" value="2012-12-20 22:00:32"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:16"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:16"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="3"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="MookL"/>
+								<UML:TaggedValue tag="alias" value="Doel"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Mindmap" xmi.id="EAPK_BE6E79B7_2EA1_45d8_B7EA_F78D14BE4410" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:28"/>
+								<UML:TaggedValue tag="modified" value="2012-12-20 08:40:27"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:29"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:28"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="4"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="MookL"/>
+								<UML:TaggedValue tag="alias" value="mindmap"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Patient Population" xmi.id="EAPK_3B7D9553_B88C_465b_8BAE_A64502CE907A" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Vanaf 25 jaar: hoogst behaalde opleidingsniveau.&#xA;Voor respondenten jonger dan 25 jaar: de huidige opleiding die wordt gevolgd."/>
+								<UML:TaggedValue tag="parent" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+								<UML:TaggedValue tag="created" value="2010-02-05 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2011-01-14 08:56:27"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-05-21 17:06:35"/>
+								<UML:TaggedValue tag="lastsavedate" value="2012-05-21 17:06:35"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="5"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="MookL"/>
+								<UML:TaggedValue tag="alias" value="Groep cliënten"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Evidence Base" xmi.id="EAPK_E2E77FA8_3B8C_4174_A1E4_62853C5AEA5B" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Het opleidingsniveau van een persoon wordt in de meeste zorginstellingen niet vastgelegd. In de implementatiehandleiding voor HL7v3 basiscomponenten worden twee tabellen genoemd die kunnen worden gebruikt. De internationale HL7 tabel en de in Nederland vaak gebruikte NHG tabel 20 -code opleiding.&#xA;&#xA;De (internationale) HL7 tabel is zeer sterk op de Verenigde Staten ingesteld, terwijl de Nederlandse tabel veel meer aansluit bij het systeem met verschillende niveaus van algemeen en beroepsonderwijs (MAVO, HAVO, VWO, etc.). Zo is het in de HL7 tabel onduidelijk hoe 'MBO' en 'geen opleiding' moet worden gecodeerd. &#xA;De projectgroep is daarom van mening dat een keuze voor de inhoud van de NHG tabel 20 de beste keuze is en wijkt daarin niet af van wat er in de implementatiehandleiding basiscomponenten wordt geadviseerd. "/>
+								<UML:TaggedValue tag="parent" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:18"/>
+								<UML:TaggedValue tag="modified" value="2012-12-20 08:14:32"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:18"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:18"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="6"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="MookL"/>
+								<UML:TaggedValue tag="alias" value="Wetenschappelijke onderbouwing"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Information Model" xmi.id="EAPK_B30D4778_CFC0_48e1_90F4_0A5D6028CE54" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:19"/>
+								<UML:TaggedValue tag="modified" value="2009-07-04 12:17:19"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:20"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:19"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="7"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="MookL"/>
+								<UML:TaggedValue tag="alias" value="Informatie Model"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Class name="Opleiding" xmi.id="EAID_0C62B011_081F_41a1_8783_423130382705" visibility="public" namespace="EAPK_B30D4778_CFC0_48e1_90F4_0A5D6028CE54" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="rootconcept"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Dit is het rootconcept van de bouwsteen 'Opleiding'. Het concept bevat gegevens over de hoogst genoten opleiding."/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B30D4778_CFC0_48e1_90F4_0A5D6028CE54"/>
+										<UML:TaggedValue tag="date_created" value="2010-01-08 13:55:16"/>
+										<UML:TaggedValue tag="date_modified" value="2013-02-20 20:50:58"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="MookL"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="rootconcept"/>
+										<UML:TaggedValue tag="tpos" value="1"/>
+										<UML:TaggedValue tag="ea_localid" value="7201"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=3;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4783DF81-1ABE-4140-B032-D8462E74AF8E}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={0C62B011-081F-41a1-8783-423130382705}$CLT;$ENDXREF;$XREFPROP=$XID={94F946EB-F83A-4523-8D8A-5E168343CF1A}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=rootconcept;GUID={FF7F2377-ADFA-4355-9F4E-BA247373D156};@ENDSTEREO;$DES;$CLT={0C62B011-081F-41a1-8783-423130382705}$CLT;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Association xmi.id="EAID_7471AE64_4D9F_43df_A322_D20C96B80B75" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Aggregation"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="subtype" value="Strong"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="4269"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Toelichting"/>
+										<UML:TaggedValue tag="ea_targetName" value="Opleiding"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="7205"/>
+										<UML:TaggedValue tag="ea_targetID" value="7201"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+										<UML:TaggedValue tag="lb" value="0..1"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" multiplicity="0..1" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_C0763DCF_0627_49b6_9087_F6F3F0576058">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="composite" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_0C62B011_081F_41a1_8783_423130382705">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Association xmi.id="EAID_B1419400_B075_4f4b_8830_6D8847567ACE" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Aggregation"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="subtype" value="Strong"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="4268"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Schooltype"/>
+										<UML:TaggedValue tag="ea_targetName" value="Opleiding"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="7204"/>
+										<UML:TaggedValue tag="ea_targetID" value="7201"/>
+										<UML:TaggedValue tag="$ea_src_xref_property" value="$XREFPROP=$XID={7F1FCE4A-896F-443d-8F47-D62485A14A5C}$XID;$NAM=CustomProperties$NAM;$TYP=connectorSrcEnd property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=isComposite@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=isDerivedUnion@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=false@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=default@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=isReadOnly@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=false@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=isDerived@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=false@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=aggregation@ENDNAME;@TYPE=AggregationKind@ENDTYPE;@VALU=none@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={B1419400-B075-4f4b-8830-6D8847567ACE}$CLT;$ENDXREF;"/>
+										<UML:TaggedValue tag="$ea_dst_xref_property" value="$XREFPROP=$XID={0F49D46A-26D3-4f08-A747-ED52C9B2D938}$XID;$NAM=CustomProperties$NAM;$TYP=connectorDestEnd property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=isComposite@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=isDerivedUnion@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=false@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=default@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=isReadOnly@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=false@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=isDerived@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=false@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=aggregation@ENDNAME;@TYPE=AggregationKind@ENDTYPE;@VALU=none@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={B1419400-B075-4f4b-8830-6D8847567ACE}$CLT;$ENDXREF;"/>
+										<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+										<UML:TaggedValue tag="lb" value="0..1"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" multiplicity="0..1" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_9CCB585B_E054_405b_9134_F0CC31694C41">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="composite" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_0C62B011_081F_41a1_8783_423130382705">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Comment xmi.id="EAID_5BCD573A_DE4B_4807_975D_866EE8A5568D" visibility="public" namespace="EAPK_B30D4778_CFC0_48e1_90F4_0A5D6028CE54">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Text"/>
+										<UML:TaggedValue tag="ea_ntype" value="18"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_B30D4778_CFC0_48e1_90F4_0A5D6028CE54"/>
+										<UML:TaggedValue tag="date_created" value="2010-01-08 13:55:06"/>
+										<UML:TaggedValue tag="date_modified" value="2010-01-08 13:55:07"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="7202"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+								<UML:Comment name="Legend" xmi.id="EAID_77DB2AAD_2672_4700_BC67_28C41DCC7467" visibility="public" namespace="EAPK_B30D4778_CFC0_48e1_90F4_0A5D6028CE54">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Text"/>
+										<UML:TaggedValue tag="ea_ntype" value="76"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_B30D4778_CFC0_48e1_90F4_0A5D6028CE54"/>
+										<UML:TaggedValue tag="date_created" value="2011-01-14 08:33:18"/>
+										<UML:TaggedValue tag="date_modified" value="2011-01-14 08:40:59"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="ZelM"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="7203"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={27B8A07D-03EE-44e2-BE7B-10B45F7696B5}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=rootconcept@ENDNAME;@TYPE=LEGEND_OBJECTSTYLE@ENDTYPE;@VALU=#Back_Ground_Color#=16777215;#Pen_Color#=0;#Pen_Size#=3;#Legend_Type#=LEGEND_OBJECTSTYLE;@ENDVALU;@PRMT=0@ENDPRMT;@ENDPROP;@PROP=@NAME=data@ENDNAME;@TYPE=LEGEND_OBJECTSTYLE@ENDTYPE;@VALU=#Back_Ground_Color#=15780518;#Pen_Color#=0;#Pen_Size#=1;#Legend_Type#=LEGEND_OBJECTSTYLE;@ENDVALU;@PRMT=1@ENDPRMT;@ENDPROP;@PROP=@NAME=Legend@ENDNAME;@TYPE=LEGEND_STYLE_SETTINGS@ENDTYPE;@VALU=#TITLE#=Legend;#HEADINGSIZE#=16;#FONTCOLOR#=6303744;#BACKGROUNDCOLOR#=13741727;#BORDERCOLOR#=12754832;#BACKGROUNDISDEFAULT#=1;@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={77DB2AAD-2672-4700-BC67-28C41DCC7467}$CLT;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+								<UML:Class name="Schooltype" xmi.id="EAID_9CCB585B_E054_405b_9134_F0CC31694C41" visibility="public" namespace="EAPK_B30D4778_CFC0_48e1_90F4_0A5D6028CE54" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="data"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Typering van de hoogst genoten opleiding."/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B30D4778_CFC0_48e1_90F4_0A5D6028CE54"/>
+										<UML:TaggedValue tag="date_created" value="2010-01-08 13:56:24"/>
+										<UML:TaggedValue tag="date_modified" value="2013-02-20 21:11:52"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="MookL"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="data"/>
+										<UML:TaggedValue tag="tpos" value="2"/>
+										<UML:TaggedValue tag="ea_localid" value="7204"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={1F32EE21-CAE6-4544-9178-1381A9F7E379}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={9CCB585B-E054-405b-9134-F0CC31694C41}$CLT;$ENDXREF;$XREFPROP=$XID={93861BDE-7C1A-4ee2-9B2A-39B578A28A29}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=data;GUID={6BC5D60E-96B6-443e-9F29-8DCC3C9F3797};@ENDSTEREO;@STEREO;Name=enumeration;GUID={D48F3F0E-C063-433f-BFC2-0142250C0079};@ENDSTEREO;$DES;$CLT={9CCB585B-E054-405b-9134-F0CC31694C41}$CLT;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Dependency client="EAID_F0B3790C_E107_44ad_BB61_20C8C9321C65" supplier="EAID_9CCB585B_E054_405b_9134_F0CC31694C41" xmi.id="EAID_2655ACEC_D120_4c06_8F0E_B41FD56BA87B" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Dependency"/>
+										<UML:TaggedValue tag="direction" value="Unspecified"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="4267"/>
+										<UML:TaggedValue tag="ea_sourceName" value="SchooltypeCodelijst"/>
+										<UML:TaggedValue tag="ea_targetName" value="Schooltype"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Artifact"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="7206"/>
+										<UML:TaggedValue tag="ea_targetID" value="7204"/>
+										<UML:TaggedValue tag="src_visibility" value="Public"/>
+										<UML:TaggedValue tag="src_aggregation" value="0"/>
+										<UML:TaggedValue tag="src_isOrdered" value="false"/>
+										<UML:TaggedValue tag="src_targetScope" value="instance"/>
+										<UML:TaggedValue tag="src_changeable" value="none"/>
+										<UML:TaggedValue tag="src_isNavigable" value="false"/>
+										<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+										<UML:TaggedValue tag="dst_visibility" value="Public"/>
+										<UML:TaggedValue tag="dst_aggregation" value="0"/>
+										<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+										<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+										<UML:TaggedValue tag="dst_changeable" value="none"/>
+										<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+										<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+										<UML:TaggedValue tag="privatedata5" value="EDGE=1;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Dependency>
+								<UML:Generalization subtype="EAID_9CCB585B_E054_405b_9134_F0CC31694C41" supertype="EAID_FA92CB33_6CA4_4c65_9339_687DFAD179D5" xmi.id="EAID_F1862504_12EB_4d24_A5D9_E23B8498A692" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Generalization"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="4266"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Schooltype"/>
+										<UML:TaggedValue tag="ea_targetName" value="CD"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="7204"/>
+										<UML:TaggedValue tag="ea_targetID" value="7906"/>
+										<UML:TaggedValue tag="src_visibility" value="Public"/>
+										<UML:TaggedValue tag="src_aggregation" value="0"/>
+										<UML:TaggedValue tag="src_isOrdered" value="false"/>
+										<UML:TaggedValue tag="src_targetScope" value="instance"/>
+										<UML:TaggedValue tag="src_changeable" value="none"/>
+										<UML:TaggedValue tag="src_isNavigable" value="false"/>
+										<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="dst_visibility" value="Public"/>
+										<UML:TaggedValue tag="dst_aggregation" value="0"/>
+										<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+										<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+										<UML:TaggedValue tag="dst_changeable" value="none"/>
+										<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+										<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={8739FF3F-E4E7-400e-86AE-1860D89EF367}$XID;$NAM=CustomProperties$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=isSubstitutable@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={F1862504-12EB-4d24-A5D9-E23B8498A692}$CLT;$ENDXREF;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Generalization>
+								<UML:Class name="Toelichting" xmi.id="EAID_C0763DCF_0627_49b6_9087_F6F3F0576058" visibility="public" namespace="EAPK_B30D4778_CFC0_48e1_90F4_0A5D6028CE54" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="data"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Toelichting op de opleiding."/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B30D4778_CFC0_48e1_90F4_0A5D6028CE54"/>
+										<UML:TaggedValue tag="date_created" value="2013-02-20 20:47:54"/>
+										<UML:TaggedValue tag="date_modified" value="2013-02-20 20:48:19"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Ernst"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="data"/>
+										<UML:TaggedValue tag="tpos" value="3"/>
+										<UML:TaggedValue tag="ea_localid" value="7205"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={1D3A163B-5982-423c-9293-BD446FD2B1F0}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=data;GUID={7982D69C-7F38-491f-9B8E-62E7F7AABB98};@ENDSTEREO;$DES;$CLT={C0763DCF-0627-49b6-9087-F6F3F0576058}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Generalization subtype="EAID_C0763DCF_0627_49b6_9087_F6F3F0576058" supertype="EAID_7FC012C3_938E_4b23_B1B2_7C1F04580AC9" xmi.id="EAID_B6141F9D_3D42_431d_957D_2C19A3DBD27D" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Generalization"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="4265"/>
+										<UML:TaggedValue tag="ea_sourceName" value="Toelichting"/>
+										<UML:TaggedValue tag="ea_targetName" value="ST"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="7205"/>
+										<UML:TaggedValue tag="ea_targetID" value="7895"/>
+										<UML:TaggedValue tag="src_visibility" value="Public"/>
+										<UML:TaggedValue tag="src_aggregation" value="0"/>
+										<UML:TaggedValue tag="src_isOrdered" value="false"/>
+										<UML:TaggedValue tag="src_targetScope" value="instance"/>
+										<UML:TaggedValue tag="src_changeable" value="none"/>
+										<UML:TaggedValue tag="src_isNavigable" value="false"/>
+										<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="dst_visibility" value="Public"/>
+										<UML:TaggedValue tag="dst_aggregation" value="0"/>
+										<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+										<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+										<UML:TaggedValue tag="dst_changeable" value="none"/>
+										<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+										<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Generalization>
+								<UML:Class name="SchooltypeCodelijst" xmi.id="EAID_F0B3790C_E107_44ad_BB61_20C8C9321C65" visibility="public" namespace="EAPK_B30D4778_CFC0_48e1_90F4_0A5D6028CE54" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="document"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Waardenlijst voor het schooltype"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Artifact"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_B30D4778_CFC0_48e1_90F4_0A5D6028CE54"/>
+										<UML:TaggedValue tag="date_created" value="2012-11-07 18:03:30"/>
+										<UML:TaggedValue tag="date_modified" value="2013-02-20 20:36:15"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="MookL"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="object_style" value="MDoc=1;"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="document"/>
+										<UML:TaggedValue tag="tpos" value="4"/>
+										<UML:TaggedValue tag="ea_localid" value="7206"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={32FD35C2-1AFD-49e3-B580-87611D726BEB}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=document;GUID={6814A518-B031-40a6-9B8D-3E6C1356ED2B};@ENDSTEREO;$DES;$CLT={F0B3790C-E107-44ad-BB61-20C8C9321C65}$CLT;$ENDXREF;"/>
+										<UML:TaggedValue tag="modeldocument" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">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
+</UML:TaggedValue>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Example Instances" xmi.id="EAPK_65E32EAD_4D5C_4b83_932E_2163FD3837F8" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+								<UML:TaggedValue tag="created" value="2010-01-08 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2013-02-06 12:09:52"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-05-21 17:06:35"/>
+								<UML:TaggedValue tag="lastsavedate" value="2012-05-21 17:06:35"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="8"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="MookL"/>
+								<UML:TaggedValue tag="alias" value="Voorbeeld scenario"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Instructions" xmi.id="EAPK_DF5A9D36_5DC4_4436_A34F_548EB34F90BF" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Indien relevant geacht voor de overdracht kan middels de toelichting een specificatie van de opleiding (bijv. patient studeert Geneeskunde) worden toegevoegd.&#xA;&#xA;Voor de NHG tabel codes 'onbekend' en 'anders' wordt door de werkgroep wel de Nullflavors methodiek voor UNK en OTH voorgesteld omdat hiermee in tegenstelling tot de NHG tabel ook internationale opleidingen niet direct vertaalbaar naar de nederlandse situatie kunnen worden doorgegeven."/>
+								<UML:TaggedValue tag="parent" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+								<UML:TaggedValue tag="created" value="2009-11-01 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2009-11-01 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-05-21 17:06:35"/>
+								<UML:TaggedValue tag="lastsavedate" value="2012-05-21 17:06:35"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="9"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="MookL"/>
+								<UML:TaggedValue tag="alias" value="Werkwijze"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Interpretation" xmi.id="EAPK_A4E43D66_13C3_438f_A64B_97B9EF94CA41" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:26"/>
+								<UML:TaggedValue tag="modified" value="2012-12-19 14:38:38"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:27"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:26"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="10"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="MookL"/>
+								<UML:TaggedValue tag="alias" value="Interpretatierichtlijnen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Care Process" xmi.id="EAPK_FDEB296A_8122_4a38_85AB_2498910550ED" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:25"/>
+								<UML:TaggedValue tag="modified" value="2009-07-04 12:17:25"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:25"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:25"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="11"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Zorgproces / afhankelijkheid"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Example of the Instrument" xmi.id="EAPK_E520CA5D_76D7_4b22_947A_89CB4810DBF3" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:28"/>
+								<UML:TaggedValue tag="modified" value="2012-11-02 09:58:05"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:29"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:28"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="12"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Een voorbeeld van het instrument"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Collaboration xmi.id="EAID_E520CA5D_76D7_4b22_947A_89CB4810DBF3_Collaboration" name="Collaborations">
+									<UML:Namespace.ownedElement>
+										<UML:ClassifierRole name="example" xmi.id="EAID_AED6D18A_ACA7_430b_A057_98B0367EAFC0" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="isAbstract" value="false"/>
+												<UML:TaggedValue tag="isSpecification" value="false"/>
+												<UML:TaggedValue tag="ea_stype" value="Boundary"/>
+												<UML:TaggedValue tag="ea_ntype" value="0"/>
+												<UML:TaggedValue tag="version" value="1.0"/>
+												<UML:TaggedValue tag="isActive" value="false"/>
+												<UML:TaggedValue tag="package" value="EAPK_E520CA5D_76D7_4b22_947A_89CB4810DBF3"/>
+												<UML:TaggedValue tag="date_created" value="2013-02-06 12:04:47"/>
+												<UML:TaggedValue tag="date_modified" value="2013-02-06 12:04:51"/>
+												<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+												<UML:TaggedValue tag="tagged" value="0"/>
+												<UML:TaggedValue tag="package_name" value="Example of the Instrument"/>
+												<UML:TaggedValue tag="phase" value="1.0"/>
+												<UML:TaggedValue tag="author" value="MookL"/>
+												<UML:TaggedValue tag="complexity" value="1"/>
+												<UML:TaggedValue tag="status" value="Proposed"/>
+												<UML:TaggedValue tag="tpos" value="0"/>
+												<UML:TaggedValue tag="ea_localid" value="7207"/>
+												<UML:TaggedValue tag="ea_eleType" value="element"/>
+												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+											</UML:ModelElement.taggedValue>
+										</UML:ClassifierRole>
+									</UML:Namespace.ownedElement>
+									<UML:Collaboration.interaction/>
+								</UML:Collaboration>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Constraints" xmi.id="EAPK_B3ABF071_5029_4cc3_9F4F_1440B27E253C" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Deze bouwsteen is ontwikkeld voor de use case van generieke medische overdracht van patiënten tussen specialisten in ziekenhuizen."/>
+								<UML:TaggedValue tag="parent" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+								<UML:TaggedValue tag="created" value="2010-02-12 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2013-02-06 12:08:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-05-21 17:06:35"/>
+								<UML:TaggedValue tag="lastsavedate" value="2012-05-21 17:06:35"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="13"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Inperkingen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Issues" xmi.id="EAPK_DDB22410_264F_4625_9266_07C64971961B" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="ISCED is internationaal en heeft mappingen voor alle locale opleidingen. Op dit moment heeft dit geen meerwaarde voor de uitwisseling in Nederland en iets typisch iets dat bij HL7 internationaal moet worden opgepakt. Indien de HL7 tabel internationaal wijzigt kan dit aanleiding geven tot het aanpassen van deze bouwsteen. &#xA;&#xA;http://www.uis.unesco.org/Education/Pages/international-standard-classification-of-education.aspx"/>
+								<UML:TaggedValue tag="parent" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:30"/>
+								<UML:TaggedValue tag="modified" value="2013-02-06 12:07:53"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:30"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:30"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="14"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="MookL"/>
+								<UML:TaggedValue tag="alias" value="Issues en openstaande vragen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="References" xmi.id="EAPK_3E89B96B_D09D_43d6_A299_4250FA58D8FC" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+								<UML:TaggedValue tag="created" value="2009-11-01 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2012-12-07 16:58:44"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-05-21 17:06:35"/>
+								<UML:TaggedValue tag="lastsavedate" value="2012-05-21 17:06:35"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="15"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="MookL"/>
+								<UML:TaggedValue tag="alias" value="Referenties"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Functional Model" xmi.id="EAPK_BF35503B_4EBA_4e83_8718_0BDA111D1518" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:21"/>
+								<UML:TaggedValue tag="modified" value="2009-07-04 12:17:21"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:22"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:21"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="16"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Traceability to other Standards" xmi.id="EAPK_5B05F1C3_0A11_416d_8019_4B656976B200" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+								<UML:TaggedValue tag="created" value="2009-07-04 12:17:23"/>
+								<UML:TaggedValue tag="modified" value="2009-07-04 12:17:23"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:24"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:23"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="17"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Traceerbaarheid naar andere standaarden"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Disclaimer" xmi.id="EAPK_80B86757_AEF6_48c9_88F1_7B2D0EADAAB4" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;font color=&quot;#00000a&quot;&gt;Het project ‘Generieke Overdrachtsgegevens’ is een samenwerking tussen de 8 Universitair Medische Centra in Nederland en Nictiz, hierna de Samenwerkingspartijen genoemd. De Samenwerkingspartijen besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze Klinische Bouwsteen. Onjuistheden en onvolledigheden kunnen echter voorkomen. De Samenwerkingspartijen zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door de Samenwerkingspartijen of door U aan de Samenwerkingspartijen via een website X of via e-mail, of anderszins langs elektronische weg.&lt;/font&gt;&#xA;&#xA;&lt;font color=&quot;#00000a&quot;&gt;Tevens aanvaarden de Samenwerkingspartijen geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of ideeën verstrekt door of namens de Samenwerkingspartijen via deze Klinische Bouwsteen.  &lt;/font&gt;&#xA;&lt;font color=&quot;#00000a&quot;&gt;De Samenwerkingspartijen aanvaarden geen verantwoordelijkheid voor de inhoud van informatie in deze Klinische Bouwsteen waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.&lt;/font&gt;&#xA;&lt;font color=&quot;#00000a&quot;&gt;In geval van tegenstrijdigheden in de genoemde Klinische Bouwsteen documenten en bestanden geeft de meest recente en hoogste versie van de vermelde volgorde in de revisies de prioriteit van de desbetreffende documenten weer. Indien informatie die in de elektronische versie van deze Klinische Bouwsteen is opgenomen ook schriftelijk wordt verstrekt, zal in geval van tekstverschillen de schriftelijke versie bepalend zijn. Dit geldt indien de versieaanduiding en datering van beiden gelijk is. Een definitieve versie heeft prioriteit echter boven een conceptversie. Een gereviseerde versie heeft prioriteit boven een eerdere versie.&lt;/font&gt;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+								<UML:TaggedValue tag="created" value="2009-11-01 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2009-11-01 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-05-21 17:06:35"/>
+								<UML:TaggedValue tag="lastsavedate" value="2012-05-21 17:06:35"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="18"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Disclaimer"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Terms of Use" xmi.id="EAPK_34071A81_07EE_4028_BD0C_E376AC520370" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="De gebruiker mag de informatie van deze Klinische Bouwsteen zonder beperking gebruiken. Voor het kopieren, verspreiden en doorgeven van de informatie van deze Klinische bouwsteen gelden de copyrights-bepalingen uit de betreffende paragraaf."/>
+								<UML:TaggedValue tag="parent" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+								<UML:TaggedValue tag="created" value="2010-01-08 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2010-01-08 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-05-21 17:06:35"/>
+								<UML:TaggedValue tag="lastsavedate" value="2012-05-21 17:06:35"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="19"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Gebruiksvoorwaarden"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Copyrights" xmi.id="EAPK_547CBDFD_EBDF_42d6_86F9_C89970D18381" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="De inhoud is beschikbaar onder de Creative Commons Naamsvermelding- NietCommercieel-GelijkDelen 3.0 &#xA;(zie ook &lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/3.0/nl/&quot;&gt;&lt;font color=&quot;#264eb4&quot;&gt;&lt;u&gt;http://creativecommons.org/licenses/by-nc-sa/3.0/nl/&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;)"/>
+								<UML:TaggedValue tag="parent" value="EAPK_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+								<UML:TaggedValue tag="created" value="2010-01-08 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2010-01-08 00:00:00"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-05-21 17:06:35"/>
+								<UML:TaggedValue tag="lastsavedate" value="2012-05-21 17:06:35"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="20"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="ZelM"/>
+								<UML:TaggedValue tag="alias" value="Copyrights"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+				<UML:Stereotype xmi.id="EAID_F63E3922_C9AF_4840_BC8D_5B5021FD5058" name="DCM" isRoot="false" isLeaf="false" isAbstract="false">
+					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
+				</UML:Stereotype>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:TaggedValue tag="DCM::CoderList" xmi.id="EAID_499B3150_B9D8_4fd8_A812_56FC177FC76B" value="Linda Mook (l.mook@amc.uva.nl)" modelElement="MX_EAID_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+		<UML:TaggedValue tag="DCM::ContactInformation.Address" xmi.id="EAID_B63D7ECB_3C1D_48fc_92A3_195A7BB86113" value="*" modelElement="MX_EAID_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+		<UML:TaggedValue tag="DCM::ContactInformation.Name" xmi.id="EAID_C04B67E4_F492_4a52_9EB1_76CE31B03F5A" value="*#NOTES#The contact information where questions can be asked or feedback can be send to." modelElement="MX_EAID_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+		<UML:TaggedValue tag="DCM::ContactInformation.Telecom" xmi.id="EAID_B67FAD19_3759_4f32_B67E_767D27DE5F5D" value="*" modelElement="MX_EAID_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+		<UML:TaggedValue tag="DCM::ContentAuthorList" xmi.id="EAID_BE51F328_4FFC_4550_A0CF_37B35B953A38" value="Linda Mook, Heleen Hoogvliet, Lindsay Chang , Helen de Graaf, Marlies Poerschke, Barry Phelps#NOTES#Names of the people that contributed to the development of the DCM. The organization these people work for is also mentioned. The position of the author can be mentioned." modelElement="MX_EAID_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+		<UML:TaggedValue tag="DCM::CreationDate" xmi.id="EAID_CA0E4293_E76D_4878_836C_3A8EC4A598A7" modelElement="MX_EAID_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+		<UML:TaggedValue tag="DCM::DeprecatedDate" xmi.id="EAID_76EE629F_2C29_4c40_AA88_D5D9188FEFB2" modelElement="MX_EAID_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+		<UML:TaggedValue tag="DCM::DescriptionLanguage" xmi.id="EAID_A10BF4EB_B483_4800_8651_C9A1EA5DD6D8" value="nl#NOTES#The languages in which the DCM is developed. This can be only Dutch or English, or both, or other languages." modelElement="MX_EAID_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+		<UML:TaggedValue tag="DCM::EndorsingAuthority.Address" xmi.id="EAID_28B634BD_B03B_4930_A68F_E0DC0DCF4EAB" modelElement="MX_EAID_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+		<UML:TaggedValue tag="DCM::EndorsingAuthority.Name" xmi.id="EAID_50851D1F_AFE1_42e0_B5B4_B49D2E5317B0" value="NFU#NOTES#This is the authority that approved the clinical contents of the DCM. This can be scientific or professional organisations, or institutes of quality, normalisation institutes, governments etc." modelElement="MX_EAID_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+		<UML:TaggedValue tag="DCM::EndorsingAuthority.Telecom" xmi.id="EAID_ED88050B_5B4C_4237_98F3_F2CF53B6C3B8" modelElement="MX_EAID_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+		<UML:TaggedValue tag="DCM::Id" xmi.id="EAID_4574860E_541F_403a_875C_432C12547C76" value="2.16.840.1.113883.2.4.3.11.60.40.3.7.10" modelElement="MX_EAID_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+		<UML:TaggedValue tag="DCM::KeywordList" xmi.id="EAID_C4A76963_F863_48d9_A643_A676C9845585" value="social history, sociale anamnese, opleiding, education, school#NOTES#Here keywords and codes for keywords are mentioned. This concerns keywords by which the DCM can be found in a repository. A keyword can be a synonym, a derivative term or a generic ( like the Bradenscale with a keyword Pressure Ulcer Risk).&#xA;Concepts and identifications from MeSH Heading can also be mentioned here." modelElement="MX_EAID_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+		<UML:TaggedValue tag="DCM::LifecycleStatus" xmi.id="EAID_6B80F017_AE33_47cd_8E68_BB87C9A92FD2" value="Final" modelElement="MX_EAID_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+		<UML:TaggedValue tag="DCM::ModelerList" xmi.id="EAID_620B399F_6388_4e92_9C90_9E65BEB1317F" value="Linda Mook (l.mook@amc.uva.nl)" modelElement="MX_EAID_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+		<UML:TaggedValue tag="DCM::Name" xmi.id="EAID_93434A5A_A47B_4ccd_86EC_7EA98E763F12" value="nl.nfu.OverdrachtOpleiding" modelElement="MX_EAID_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+		<UML:TaggedValue tag="DCM::PublicationDate" xmi.id="EAID_CF6EF5C7_0A05_4185_8B82_411916DC31D2" value="1-7-2013#NOTES#The date this version was made." modelElement="MX_EAID_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+		<UML:TaggedValue tag="DCM::PublicationStatus" xmi.id="EAID_33A08AE6_B44E_422a_BAD0_A4B4E4BD144D" value="Published#NOTES#The status of the DCM on that moment. Strike out the other status.&#xA;All status levels are mentioned after the process of development and review are clear (concept).&#xA;&#xA;Author Draft(en);&#xA;Committee Draft(en);&#xA;Organisation Draft(en);&#xA;Submitted(en);&#xA;Withdrawn&#xA;Rejected(en) &#xA;Obsolete&#xA;Approved for testing&#xA;Approved for Production Use&#xA;Superseded" modelElement="MX_EAID_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+		<UML:TaggedValue tag="DCM::ReviewerList" xmi.id="EAID_CF436C09_DBC4_4175_AC7D_68DDCB842377" value="Projectgroep generieke overdrachtgegevens" modelElement="MX_EAID_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+		<UML:TaggedValue tag="DCM::RevisionDate" xmi.id="EAID_170A7933_EE51_4df8_BA45_50D4795BF1D2" value="20-6-2013" modelElement="MX_EAID_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+		<UML:TaggedValue tag="DCM::Superseeds" xmi.id="EAID_437C82AF_0FE2_4e8f_9E6F_93BAD653BF61" modelElement="MX_EAID_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+		<UML:TaggedValue tag="DCM::Version" xmi.id="EAID_D150EE73_5905_4ad7_BD10_AFBA6458D253" value="1.1" modelElement="MX_EAID_C98A4755_24D2_49c4_A9B0_25CF868BBB03"/>
+		<UML:TaggedValue tag="DCM::DefinitionCode" xmi.id="EAID_65866A8B_6EAF_4e5b_B73E_2E6E7339A941" value="NL-CM:7.10.1" modelElement="EAID_0C62B011_081F_41a1_8783_423130382705"/>
+		<UML:TaggedValue tag="DCM::DefinitionCode" xmi.id="EAID_A36ECE63_D8AC_4fbb_995B_70B67B4E7CA5" value="NL-CM:7.10.2" modelElement="EAID_9CCB585B_E054_405b_9134_F0CC31694C41"/>
+		<UML:TaggedValue tag="DCM::DefinitionCode" xmi.id="EAID_C842DE86_5EE1_49f4_BCE1_F4559FF24C07" value="SNOMEDCT: 105421008 educational qualification" modelElement="EAID_9CCB585B_E054_405b_9134_F0CC31694C41"/>
+		<UML:TaggedValue tag="DCM::ExampleValue" xmi.id="EAID_65A5F17A_4999_4636_8F4D_69AB44FE845F" value="Middelbaar Beroepsonderwijs" modelElement="EAID_9CCB585B_E054_405b_9134_F0CC31694C41"/>
+		<UML:TaggedValue tag="DCM::ValueSet" xmi.id="EAID_C185F291_5E45_442e_8425_08D19223E756" value="SchooltypeCodelijst#NOTES#2.16.840.1.113883.2.4.3.11.60.40.2.7.10.1" modelElement="EAID_9CCB585B_E054_405b_9134_F0CC31694C41"/>
+		<UML:TaggedValue tag="DCM::DefinitionCode" xmi.id="EAID_FC06733C_0275_4c61_A855_4D4BBA80B140" value="NL-CM:7.10.3" modelElement="EAID_C0763DCF_0627_49b6_9087_F6F3F0576058"/>
+		<UML:Diagram name="Information Model" xmi.id="EAID_C1A26C90_59FC_4a93_8F51_CD96B6EEC8BF" diagramType="ClassDiagram" owner="EAPK_B30D4778_CFC0_48e1_90F4_0A5D6028CE54" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="documentation" value="Schooltype van de hoogst genoten opleiding."/>
+				<UML:TaggedValue tag="version" value="1.1"/>
+				<UML:TaggedValue tag="author" value="MookL"/>
+				<UML:TaggedValue tag="created_date" value="2010-01-08 13:51:46"/>
+				<UML:TaggedValue tag="modified_date" value="2013-06-20 16:22:31"/>
+				<UML:TaggedValue tag="package" value="EAPK_B30D4778_CFC0_48e1_90F4_0A5D6028CE54"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
+				<UML:TaggedValue tag="ea_localid" value="497"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1169;DocSize.cy=827;ShowDetails=0;Orientation=L;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=8A9F7D4E;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=392;Top=274;Right=504;Bottom=346;" subject="EAID_C0763DCF_0627_49b6_9087_F6F3F0576058" seqno="1" style="DUID=EB7A4C67;"/>
+				<UML:DiagramElement geometry="Left=213;Top=380;Right=345;Bottom=430;" subject="EAID_F0B3790C_E107_44ad_BB61_20C8C9321C65" seqno="2" style="DUID=D976F382;"/>
+				<UML:DiagramElement geometry="Left=10;Top=120;Right=111;Bottom=200;" subject="EAID_77DB2AAD_2672_4700_BC67_28C41DCC7467" seqno="3" style="DUID=060FDD88;"/>
+				<UML:DiagramElement geometry="Left=219;Top=274;Right=339;Bottom=347;" subject="EAID_9CCB585B_E054_405b_9134_F0CC31694C41" seqno="4" style="DUID=FBDBE219;"/>
+				<UML:DiagramElement geometry="Left=230;Top=127;Right=330;Bottom=207;" subject="EAID_0C62B011_081F_41a1_8783_423130382705" seqno="5" style="DUID=0EDD40F8;"/>
+				<UML:DiagramElement geometry="Left=14;Top=18;Right=179;Bottom=93;" subject="EAID_5BCD573A_DE4B_4807_975D_866EE8A5568D" seqno="6" style="DUID=A6797E55;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=CX=18:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_B1419400_B075_4f4b_8830_6D8847567ACE" style="Mode=3;EOID=0EDD40F8;SOID=FBDBE219;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_2655ACEC_D120_4c06_8F0E_B41FD56BA87B" style="Mode=3;EOID=FBDBE219;SOID=D976F382;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=CX=18:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_7471AE64_4D9F_43df_A322_D20C96B80B75" style="Mode=3;EOID=0EDD40F8;SOID=EB7A4C67;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Example of the Instrument" xmi.id="EAID_D9D7B136_9FC4_4685_B6FC_C9B0689CD951" diagramType="CustomDiagram" owner="EAPK_E520CA5D_76D7_4b22_947A_89CB4810DBF3" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="MookL"/>
+				<UML:TaggedValue tag="created_date" value="2012-11-02 14:43:14"/>
+				<UML:TaggedValue tag="modified_date" value="2013-02-06 12:10:45"/>
+				<UML:TaggedValue tag="package" value="EAPK_E520CA5D_76D7_4b22_947A_89CB4810DBF3"/>
+				<UML:TaggedValue tag="type" value="Custom"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
+				<UML:TaggedValue tag="ea_localid" value="498"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=799;DocSize.cy=1142;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=EDE6EAF3;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=20;Top=19;Right=499;Bottom=109;" subject="EAID_AED6D18A_ACA7_430b_A057_98B0367EAFC0" seqno="1" style="DUID=CB200F75;ImageID=1913990073;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EAStub xmi.id="EAID_FA92CB33_6CA4_4c65_9339_687DFAD179D5" name="CD" UMLType="Class"/>
+		<EAModel.paramSub/>
+		<EAStub xmi.id="EAID_7FC012C3_938E_4b23_B1B2_7C1F04580AC9" name="ST" UMLType="Class"/>
+		<EAModel.image>
+			<EAImage name="opleiding.png" type="Bitmap" imageID="1913990073" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">iVBORw0KGgoAAAANSUhEUgAAAd8AAABaCAYAAAD5ClyHAAAKuWlDQ1BJQ0MgUHJvZmlsZQAA
+SA2tlndUU9kWxve96Y0Weg29I0W69BqKIFWwEZJAaDGEgIDYEUdgLKiIYAMZFVBwLICMBbFg
+RbH3ARlU1HGwYEPl3cAQZ7315r931rrn/LLPd/fdZ+fetT4Aej1HJMpEFQCyhBJxVJAva2ZC
+Iov0CBBAgQxWQOFwc0Q+kZFh8K/jw21MjY0b1tJc/yr73xuKPH4OFwCJxLaTeTncLIwPY1c5
+VySWAOC8sbjRAolIyjyMlcVYgRjnSzl1gsulnDzBO8c1MVF+mAbLQ6ZzOOJUAFonFmflcVOx
+PLQ+jG2FvDQhAB07OXhyBRwsN11ag1VW1nwpF2FslvyPPKn/YA4nWZaTw0mV8cRZsDuxB/un
+5YgyOQXjP/6fU1ZmLtav8aGLzfScjOhQbFXGepbP5QRET7KAz5b+Z+NxkcQ3apLTJOyYSRbk
+BsdOcm5GrM8kZ8wPlemFydMjJuPcHD+s9xM5CwUx8ZPM4/sHTLJ4fpRMn5MXLYsXCvymT2rS
+OSHSXo/XxhFj9DfzM4NkzxVJImV1CjOny86SIg6Uafg5P84rEcQET+aRiGNkmpS0QPZkXCAO
+lsVFmePv9HgN4twoWR/4wlhZD3kcf1lvIRoKQAhcCAcO5IAE+CCW8PMl0uL95osKxGmpAgnL
+B/sC+FYstpBrY8Wyt7VzAOn3JNUAvFMd/04Q1Ys/YhIlAI+L2Lt65UcssRFgXxWAmvOPmJkW
+gMp2gHYzbq44byIfXroQgAryWCc1QBcMwQyswR6cwB28IQBCIAJiIAHmYlULIAvEsACKYBmU
+QBmsg01QDTtgF+yF/XAQ2uAYnIJzcAmuwS14AH0wCC9hGD7AKIIgJISBMBENRA8xRiwRe8QF
+8UQCkDAkCklAkpBURIjkIkXICqQMqUCqkVqkAfkVOYqcQi4gvcg9pB8ZQt4iX1AcSkeVUR3U
+BJ2CuqA+aCgag85BU9FstBAtRtegVWgdug9tRU+hl9BbaB/6Eh3BAY6GU8Xp46xxLjg/XAQu
+EZeCE+MW40pxlbg6XDOuA9eNu4Hrw73CfcYT8Uw8C2+Nd8cH42PxXHw2fjG+HF+N34tvxZ/B
+38D344fx3wkMgjbBkuBGYBNmElIJCwglhErCbsIRwlnCLcIg4QORSFQlmhKdicHEBGI6cSGx
+nLiN2ELsJPYSB4gjJBJJg2RJ8iBFkDgkCamEtIW0j3SSdJ00SPpEppH1yPbkQHIiWUheTq4k
+N5JPkK+Tn5FHKQoUY4obJYLCoxRQ1lLqKR2Uq5RByihVkWpK9aDGUNOpy6hV1GbqWepD6jsa
+jWZAc6XNoKXRltKqaAdo52n9tM90JboF3Y8+m55LX0PfQ++k36O/YzAYJgxvRiJDwljDaGCc
+ZjxmfJJjytnIseV4ckvkauRa5a7LvZanyBvL+8jPlS+Ur5Q/JH9V/pUCRcFEwU+Bo7BYoUbh
+qMIdhRFFpqKdYoRilmK5YqPiBcXnSiQlE6UAJZ5SsdIupdNKA0wc05Dpx+QyVzDrmWeZg8pE
+ZVNltnK6cpnyfuUe5WEVJZWpKnEq+So1KsdV+lRxqiaqbNVM1bWqB1Vvq35R01HzUeOrrVZr
+Vruu9lFdS91bna9eqt6ifkv9iwZLI0AjQ2O9RpvGI028poXmDM0Fmts1z2q+0lLWctfiapVq
+HdS6r41qW2hHaS/U3qV9WXtER1cnSEeks0XntM4rXVVdb9103Y26J3SH9Jh6nnppehv1Tuq9
+YKmwfFiZrCrWGdawvrZ+sH6ufq1+j/6ogalBrMFygxaDR4ZUQxfDFMONhl2Gw0Z6RuFGRUZN
+RveNKcYuxgLjzcbdxh9NTE3iTVaZtJk8N1U3ZZsWmjaZPjRjmHmZZZvVmd00J5q7mGeYbzO/
+ZoFaOFoILGosrlqilk6WaZbbLHutCFauVkKrOqs71nRrH+s86ybrfhtVmzCb5TZtNq+nGE1J
+nLJ+SveU77aOtpm29bYP7JTsQuyW23XYvbW3sOfa19jfdGA4BDoscWh3eDPVcip/6vapdx2Z
+juGOqxy7HL85OTuJnZqdhpyNnJOctzrfcVF2iXQpdznvSnD1dV3iesz1s5uTm8TtoNtf7tbu
+Ge6N7s+nmU7jT6ufNuBh4MHxqPXo82R5Jnnu9Ozz0vfieNV5PfE29OZ57/Z+5mPuk+6zz+e1
+r62v2PeI70c/N79Ffp3+OP8g/1L/ngClgNiA6oDHgQaBqYFNgcNBjkELgzqDCcGhweuD77B1
+2Fx2A3s4xDlkUciZUHpodGh16JMwizBxWEc4Gh4SviH84XTj6cLpbREQwY7YEPEo0jQyO/K3
+GcQZkTNqZjyNsosqiuqOZkbPi26M/hDjG7M25kGsWWxubFecfNzsuIa4j/H+8RXxfTOnzFw0
+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
+gvw2Z5GsXetkrc74Uf7Va9Ym+OUNCZAACZAACeRCwJQvNkZB+UCeHjw6ULw+4qcGf2LKF8oW
+a7FjVPFdcVpH2bJWVWnbqol02rel9yo9u7aTbr36mYIMHEMXrZo1kCduOFXq1KpmSq1C+XJy
+6ant5YbHhpoih9erehwi9XTmO+W3eTLs4+8Ffgb26WFr0T4qKMioRMNBmfbqfrDsuVMj2aVZ
+fYHSh3Q/eh+5+5l3pe/zo+y+99mHS88u7VThFpn5GmZsL/9TxT1t5gJ/y18SIAESIAESyJmA
+7XZuWK+WeIUzfvKsYpFOnj4vcGu4da3guny5cnLQXs3l1n7D5NK7XpJFOiOuVaOKnHP8/oGf
+6MVtF3U2xXvL48Nkhy43W7iyZcuqwj1YN3hVjnq3+64dWpnixQy098NvytUPDJbKFSsEfv9U
+lYFTwkX7Ns1MgV5298vywReT7NmZXdvaLxQyFO+seYulzal3StvT75H5Okt2zsnZNw+k4k0g
+yRsSIAESIIF8ELCZb51a1YO4lv++Mrj2F6tU6UHxYQZaKaT08Pz2J4ZLf50tQxrWqy2Xn3aQ
+zYbNIfIHO5R3blpfVq5eI6+NHCc1dDf1qM8nyTxVdlCCO6pJefQ3UyKhRDrs2dzcXv3fOHn2
+zU/tesqMeTLo9jOK+Y1zmDl3sZxydX9ZvmKV/PjLbNlfZ/mbV68i1SpXlHpbrCv7DPWzYPFy
+Cz7+55lmRp+jJnEKCZAACZAACeSbgCnfmXP/NOHWgmn21z9nukgQM1IoXkjUBBsOO3HqbPNT
+p3Y1+43+aVx/3ZlcrN9+NvCq6GNTxsUc1cHvvp4QmpXPUmXpxfmLJL9Yo4bihcxbuCzwVVnX
+dydNn6vrzkvsPPJtFx0tS5evkHa663uhbi77QRU1hQRIgARIgATyTcCU76+zF5mZFabnfXSd
+9PPxUxPSgdnWy6Rpyc/7VqtS0bzB/BwnOIsLWaGbuXr9+9UEL5hZj/psnUk44YHerF67bsMT
+NkPlW8pqmRctXSHVNe8nHbaHrvmWtTPN1/Z9I1DY+U6T8ZEACZAACWzaBEz5wgw8/JMJcli7
+HaWHbkYaMXqCmWeBBuvBV3bvaJSGfTxeps9amECs2yF7yDtjfpA1ulmp84G72LOfdDYZJ9hA
+BYHpesKUWRl/uGPqjAW25ttx7xby0Asf2EDh5E5t4pLI2g0DC+y6fuXdr+T6R96y8EuWFze9
+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</EAImage>
+		</EAModel.image>
+	</XMI.extensions>
+</XMI>
