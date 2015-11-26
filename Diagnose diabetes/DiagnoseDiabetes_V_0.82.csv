@@ -1,0 +1,16 @@
+"Include";"Name";"DataType";"Realization";"Description";"ExampleValue";"Terminology"
+"Yes";"Diabetes";"";"";"--DCM::Language=nl";"";"SnomedCT:73211009 Diabetes Mellitus (Disorder)"
+"Required";"  Zorgverlener";"";"";"Type zorgverlener dat de diagnose diabetes heeft vastgesteld. 
+
+--DCM::Language=nl";"";"Aorta:2.16.840.1.113883.2.4.15.111 Zorgverlener"
+"";"";"";"Huisarts";"";"";""
+"";"";"";"Internist";"";"";""
+"Required";"  maand en jaar";"Timestamp";"";"--DCM::Language=nl
+
+Maand en jaar waarin diagnose Diabetes Mellitus gesteld is";"";"SnomedCT:118575009 maand en jaar"
+"Required";"  Diabetes types";"Coded Description";"";"--DCM::Language=nl
+
+Type diabetes heeft invloed op behandelplan en heeft consequenties voor de medicatie. ICPC geeft alleen type 1 of type 2. Om tocht te kunnen differentiëren naar een ander type diagnose wordt geadviseerd de categorie 'overig' toe te voegen in de ICPC-1 of 'niet gespecificeerd' in ICD-10.";"";"SnomedCT:405751000 Diabetes types"
+"";"";"";"overige";"naast type 1 en 2 diabetes kan dit gaan om bijvoorbeeld zwangerschapsdiabetes, MODY, MIDD of LADA.";"";""
+"";"";"";"type1";"Bij type 1 zijn de eilandjes van Langerhans (bijna) geheel vernietigd waardoor er bijna tot geen insuline geproduceerd wordt. Als de diagnose Diabetes type 1 is gesteld wordt vrijwel direct begonnen met de behandeling met insuline.";"";"SnomedCT:46635009 type1"
+"";"";"";"type2";"Diabetes type 2 wordt veroorzaakt door een verminderde gevoeligheid voor insuline en een vertraagde of verminderde productie van insuline. Ook de afgifte van insuline kan verminderd zijn. Als de diagnose Diabetes type 2 is gesteld wordt vaak gestart met adviezen voor gezonde leefgewoonte";"";"SnomedCT:44054006 type2"

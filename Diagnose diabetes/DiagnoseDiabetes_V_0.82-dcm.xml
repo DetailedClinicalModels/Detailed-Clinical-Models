@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dcm>
+  <rootconcept name="Diabetes" id="52351351-0E81-485a-B4C2-4B91F956EE5C">
+    <notes>--DCM::Language=nl</notes>
+    <code code="73211009" displayName="Diabetes Mellitus (Disorder)" codeSystemName="SnomedCT" />
+    <data name="Zorgverlener" id="CD9C8587-C006-4200-A0C9-EBFD1280EDD3">
+      <notes>Type zorgverlener dat de diagnose diabetes heeft vastgesteld. 
+
+--DCM::Language=nl</notes>
+      <code code="2.16.840.1.113883.2.4.15.111" displayName="Zorgverlener" codeSystemName="Aorta" />
+      <value>
+        <valueSet />
+      </value>
+    </data>
+    <data name="maand en jaar" id="ADC7772F-BBA4-4880-AC31-AAD4E60A79FE">
+      <notes>--DCM::Language=nl
+
+Maand en jaar waarin diagnose Diabetes Mellitus gesteld is</notes>
+      <code code="118575009" displayName="maand en jaar" codeSystemName="SnomedCT" />
+      <value datatype="TS" />
+    </data>
+    <data name="Diabetes types" id="AC22934B-41A3-42d1-9A71-0D20B72295AA">
+      <notes>--DCM::Language=nl
+
+Type diabetes heeft invloed op behandelplan en heeft consequenties voor de medicatie. ICPC geeft alleen type 1 of type 2. Om tocht te kunnen differentiëren naar een ander type diagnose wordt geadviseerd de categorie 'overig' toe te voegen in de ICPC-1 of 'niet gespecificeerd' in ICD-10.</notes>
+      <code code="405751000" displayName="Diabetes types" codeSystemName="SnomedCT" />
+      <value datatype="CD">
+        <valueSet>
+          <code code="46635009" displayName="type1" codeSystemName="SnomedCT" />
+          <code code="44054006" displayName="type2" codeSystemName="SnomedCT" />
+        </valueSet>
+      </value>
+    </data>
+  </rootconcept>
+</dcm>
