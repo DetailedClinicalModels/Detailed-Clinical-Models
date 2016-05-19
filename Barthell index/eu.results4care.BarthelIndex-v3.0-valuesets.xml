@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<valueSets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ValueSets.xsd" xmlns="urn:hl7-org:v3">
+  <valueSet name="BarthelIndexConcepts">
+    <code code="273302005" displayName="Barthel index (assessment scale)" codeSystemName="SNOMED CT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="BrtlD550" displayName="Feeding" codeSystemName="R4CBarthel" codeSystem="2.16.840.1.113883.3.3210.10.1" />
+    <code code="BrtlD530" displayName="Toilet use" codeSystemName="R4CBarthel" codeSystem="2.16.840.1.113883.3.3210.10.1" />
+    <code code="BrtlD460" displayName="Stairs" codeSystemName="R4CBarthel" codeSystem="2.16.840.1.113883.3.3210.10.1" />
+    <code code="BrtlD520" displayName="Grooming" codeSystemName="R4CBarthel" codeSystem="2.16.840.1.113883.3.3210.10.1" />
+    <code code="BrtlD510" displayName="Bathing" codeSystemName="R4CBarthel" codeSystem="2.16.840.1.113883.3.3210.10.1" />
+    <code code="BrtlB525" displayName="Bowels" codeSystemName="R4CBarthel" codeSystem="2.16.840.1.113883.3.3210.10.1" />
+    <code code="419892001" displayName="| Barthel index score (observable entity) |" codeSystemName="Snomed CT" codeSystem="2.16.840.1.113883.6.96" />
+    <code code="BrtlD450" displayName="Mobility" codeSystemName="R4CBarthel" codeSystem="2.16.840.1.113883.3.3210.10.1" />
+    <code code="BrtlD420" displayName="Transfers" codeSystemName="R4CBarthel" codeSystem="2.16.840.1.113883.3.3210.10.1" />
+    <code code="BrtlB620" displayName="Bladder" codeSystemName="R4CBarthel" codeSystem="2.16.840.1.113883.3.3210.10.1" />
+    <code code="BrtlD540" displayName="Dressing/undressing" codeSystemName="R4CBarthel" codeSystem="2.16.840.1.113883.3.3210.10.1" />
+  </valueSet>
+  <valueSet name="Feeding">
+    <code displayName="0 = unable" />
+    <code displayName="5 = needs help cutting, spreading butter, etc., or requires modified diet" />
+    <code displayName="10 = independent" />
+  </valueSet>
+  <valueSet name="Toiletuse">
+    <code displayName="0 = dependent" />
+    <code displayName="5 = needs some help, but can do something alone" />
+    <code displayName="10 = independent (on and off, dressing, wiping)" />
+  </valueSet>
+  <valueSet name="Stairs">
+    <code displayName="0 = unable" />
+    <code displayName="5 = needs help (verbal, physical, carrying aid)" />
+    <code displayName="10 = independent" />
+  </valueSet>
+  <valueSet name="Grooming">
+    <code displayName="0 = needs to help with personal care" />
+    <code displayName="5 = independent face/hair/teeth/shaving" />
+  </valueSet>
+  <valueSet name="Bathing">
+    <code displayName="0 = dependent" />
+    <code displayName="5 = independent (or in shower)" />
+  </valueSet>
+  <valueSet name="Bowels">
+    <code displayName="0 = incontinent (or needs to be given enemas)" />
+    <code displayName="5 = occasional accident" />
+    <code displayName="10 = continent" />
+  </valueSet>
+  <valueSet name="Mobility">
+    <code displayName="0 = Immobile or &lt; 50 meters" />
+    <code displayName="5 = wheelchair independent, including corners" />
+    <code displayName="10 = walks with help of one person (verbal or physical) &gt; 50 meters" />
+    <code displayName="15 = independent (but may use any aid; for example, stick) &gt; 50 meters" />
+  </valueSet>
+  <valueSet name="Transfers">
+    <code displayName="0 = unable, no sitting balance" />
+    <code displayName="5 = major help (one or two people, physical), can sit" />
+    <code displayName="10 = minor help (verbal or physical)" />
+    <code displayName="15 = independent" />
+  </valueSet>
+  <valueSet name="Bladder">
+    <code displayName="0 = incontinent, or catheterized and unable to manage alone" />
+    <code displayName="5 = occasional accident" />
+    <code displayName="10 = continent" />
+  </valueSet>
+  <valueSet name="Dressing/undressing">
+    <code displayName="0 = dependent" />
+    <code displayName="5 = needs help but can do about half unaided" />
+    <code displayName="10 = independent (including buttons, zips, laces, etc.)" />
+  </valueSet>
+</valueSets>

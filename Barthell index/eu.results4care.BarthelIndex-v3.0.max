@@ -1,0 +1,1322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" exportDate="17-4-2016 09:31:37" xmlns="http://www.umcg.nl/MAX">
+  <objects xmlns="">
+    <object>
+      <id>15890</id>
+      <name>eu.results4care.BarthelIndex-v3.0</name>
+      <alias />
+      <stereotype>DCM</stereotype>
+      <type>Package</type>
+      <modified>2016-04-15T00:00:00</modified>
+      <tag name="DCM::CoderList" value="dr. William Goossen"></tag>
+      <tag name="DCM::ContactInformation.Address" value="*"></tag>
+      <tag name="DCM::ContactInformation.Name" value="Results 4 Care bv  the DCM inventors ">The contact information where questions can be asked or feedback can be send to.</tag>
+      <tag name="DCM::ContactInformation.Telecom" value="DCMHelpdesk@results4care.eu"></tag>
+      <tag name="DCM::ContentAuthorList" value="Projectgroep Generieke Overdrachtsgegevens &amp; Kerngroep Registratie aan de Bron">Names of the people that contributed to the development of the DCM. The organization these people work for is also mentioned. The position of the author can be mentioned.</tag>
+      <tag name="DCM::CreationDate" value="3-9-2006"></tag>
+      <tag name="DCM::DeprecatedDate" value=""></tag>
+      <tag name="DCM::DescriptionLanguage" value="en">The languages in which the DCM is developed. This can be only Dutch or English, or both, or other languages.</tag>
+      <tag name="DCM::EndorsingAuthority.Address" value=""></tag>
+      <tag name="DCM::EndorsingAuthority.Name" value="">This is the authority that approved the clinical contents of the DCM. This can be scientific or professional organisations, or institutes of quality, normalisation institutes, governments etc.</tag>
+      <tag name="DCM::EndorsingAuthority.Telecom" value=""></tag>
+      <tag name="DCM::Id" value="2.16.840.1.113883.3.3210.13.24"></tag>
+      <tag name="DCM::KeywordList" value="score, index, assessment scale, ADL, dependency, barthel">Here keywords and codes for keywords are mentioned. This concerns keywords by which the DCM can be found in a repository. A keyword can be a synonym, a derivative term or a generic ( like the Bradenscale with a keyword Pressure Ulcer Risk).
+Concepts and identifications from MeSH Heading can also be mentioned here.</tag>
+      <tag name="DCM::LifecycleStatus" value="Final"></tag>
+      <tag name="DCM::ModelerList" value="Kerngroep Registratie aan de Bron, dr. William Goossen"></tag>
+      <tag name="DCM::Name" value="eu.results4care.BarthelIndex"></tag>
+      <tag name="DCM::PublicationDate" value="17-4-2016">The date this version was made.</tag>
+      <tag name="DCM::PublicationStatus" value="Published">The status of the DCM on that moment. Strike out the other status.
+All status levels are mentioned after the process of development and review are clear (concept).
+
+Author Draft(en);
+Committee Draft(en);
+Organisation Draft(en);
+Submitted(en);
+Withdrawn
+Rejected(en) 
+Obsolete
+Approved for testing
+Approved for Production Use
+Superseded</tag>
+      <tag name="DCM::ReviewerList" value="Projectgroep Generieke Overdrachtsgegevens &amp; Kerngroep Registratie aan de Bron"></tag>
+      <tag name="DCM::RevisionDate" value="8-4-2016"></tag>
+      <tag name="DCM::Superseeds" value=""></tag>
+      <tag name="DCM::Version" value="3.0"></tag>
+      <tag name="MAX::ExportDate" value="17-4-2016 09:29:52"></tag>
+      <tag name="MAX::ExportFile" value="C:\Users\William Goossen\ownCloud\DCM\DCM Repository\BarthelInternational\eu.results4care.BarthelIndex-v3.0.max"></tag>
+    </object>
+    <object>
+      <id>15898</id>
+      <name>Revision History</name>
+      <alias>Revisie Historie</alias>
+      <notes>&lt;u&gt;1.0  Base model developed for Nictiz the Netherlands as part of the HL7 v3 Care Provision models and messages for stroke care 2003-2005.&lt;/u&gt;
+&lt;u&gt;
+&lt;/u&gt;&lt;u&gt;1.1  Published in HL7 v3 ballot materials as then REPC_RM000103Barthel_Index &lt;/u&gt;
+&lt;u&gt;
+&lt;/u&gt;&lt;u&gt;1.4.  First example care information model Nictiz which has been used for the test of usefulness of Snomed CT in 2006.  &lt;/u&gt;
+&lt;u&gt;Barthel index care information model Nictiz, using HL7 v3 R-MIM modeling and spreadsheet data element specifcation version 1.4 date  &lt;/u&gt;19-09-2006.
+
+2.0 NFU versions of the DCM variant
+&lt;u&gt;Publication version 1.0&lt;/u&gt; of 2013 &lt;u&gt;Publication version 1.2.1&lt;/u&gt; (22-05-2015)
+
+3.0 English version based on original text of 2003-2005 version, items, coding and values of the original version including the (limited) set of Snomed CT coding and the adapted information model of 2.0 NFU version. The adaptations are intended for international use, removal of text document and inclusion of technical representation of the values and codes.
+And checked against the HL7 v3 Assessment Scales DSTU. 
+
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>15890</parentId>
+      <modified>2016-04-15T00:00:00</modified>
+    </object>
+    <object>
+      <id>15907</id>
+      <name>Concept</name>
+      <alias>Concept</alias>
+      <notes>The Barthel ADL index is a validated scale used to measure and track patients’ activities of daily living (ADL) and indirectly, the extent to which they are dependent on help Mahoney and Barthel, (1965). 
+
+The scale comprises 10 variables: bowels, bladder, grooming, toilet use, feeding, transfers (from chair to bed and vice versa), mobility, dressing, climbing stairs and bathing, which are all given a numerical score. The total score is the sum of the numerical scores of the 10 variables. 
+
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>15890</parentId>
+      <modified>2016-04-15T00:00:00</modified>
+    </object>
+    <object>
+      <id>15900</id>
+      <name>Mindmap</name>
+      <alias>Mindmap</alias>
+      <notes>no information</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>15890</parentId>
+      <modified>2016-04-15T00:00:00</modified>
+    </object>
+    <object>
+      <id>15895</id>
+      <name>Purpose</name>
+      <alias>Doel</alias>
+      <notes>Gaining insight into the dependence on healthcare for carrying out general daily activities by means of a validated score. This is done in order to adjust the care to meet the needs of the patient if necessary. </notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>15890</parentId>
+      <modified>2016-04-15T00:00:00</modified>
+    </object>
+    <object>
+      <id>15903</id>
+      <name>Patient Population</name>
+      <alias>Groep cliënten</alias>
+      <notes>The Barthel index is mostly used for patients for whom it is relevant to assess their capabilities for Activities of Daily Living. </notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>15890</parentId>
+      <modified>2016-04-15T00:00:00</modified>
+    </object>
+    <object>
+      <id>15902</id>
+      <name>Evidence Base</name>
+      <alias>Wetenschappelijke onderbouwing</alias>
+      <notes>The Barthel index is developed for the determination of the level of self care for the Activities of Daily Living (ADL) (Mahoney and Barthel, 1965). The Barthel index can be used to assess the level of ADL, the change of the ADL capabilities over time, and to determine results of treatment or rehabilitation (Mahoney and Barthel, 1965, de Haan et al, 1993, Peppen et al, 2004, van Engelen, 2016). The Barthel scale is valid and reliable for us with individual patients and for population research, in particular as outcome parameter (Mahoney and Barthel, 1965, de Haan et al, 1993). In several studies a ceiling effect has been determined (Sarker et al, 2012).
+The Barthel index  is used widely, where there are many translations for use at national level, requiring national validations of the instrument. For instance, the scientific validation for the Netherlands has been carried out by de Haan et al (1993). A change was carried out in the scores (from 0,5,10,15 in the original to 0,1,2,3 in the Dutch adaptation). 
+For clinical use, the Barthel index is often integrated into guidelines. For instance it is a mandatory scale in the national guideline for physiotherapy care for stroke patients (van Peppen et al, 2004). The National institute for ICT in Health Care (NICTIZ) has created this detailed clinical model / care information model about the Bartel Index for the National project for a stroke information system (CVA-KIS) (Goossen et al, 2004). Problems encountered in the modeling are inconsistenties between  literature, specifications and practice. Hence the validated scale as published in the authoritative journal "Nederlands Tijdschrift voor Geneeskunde" by de Haan et al&lt;sup&gt; &lt;/sup&gt;(1993). 
+
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>15890</parentId>
+      <modified>2016-04-15T00:00:00</modified>
+    </object>
+    <object>
+      <id>15892</id>
+      <name>Information Model</name>
+      <alias>Informatie Model</alias>
+      <stereotype />
+      <type>Package</type>
+      <parentId>15890</parentId>
+      <modified>2013-02-04T00:00:00</modified>
+    </object>
+    <object>
+      <id>15924</id>
+      <name>Legend</name>
+      <alias />
+      <stereotype />
+      <type>Text</type>
+      <parentId>15892</parentId>
+      <modified>2016-03-28T00:00:00</modified>
+    </object>
+    <object>
+      <id>15926</id>
+      <name>BarthelIndex</name>
+      <alias />
+      <notes>Rootconcept van de bouwsteen BarthelIndex. Dit rootconcept bevat alle gegevenselementen van de bouwsteen BarthelIndex.</notes>
+      <stereotype>rootconcept</stereotype>
+      <type>Class</type>
+      <parentId>15892</parentId>
+      <modified>2016-04-17T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="SNOMED CT: 273302005 Barthel index (assessment scale)">2.16.840.1.113883.6.96</tag>
+    </object>
+    <object>
+      <id>15922</id>
+      <name>Bowels</name>
+      <alias>bowels</alias>
+      <notes>Over the previous week, occasional accident is once per week.</notes>
+      <stereotype>data</stereotype>
+      <type>Enumeration</type>
+      <parentId>15892</parentId>
+      <modified>2016-04-17T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="R4CBarthel: BrtlB525">2.16.840.1.113883.3.3210.10.1</tag>
+      <tag name="DCM::ValueSet" value="BarthelBowel">OID: 2.16.840.1.113883.3.3210.11.15.1</tag>
+      <attribute id="5257" name="0 = incontinent (or needs to be given enemas)" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute id="5258" name="5 = occasional accident" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+      <attribute id="5259" name="10 = continent" minCard="1" maxCard="1" value="" type="" stereotype="enum"></attribute>
+    </object>
+    <object>
+      <id>15914</id>
+      <name>Bladder</name>
+      <alias>bladder</alias>
+      <notes>Assessment of urinary control over the previous week, occasional accident &amp;lt;= 1 time per week.</notes>
+      <stereotype>data</stereotype>
+      <type>Enumeration</type>
+      <parentId>15892</parentId>
+      <modified>2016-04-17T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="R4CBarthel: BrtlB620">2.16.840.1.113883.3.3210.10.1</tag>
+      <tag name="DCM::ValueSet" value="BarthelBladder">OID: 2.16.840.1.113883.3.3210.11.15.2</tag>
+      <attribute id="5260" name="0 = incontinent, or catheterized and unable to manage alone" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+      <attribute id="5261" name="5 = occasional accident" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+      <attribute id="5262" name="10 = continent" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+    </object>
+    <object>
+      <id>15929</id>
+      <name>Grooming</name>
+      <alias>grooming</alias>
+      <notes>Ability over the previous 24-48 hours to attend to personal hygiene such as brushing teeth, shaving and washing.</notes>
+      <stereotype>data</stereotype>
+      <type>Enumeration</type>
+      <parentId>15892</parentId>
+      <modified>2016-04-17T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="R4CBarthel:BrtlD520">2.16.840.1.113883.3.3210.10.1</tag>
+      <tag name="DCM::ValueSet" value="BarthelGrooming">OID: 2.16.840.1.113883.3.3210.11.15.3</tag>
+      <attribute id="5263" name="0 = needs to help with personal care" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+      <attribute id="5264" name="5 = independent face/hair/teeth/shaving" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+    </object>
+    <object>
+      <id>15932</id>
+      <name>Toilet use</name>
+      <alias>ToiletUse</alias>
+      <notes>Ability to use toilet over the previous 48 hours.</notes>
+      <stereotype>data</stereotype>
+      <type>Enumeration</type>
+      <parentId>15892</parentId>
+      <modified>2016-04-17T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="R4CBarthel:BrtlD530">2.16.840.1.113883.3.3210.10.1</tag>
+      <tag name="DCM::ValueSet" value="BarthelToiletUse">OID: 2.16.840.1.113883.3.3210.11.15.4</tag>
+      <attribute id="5265" name="0 = dependent" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+      <attribute id="5266" name="5 = needs some help, but can do something alone" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+      <attribute id="5267" name="10 = independent (on and off, dressing, wiping)" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+    </object>
+    <object>
+      <id>15933</id>
+      <name>Feeding</name>
+      <alias>Feeding</alias>
+      <notes>Ability to eat food.</notes>
+      <stereotype>data</stereotype>
+      <type>Enumeration</type>
+      <parentId>15892</parentId>
+      <modified>2016-04-17T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="R4CBarthel:BrtlD550">2.16.840.1.113883.3.3210.10.1</tag>
+      <tag name="DCM::ValueSet" value="BarthelFeeding">OID: 2.16.840.1.113883.3.3210.11.15.5</tag>
+      <attribute id="5268" name="0 = unable" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+      <attribute id="5269" name="5 = needs help cutting, spreading butter, etc., or requires modified diet" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+      <attribute id="5270" name="10 = independent" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+    </object>
+    <object>
+      <id>15916</id>
+      <name>Transfers</name>
+      <alias>transfers</alias>
+      <notes>Ability to get up from a bed or chair and back.</notes>
+      <stereotype>data</stereotype>
+      <type>Enumeration</type>
+      <parentId>15892</parentId>
+      <modified>2016-04-17T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="R4CBarthel:BrtlD420">2.16.840.1.113883.3.3210.10.1</tag>
+      <tag name="DCM::ValueSet" value="BarthelTransfers">OID: 2.16.840.1.113883.3.3210.11.15.6 </tag>
+      <attribute id="5271" name="0 = unable, no sitting balance" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+      <attribute id="5272" name="5 = major help (one or two people, physical), can sit" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+      <attribute id="5273" name="10 = minor help (verbal or physical)" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+      <attribute id="5274" name="15 = independent" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+    </object>
+    <object>
+      <id>15920</id>
+      <name>Mobility</name>
+      <alias>mobility</alias>
+      <notes>Ability to get around the house or institution (on level surfaces). </notes>
+      <stereotype>data</stereotype>
+      <type>Enumeration</type>
+      <parentId>15892</parentId>
+      <modified>2016-04-17T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="R4CBarthel:BrtlD450">2.16.840.1.113883.3.3210.10.1</tag>
+      <tag name="DCM::ValueSet" value="BarthelMobility ">OID: 2.16.840.1.113883.3.3210.11.15.7 </tag>
+      <attribute id="5275" name="0 = Immobile or &lt; 50 meters" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+      <attribute id="5276" name="5 = wheelchair independent, including corners" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+      <attribute id="5277" name="10 = walks with help of one person (verbal or physical) &gt; 50 meters" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+      <attribute id="5278" name="15 = independent (but may use any aid; for example, stick) &gt; 50 meters" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+    </object>
+    <object>
+      <id>15912</id>
+      <name>Dressing/undressing</name>
+      <alias>dressing</alias>
+      <notes>Ability to choose clothes, put them on and fasten them.</notes>
+      <stereotype>data</stereotype>
+      <type>Enumeration</type>
+      <parentId>15892</parentId>
+      <modified>2016-04-17T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="R4CBarthel:BrtlD540">2.16.840.1.113883.3.3210.10.1</tag>
+      <tag name="DCM::ValueSet" value="BarthelDressing/undressing ">OID: 2.16.840.1.113883.3.3210.11.15.8 </tag>
+      <attribute id="5279" name="0 = dependent" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+      <attribute id="5280" name="5 = needs help but can do about half unaided" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+      <attribute id="5281" name="10 = independent (including buttons, zips, laces, etc.)" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+    </object>
+    <object>
+      <id>15930</id>
+      <name>Stairs</name>
+      <alias>stairs</alias>
+      <notes>Ability to negotiate stairs
+</notes>
+      <stereotype>data</stereotype>
+      <type>Enumeration</type>
+      <parentId>15892</parentId>
+      <modified>2016-04-17T00:00:00</modified>
+      <tag name="DCM::ValueSet" value="BarthelStairs">2.16.840.1.113883.3.3210.11.15.9</tag>
+      <tag name="DCM::DefinitionCode" value="R4CBarthel:BrtlD460">2.16.840.1.113883.3.3210.10.1</tag>
+      <attribute id="5282" name="0 = unable" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+      <attribute id="5283" name="5 = needs help (verbal, physical, carrying aid)" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+      <attribute id="5284" name="10 = independent" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+    </object>
+    <object>
+      <id>15925</id>
+      <name>Bathing</name>
+      <alias>bathing</alias>
+      <notes>Independent = without supervision or help when getting in and out of the bath and when washing.</notes>
+      <stereotype>data</stereotype>
+      <type>Enumeration</type>
+      <parentId>15892</parentId>
+      <modified>2016-04-17T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="R4CBarthel:BrtlD510">2.16.840.1.113883.3.3210.10.1</tag>
+      <tag name="DCM::ValueSet" value="BarthelBathing">OID: 2.16.840.1.113883.3.3210.11.15.10</tag>
+      <attribute id="5285" name="0 = dependent" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+      <attribute id="5286" name="5 = independent (or in shower)" minCard="1" maxCard="1" value="" type="int" stereotype="enum"></attribute>
+    </object>
+    <object>
+      <id>15921</id>
+      <name>TotalScore</name>
+      <alias />
+      <notes>The score of the Barthel index is the derived sum of the scores on the ten individual items and has a minimum of 0 and a maximum of 100 for the 0,5,10,15 score system. </notes>
+      <stereotype>data</stereotype>
+      <type>Class</type>
+      <parentId>15892</parentId>
+      <modified>2016-04-17T00:00:00</modified>
+      <tag name="DCM::DefinitionCode" value="Snomed CT:   419892001 | Barthel index score (observable entity) |">2.16.840.1.113883.6.96</tag>
+    </object>
+    <object>
+      <id>15918</id>
+      <name>AanUitkledenCodelijst</name>
+      <alias />
+      <notes>UEsDBBQAAAAIABB5Y0ZIU46VFwUAAOgrAAAHABEAc3RyLmRhdFVUDQAHWM71VFjO9VRYzvVU
+7Vhfb9s2EH8PkO/A5z0YJCU7zvKUJis6YGiGee1e+EJJ1J+apjSKjpMV+e49krLjZLbkdPYi
+uAES+Xg83t3veOId9ZVpkxLGVV2wRKSSq4zgMGCpUdEXNo+J5ab49OQrS0tlTCSBwIil9aKo
+a3SpCy4vHoBHVjyWxjnXtTAYXXFZRLpwAnSTwGehE664Ewg2CTwaCIGtCol+m8dFwtEEXL54
+eLCOxaUsNXiGLpgWCWaZFkJhFsm5wJ5Hh0PPtYTlw++WGULHz2aeaGq0D4kXxtSzCSF+whJu
+hpBGDQ0aA0A40zRAF87v2txLUedCGBtTAE8x+ljqmQcc1wRdi5TPpUG/c80zzascvYdN8LMU
+QgJryIhFrNKlEbFhMWxlHAUszuOo4iZAk8m7spzOuJ7aRXXAaiXuDGwvseZARYGZhH9dWNNo
+UvG4UJk3EG40QMFAuDQQgoE/xayS3Ij3hZBJsyM/AfJbmyuf1FSVC+XYrOKV0AtCzvHY0zkZ
+jYOAgXuZJGOMHaVXlCFh6KnIUbngidD3ZxRiVYI/nlRlpssFn5syLYzNVsMjL6JndQ4rQCIV
+3My1MDnAMFIAeGFCxoVKFOipGYd0V1rGrMoinWhrqCGtIXC9BvCWtajvVAMgyy39CMCOVhjW
+B8YOVkiWg81g6mha8UyAdhXDTtvfRMQ2dpIXqnk2uQJcA8gTeGaQGgEGIjX1X0Vi8gDohaPG
+w/NzGFQ8SaQTsVQqrYCl9CNPL3lmxTJLVrRiRZYlIcqWo/MAzgoJRLkAd2J5K7ThEvJE2uAZ
+Zp+1ey6G7idOR81k1DYp2yb1tkmXk0MgwFML1hEWqyMsVM/RDcesOKbhREuGfYmElHdBiOlx
+IrOJ4V5KnbBCwcvK6hoGnM/vIA+x3VUYsr8lWxRJbKQdPMm/5cgdJSHzpQPehryIc8tNIv8r
+S/9rzw4vaXSco0uuPhVmKkUi1FWZCFl8qY3TEuAx2arFLXYI9u18q9lnzt/8ev0zogMyGoxD
+PCADQoLxOBjQQTgIYDAY4QHw6aA7Kl7fDh54wZ01np7Qvesc76hxuT2rbsJL00aaNtLU1Su3
+G36Z30l/lrz+0TYKnF89OtrO9noAkJCMjxMZDYmtjkeIrE/laL/IwtHZkWbj6DwcHSeyQ7QQ
+rdWlqRdNFWYRuipVLCqDPvKZeI2mYIs7tp/pkTufOdw7e+FPArdLNLlvGr213uDfq9d7k1Yz
+XrA/KbDCKGa2T+yBT9eijnVRmaJUO7dmznCjAPesMwtwjy6d+ztOe9KQ7Q9QT/qw/QHqSfu1
+P0A96br2B6gnzdb+ALX3WO4cfEH12OGbQFM9aFNXL9Ocq6n9OjPtqGSH9+X6j18mkw06WvuI
+pQ6Eu+35evfaMHGHB/DHKYanpGcjeM7m0jjfX+zVToFrvHrHtcmFXP9s9xxZ0OgIGh3BehfR
+junwUe38WhduMLBTgBCofOmnsS1heGk3uPSy5dPdysvLbkQ+UmtvvF1B8fCsfcWWprI1HdY7
+yi3BOHxOfJjLqmNHDu/EfzvVSLe9XRLv8DBJhwdvp9r3RPWHP9U+dCPykRJwfUQ5vPBIwRU9
+QzPONZpyhUqViVshNEoEglQAqX/guYS0Qw60XI4lry3n7ZK8t3747ZLcd0Bvl+S+A3q7JO9Q
+flqr3rMqfKP40VyTd7C3S80/PEza4cFbQ/ldUf3RG8qbbkQ+Uk/eebvmf7ooPw0ERGAj7uWI
+69OTh9OTb1BLAQIXCxQAAAAIABB5Y0ZIU46VFwUAAOgrAAAHAAkAAAAAAAAAAAAAgAAAAABz
+dHIuZGF0VVQFAAdYzvVUUEsFBgAAAAABAAEAPgAAAE0FAAAAAA==</notes>
+      <stereotype>document</stereotype>
+      <type>Artifact</type>
+      <parentId>15892</parentId>
+      <modified>2016-03-28T00:00:00</modified>
+    </object>
+    <object>
+      <id>15913</id>
+      <name>BadenDouchenCodelijst</name>
+      <alias />
+      <notes>UEsDBBQAAAAIAKheS0Y6VcKD3AQAAOYqAAAHABEAc3RyLmRhdFVUDQAHwELbVMBC21TAQttU
+7VhLb9s4EL4HyH/geQ8GH/Ijm1PSoNgFFu0C6bYXXiiJslTTlJai6wRF/vsOSdmts4ofsYKo
+RoBEGg6HM/MNR5wxv3NjM8KFrgueykwJPSU4YjyzOv7KFwlx3Ayfn33nWamtjRUQGPGsXhZ1
+ja5MIdTlA/DImsezJBemlhajd0IVsSm8AG0T+CxNKrTwAqxN4IeBCNi6UOivRVKkAt2Cy54/
+XC/bmHlwLielKg34jC65kSnmUyOlxjxWC4kDjw6HgesIx4f3EzOETh7NbGhqtA9JEMY0sAkh
+YcIRfoaQRg1ljQEgvGnK0KX3u7b3Sta5lNZFG/BRjD6UZh5CkdQE3chMLJRFfwsjpkZUOXoP
+2xNmKQQL1pARj3llSisTyxPY5CRmPMmTuBKWodvb67KczYWZuUU147WWdxY2njhzoKLAXMG/
+KZxpdFuJpNDTYAC0D/9vgIKBaGUgAgOf5LxSwsr3hVRpsyO/AfJvLov+0TNdLrVn80pU0iwJ
+ucCTQOdkNGGMg3tTRSYYe8qsKUuiKFCxp3IpUmnuxxRiVYI/gdTl1JRLsbBlVliXx1bEQcTM
+6xxWgEQmhV0YaXOAYZUE8NJGXEidatBTcwEfgjYq4dU0NqlxhhrSGQLXawDvWMv6TjcAprmj
+PYDpwoI3MAzeKjexhvPzwLrBGtRq0I6rjmeVmEowpBPYdPdOZeLCqEShm2eTNsC1EIQUnlPI
+EoaByGz9pUhtzoBeemoyHEYwqESaKi/iqEw5AUeZHzyz4tk1y65Y8ZoVO5aCgDuOyRkcKAqI
+cgnuJOqbNFYoSBnl4mi5e9b+uRz6V5KNmsl426TaNmmemvTpOQQCPLUAzBMOhCcc1MAxDccF
+JHBUw4lXDPc9SaXu2PBidJrIXGL479OkvNDw3fK6hoEQizvIQ+x2FYb8X8WXRZpY5QYb+bca
++VMl4uv6khdJ7rhpHN6qDG93jARJa5IcXUP+65tykeRyndgbqtjeqt6VqVTF19q26GF4QvbU
+4+PSdUgOsI8+/nlzpIbfER2Q0WAS4QEZEMImEzagg2jAYDAY4QHw6aDFxiHRjlrWH+LjsfZp
+y/rj7e+fuOdn5MiNXidaUOKn8GM/aKOENkqoL/RB0isJGRpO3tcvBCPm/epRIRh3elyS0dhV
+3BNERkcXrhCcILI+Fe9ukUWTMTtNZGNMLk4T2Us0XDuKzkrS14sY+iSdyMqiD2IuX6PZecId
+1771yJ3PAn6w98KfFH6Wo6P13N63NsY7Wp5HStqapsPc6E/W+bC6qMj58dF9Vs++qaMHQbmR
+dWKKyhalPsXmlOEe3VJ0V1F60pN2B6gnrWh3gHrSgXYHqCeNZ3eAetJvdgdoe5vpz8EDiglt
+Tv6t1zNBEl21rNynDNFQM1CWCz1zF3mz4xTtqKfPC8EB9tH11ac/WlTs03FRdKTxVwePd3gA
+f4JieCo6HsFzvlCWPMurveK52hJhbC7V6tL5SG0/31mz4N6jMLFGBWtUsMcN0vYgvfw27bwn
+3rzmPSBGyKk80r0XCc+veYpt6aSVqB3nraPurHi+ddR9B/TWUfcd0FtH3Vkt+tiy8oASgrTo
+uhp1GoQD7B/XU5OWlQcYf3XwZIcHveip35riLQZ+8aa404OopbH1kDYzGlC0+r4aCXN+9nB+
+9h9QSwECFwsUAAAACACoXktGOlXCg9wEAADmKgAABwAJAAAAAAAAAAAAAIAAAAAAc3RyLmRh
+dFVUBQAHwELbVFBLBQYAAAAAAQABAD4AAAASBQAAAAA=</notes>
+      <stereotype>document</stereotype>
+      <type>Artifact</type>
+      <parentId>15892</parentId>
+      <modified>2016-03-28T00:00:00</modified>
+    </object>
+    <object>
+      <id>15927</id>
+      <name>BlaasCodelijst</name>
+      <alias />
+      <notes>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
+qgoAAAAA</notes>
+      <stereotype>document</stereotype>
+      <type>Artifact</type>
+      <parentId>15892</parentId>
+      <modified>2016-03-28T00:00:00</modified>
+    </object>
+    <object>
+      <id>15931</id>
+      <name>DarmCodelijst</name>
+      <alias />
+      <notes>UEsDBBQAAAAIAMJeS0YmoSK46AQAAMAuAAAHABEAc3RyLmRhdFVUDQAH2ULbVNlC21TZQttU
+7VndT+M4EH9H4n/w8z1UtpOW3vHEwiGttNpdibu9F784ifMBrpO13S1oxf9+YyftLjRQQoIa
+oUqQjMeej9/EHtvTn0zblDCuTMESkUquMoLDgKVWRddsGRPHTfHx0U+WlsraSAKBEUvNqjAG
+nemCy9N74JENj6VxzrURFqNzLotIF34AbRvwSz4Atiok+rSMi4SjK/DI88ON2IOee+dRXMpS
+g0volGmRYJZpIRRmkVwKXPPodFpzHeH48H6ih9D5o54HmhrtU1IPxrRmE0LqDkf4HkIaNTRo
+DADhTdMAnXq/jb2TwuRCWBdMwEcx+lzqRR2K2BB0IVK+lBZ95Zpnmlc5uoTo170UggUyZMYi
+VunSitiyGL5hHAUszuOo4jZAV1cfyvJmwfWNEzIBM0rcWpAjzhyoKDCT8K8LZxpdVTwuVFYb
+CCHq2wYoGAjXBkIw8I9YVJJbcVkImTRf5A9A/sNNkn/VjSpXyrNZxSuhV4T8iec1nZPZPAgY
+uJdJMsfYU3pDWRKGNRV5Khc8EfruhEKsSvCnJlWZ6XLFl7ZMC+umqeVRPUQvTA4SMCIV3C61
+sDnAsFIAeGFDxoVKFOgxjMM8V1rGrMoinWhnqCGdIXDdAHjHWplb1QDIckd7ANnSgjfQrL2V
+rmMD5/eGdY0NqHWjHZeJbiqeCTCkYvjo7p2I2IVR8kI1z2baANdCEBJ4ZjBLAgxEas1/RWLz
+AOiVp+ZTGkKj4kki/RBHpdINcJT+xdNrnt2w7JoVbViRY0kIuOPoPIB8IYEoV+BOLH8IbbmE
+KSNdHC1zT+Ofq6l/xems6Yye65TPdeqnOv30nAIBnloA5gkHwhMOas3RDccFpObIhhOtGW49
+CSlvg2kYvk9kbmL49akTVihYt8wYaHC+vMUuaUj3wTX7LtmqSGIrXePB/Fu3mqzito8AzwnL
+izh33CSq37Ks3y6N1COtjnN0wfXivEyELK6N7afLA9onli8fL3pq+AvRCZlN5iGekAkhwXwe
+TOgknATQmMzwBPiuCYPWYGuc9cLbfx6Ygfy48sDJoKuFTGcu4b5DZHDkoe8T2Zhy97DIwrnf
+/t8hshMavFNke9hv1yP9Hhmh81LForLoM1+IfWyZT7jjDgEjcucbh/vaKPxJ4FaGeuu5unvN
+8eqRksl4Jo2PigMlFv2D86qD20MdIwjKhTCxLipblGrjTS+V4zpbBnhEd8zhNoSRHCmHAzSS
+k+RwgEZygBwO0EjOjcMBGslxcThAb3FKJDgIdmZ+9LFFssOegXzBslBC2X3viOjy7/OzTy06
+/K8bu3Sgntb3jh7v8AD+OMXwlPRkBs/FUlryKq9eFM/Gqw9c21xIV/Vba/IFMPwYH2000UYT
+XWvyBaYRxHdnoS5sMfCiUCGnskW4g3dvEp3XJxCKpyc7JZ9OIFv6ukTi90PsHsLxpUWyg/tI
+ZUIub65FPzVvMh862O+Zi8e4GjrYB/+f9+CQi7eRdInvIRe32kdnrZIvgN3ENe0pj4RCthRt
+BZouaoTY/Ob9Sg19PSifScMd9Ay/oz0qy0huHOdQnhnsJnYoz4wd0KE8M3ZAh/LMYDv6eYtk
+h70Dbd2thoTQxZF+FwLaItnB+t7R0x0eHC4E20g6xfdwIWiz35o+uhRnttLHlrYucdgqzTxc
+AoC/FfW6xfXx0f3x0f9QSwECFwsUAAAACADCXktGJqEiuOgEAADALgAABwAJAAAAAAAAAAAA
+AIAAAAAAc3RyLmRhdFVUBQAH2ULbVFBLBQYAAAAAAQABAD4AAAAeBQAAAAA=</notes>
+      <stereotype>document</stereotype>
+      <type>Artifact</type>
+      <parentId>15892</parentId>
+      <modified>2016-03-28T00:00:00</modified>
+    </object>
+    <object>
+      <id>15928</id>
+      <name>EtenCodelijst</name>
+      <alias />
+      <notes>UEsDBBQAAAAIAMZeS0bej0g+NAUAANUzAAAHABEAc3RyLmRhdFVUDQAH60LbVOtC21TrQttU
+7VrdT+Q2EH9H4n/wY1tVke1kl73y1ONDrVRxJ9GPF784iZMYvE7qeFnuTvzvHedj74BwsHhX
+m6KVIBmP7Zn5TeyZseELMzYjjOtaslRkiuuc4ChkmdXxFVskxHEzfHjwhWWltjZWQGDEsnop
+6xr9aiRXx3fAIysey5KCm1pYjE64krGRzQA6NODr/BDYWir0xyKRKUeXYFHDj1bT7vXcOYuS
+UpUGTELHzIgUs9wIoTGL1ULglkcnk5brCMeH9xM9hM4e9NyT1EmfkHYwpi2bENJ2OKLpIaQT
+Q8NOARCNahqi48bu2n5Soi6EsM6ZgI9idFGaeeuKpCboVGR8oSz6yA3PDa8KdA7eb3spOAvm
+kCmLWWVKKxLLEviGSRyypEjiitsQXV6+L8vrOTfXblIdslqLWwvziFMHIiRmCn6NdKrRZcUT
+qfNWQQRef6yAgoKoVxCBgj/FvFLcinMpVNp9kZ8A+Y1bJH/pa10udcNmFa+EWRLyDs9auiDT
+WRgyMC9XZIZxQ5kVZUkUtVTcUIXgqTCfjij4qgR7WlKXuSmXfGHLTFq3TC2P2yFmXhcwA0Zk
+gtuFEbYAGFYJAC9sxLjQqQY5NeOwzrVRCavy2KTGKepIpwhMrwG8Yy3rW90ByAtHNwDyhQVr
+oNlaq1zHCs63DesaK1B9YxhXHV9XPBegSCfw0d07FYlzo+JSd89u2QDXghNSeOawSkIMRGbr
+f2RqixDoZUPNJuE7aFQ8TVUzxFGZcgMcZb7yTM+zK5btWfGKFTuWAoc7jilCiBcKiHIJ5iTq
+RhjLFSwZ5fxomXvWzXM5aV5JNu064+91qu91mqc6m+U5AQIstQCsIRyIhnBQW47pOM4hLUd1
+nLhnuP0klLoNaePoN4jMLYxmf5qUSQ37ltU1NDhf3GIXNJT74Ib9q9hSpolVrnFv/fWtLqq4
+9BHiGWGFTArHTeP2rcr27cJIO9KapEBnVuiTMhVKXtXWT1YDaJdYPvx+6inhF0QDMg1mEQ5I
+QEg4m4UBDaIghEYwxQHwXZMGkx5si7PdeLuPA1OYP644cLTR3ULCyextIqN0+kaRjSl2bxZZ
+NKH0bSKbznD0NpHtIN/2I5scGaOTUieisuiCz8UuUuYT5rgiYETm/M3hvDYKe1I4lSFvOZef
+XlNePRASjGfRNF5xoMTc3zmvKtzuyxiBU05FnRhZWVnqlTVeIsdVW4Z4RGfMzSWEkZSUmwM0
+kkpyc4DCcRSQmwM0krpxc4BGUi5uDtA2qkSCw/DZyI8uBmaukTOQFJ5lBvJM5+izUFltuU5l
+7idp1ykdnZ+dDdUlzV9nnhOBPJXvHDx+xgL44RTDU9GjKTznC2XJq6x6kT87q95zYwuh3K1l
+L6m5wMMP8dFOEu0k0V5Sc0E2Av8+e9EYDSh4kasQiJwMTF7Duq14538TAKX2jYEQ/7i3GT94
+CtD+rjg88PXExrIB+rFflN8ei3awQH8bmLkOjoWq/CRsZXOuod8vL5KBmWso3zl4shULXuS7
+zoKBHPg6LFtBsob+fQ4c1u8dYoTIfCO/b9wvvMOctwm69E86/gkwlleeEnwtqLW8Sn1jBfrZ
+24y5MN5WoBvuXZzF7v98PGUcHnj7Q+jPnhKCoYrowUWx4rXj7C+MN3Y3tL8wHjugcH9hPHJA
++wvjjdWKHwZmrpNENM8Krq/dPwBe+4naSsG8hn6/cykdmLmG8p2Dp89YsL+vfYxkLf/uz6pD
++rcdfyieHL1Q1MoJj4SsYc/j28X7mwg8OOi3vsXN4cHd4cF/UEsBAhcLFAAAAAgAxl5LRt6P
+SD40BQAA1TMAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB+tC21RQSwUGAAAAAAEA
+AQA+AAAAagUAAAAA</notes>
+      <stereotype>document</stereotype>
+      <type>Artifact</type>
+      <parentId>15892</parentId>
+      <modified>2016-03-28T00:00:00</modified>
+    </object>
+    <object>
+      <id>15915</id>
+      <name>MobiliteitCodelijst</name>
+      <alias />
+      <notes>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
+0AUAAAAA</notes>
+      <stereotype>document</stereotype>
+      <type>Artifact</type>
+      <parentId>15892</parentId>
+      <modified>2016-03-28T00:00:00</modified>
+    </object>
+    <object>
+      <id>15917</id>
+      <name>ToiletgebruikCodelijst</name>
+      <alias />
+      <notes>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</notes>
+      <stereotype>document</stereotype>
+      <type>Artifact</type>
+      <parentId>15892</parentId>
+      <modified>2016-03-28T00:00:00</modified>
+    </object>
+    <object>
+      <id>15911</id>
+      <name>TransfersCodelijst</name>
+      <alias />
+      <notes>UEsDBBQAAAAIALpdjkYlXw04ZQUAAEIxAAAHABEAc3RyLmRhdFVUDQAH6f0sVen9LFXp/SxV
+7VlLb+M2EL4HyH/gcVughkjJjrc57QMLFCiyRZ1mL7xQEmVpQ1MqSa+zXeS/d0jKTuLakhwo
+iJoYiKXh8DHzzZAzI+YHVSbDlEld0JRngsk5DqKQZkbGX+kywZabBacnP2hWSmNiAUSAaKZX
+hdbonSqYOL8FHt7waJbkTGluAvSBiSJWhRtAdg244iplkrkB4a4BdwIiYMtCoN+XSZEyNAOV
+z29vrWJJKUoFmqFzqnga0LniXAY0FkseeB4Zjz3XEpYP7z09mEy3eh6sVK8+xn5wQDwbY+w7
+LOF6MK6XIWEtAAgnmoTo3OmtzXfBdc65sTYF8CRAF6VaeMCJxugjz9hSGPQHU2yuWJWjT+AE
+30vAJDAHT2hMK1UanhiagCuTOKRJnsQVMyGazd6X5fWCqWs7SYdUS35jwL3YioMlioAK+KnC
+ikaziiWFnHsB0U4BBAREawERCLjki0owwz8VXKS1R34G5N/sXvlLXstyJR2bVqziaoXx22Dq
+6RxPpmFIQb25wNMgcJTaUAZHkadiR+WcpVx9PyNgqxL08aQs56pcsaUps8LY3WpY7Ieohc5h
+BozIODNLxU0OMIzgAJ6biDIuUwnraMpgu0slElrNY5UqK6gmrSBQXQN4y1rpG1kDmOeWvgNg
+WxsM9xvGNjZI1o3dYHR8XbE5h9VlAp6275Qn1naCFbJ+1nsFuAaQp/Ccw9YIAyAyo78UqclD
+oFeOmo6Dt9CoWJoKN8RSmbADLKXueGrNMxuWWbPiDSu2LAFWthyVhxArBBDlCtRJxDeuDBOw
+T4Q1nqH2qd1zNXavJJvUnXFTp2jqVPs63Z4cAwGaWrCOsFgdYaF6jqo5ZsMxNSdeM+wh4kLc
+hPhs+jKR2Y3hDqVKaSHhsFKtocHY8gb2YWC9Ck36t6CrIk2MsI0H+2/dcqEkoj51wGnIiyS3
+3DT2b1H6t40dfqRRSY4uFUTwjG8WfbBM1L4M0u0ivaQPZcpF8VUbNyEMprh5grNP36ZpFLtl
+ms+/ffwVkRGejKZRMMIjjMPpNByRUTQKoTGaBCPgk1FXA3TQwA/svOLpCel9zUnHFdfu2dop
+pB5N6tHEZUPnDT/Ne9JHqucPnJPQ6TWgwHnWa3jBIZ68TGSEjKOXiWxIya5fZFH09oX6bDIm
++GUie4oCpTG71PmizsI0hsJBJrwy6IIt+HMUBXvUsfXMgNS5YvBVOwh9Uvh2RbPvdaHXWEXe
+r00axfiBw9kCG4x8YevEAej0ketEFZUpStm5NHOC6wWCgVVmYTCgT9r+wulACrL+AA2kDusP
+0EDKr/4ADaTq6g/QQIqt/gA111guDh6QPfydQOOnfp09CLpozzQ+9RbcoH+4yLRhMi3mLQnv
+cSo3qrFWudbn8s93F7MdazSWGxvYQbs8nxafG2bQogH8MRLAU5CzCTwXS2Gc7gdr1clwtVbv
+mTI5F5u7wy1UYT0/rOeH9wuNZjxPb9HWC71oh4BOxkGw5KG3Z3vMcGjBePiRb0R0d+QLieDE
+M4PeyK0I8NMaQgef368s9yB+nOO7Ib7q6BTEuUD5UlQt3nmcro3ye41uuF1el0349DBxiwbH
+6HaoRV99dPNnvRHRw7OO3uBfCFpwqblEAqawhf031fX/KL596egWxAtZzF9ChOsgr8tGfHqY
+pEWDY4Q72KKvPcL5096IaPu0ozcLKN4c9Y1JtCpLlUK0K7M+At7WVaFg2nKOV4a93Q4crwyH
+Duh4ZTh0QMcrw97yz+eOKRJJluVMXrvk0pIvH6dvow691pthu7wuZcHTw/S7Y78Gx3rzUIu+
++nrTn/dGRPvPewcH/+fj+SEwQLQTx7rF1OnJ7enJv1BLAQIXCxQAAAAIALpdjkYlXw04ZQUA
+AEIxAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAfp/SxVUEsFBgAAAAABAAEAPgAA
+AJsFAAAAAA==</notes>
+      <stereotype>document</stereotype>
+      <type>Artifact</type>
+      <parentId>15892</parentId>
+      <modified>2016-03-28T00:00:00</modified>
+    </object>
+    <object>
+      <id>15919</id>
+      <name>TrappenLopenCodelijst</name>
+      <alias />
+      <notes>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</notes>
+      <stereotype>document</stereotype>
+      <type>Artifact</type>
+      <parentId>15892</parentId>
+      <modified>2016-03-28T00:00:00</modified>
+    </object>
+    <object>
+      <id>15923</id>
+      <name>UiterlijkeVerzorgingCodelijst</name>
+      <alias />
+      <notes>UEsDBBQAAAAIACp1Y0bNSmlbBAUAAJInAAAHABEAc3RyLmRhdFVUDQAHMcj1VDHI9VQxyPVU
+7Vndb9s2EH8PkP+Bj9tQGPxQZGd5WhN0G7A1xbJ2L3yhJOqjpimNouukRf73HUnZ+agjO5uC
+ClmARjoeT3f3O1K8n9Uv3NiccKHbimcyV0IXBEeM51YnH/kyJU6b48ODLzyvtbWJAgEjnrer
+qm3RT6YS6uQadGSj43laCtNKi9GpUFViKm9Atxl8kCYTWngDts3gJkAEal0p9NsyrTKBLiDl
+k+trl1haq9pAZuiEG5lhXhgpNeaJWkocdPToKGid4PRwf2CG0Nm9mTueOu9HJBhjGtSEkDDh
+BD9DSOeGsi4ACD40ZejE593aKyXbUkrragrgKUZva7MIgNOWoDOZi6Wy6J0wojCiKdEbWIQw
+S6Ek8AyJecIbU1uZWp7CUqYJ42mZJo2wDF1cvK7r+UKYuXuoZbzV8tLC8hIXDlxUmCv4M5UL
+jS4akVa6CAGirQEoBIjWASII8KdcNEpY+aaSKutW5AdA/sntlfd6ruuV9mreiEaaFSHHeBbk
+ksQzxjikVygyw9hLZiNZEkVBSrxUSpFJczWlUKsa8gmirgtTr8TS1nll3W61IgkmZtGW8ARY
+5FLYpZG2BBhWSQAvbcSF1JkGPy0XsN21USlvisRkxgXqRBcIUm8BvFOt2kvdAShKJ98AcKMN
+htsD6wYbJOvBdjBtMm9EIcG7TmGl3T2TqaudEpXurt1eAa0F5BlcC9gaDIOQ2/avKrMlA3nl
+pVk8O4ZBI7JMeRMn5coZOMnc6MxaZzcqu1YlG1XiVAqq7DSmZHBWKBDqFaSTqk/SWKFgnyhX
+PMvdtfXX1ZG/pXncTSZ9k6pv0jw06ffkEQiQqQPrBYfVCw5q0JhOYzca22mStcK9RFKpS0Zj
+8jyRzabMbaFGmIxXGl5W3rYwEGJ5CfsQu1WFIf9b8VWVpVa5wZ39tx75oyTioXXA21BWaem0
+WRLuqg53d3YES2vSEr2vYNOr6uNcQhP4XJsCDp7TOpOgaq33xvCMPOjNO/FIhgbRG/YeiPNf
+z35EdELiySzCEzIhhM1mbEIn0YTBYBLjCejpZHd1gr89MgiGe3s8PKCD+2R7elwvz4ZVBGva
+WdPOmvq+5VcjPBZWMpwp+xxx0+n6eHqKIy5mPq8RHXHTQQ8Cwsj0eSKjLBrN4T0sMsbi+Hki
+i45p9DyRxdNj9jyRPQWV6O0uXb/oujBP0GmtU9lY9FYs5LcgBQ+k4/jMiNL5IOD35yjyyYDs
+oYurjujd4gZfP32bm/SGCYbj2QIbjHLheOIIcjqTbWqqxla13pua+cCdAzwyZsbwiH58Dnec
+joSQDQdoJDxsOEAjoV/DARoJ6xoO0EjI1nCA+jmWPwcf0T3CN4Hen/pd96Dol92dJrTepWp2
+NLl/l2Zv6HWaXQ4//3F+/vsWH70UYwMV744XWuG3hol3ZAD/BMVwVXQaw3WxVNbn/uis9ipc
+l9VrYWwp1bYve/cRss4X63yx20SjH9vTV3fnB71oS4C9CoXA5WO/ng1ahse88hQfTR+0DZWS
+wMVQCS8+0sB3i9uscg+APWxSidZpXljlYA3khVWOHdALqxw7oBdWOViLOd+zSSAt8lLouft/
+wfmTtMTeHAall2R3vKfr/L1h78EkOzJ4oZf3cTymuv97ehne/V5EX7/76LtCfgZr+wqVQphX
+yAqdSf1qT7gI7Rv08KBNS2mk/v4/0Flf1buvDBRya/nWI2EOD64PD/4BUEsBAhcLFAAAAAgA
+KnVjRs1KaVsEBQAAkicAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUABzHI9VRQSwUG
+AAAAAAEAAQA+AAAAOgUAAAAA</notes>
+      <stereotype>document</stereotype>
+      <type>Artifact</type>
+      <parentId>15892</parentId>
+      <modified>2016-03-28T00:00:00</modified>
+    </object>
+    <object>
+      <id>15901</id>
+      <name>Example Instances</name>
+      <alias>Voorbeeld scenario</alias>
+      <stereotype />
+      <type>Package</type>
+      <parentId>15890</parentId>
+      <modified>2013-02-04T00:00:00</modified>
+    </object>
+    <object>
+      <id>15941</id>
+      <name />
+      <alias />
+      <stereotype />
+      <type>Boundary</type>
+      <parentId>15901</parentId>
+      <modified>2016-04-15T00:00:00</modified>
+    </object>
+    <object>
+      <id>15894</id>
+      <name>Instructions</name>
+      <alias>Werkwijze</alias>
+      <notes>The Internet Stroke Center suggest the following procedure: 
+1. The index should be used as a record of what a patient does, not as a record of what a patient could do.
+2. The main aim is to establish degree of independence from any help, physical or verbal, however minor and for whatever reason.
+3. The need for supervision renders the patient "not independent".
+4. A patient's performance should be established using the best available evidence. Asking the patient, friends/relatives and nurses are the usual sources, but direct observation and common sense are also important. However direct testing is not needed.
+5. Usually the patient's performance over the preceding 24-48 hours is important, but occasionally longer periods will be relevant.
+6. Middle categories imply that the patient supplies over 50 per cent of the effort.
+&lt;b&gt;7. &lt;/b&gt;Use of aids to be independent is allowed.
+
+Patients in coma normally score "0"on all items, even if there is no incontence at the time of scoring. 
+
+
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>15890</parentId>
+      <modified>2016-04-15T00:00:00</modified>
+    </object>
+    <object>
+      <id>15897</id>
+      <name>Interpretation</name>
+      <alias>Interpretatierichtlijnen</alias>
+      <notes>A high score on the Barthel Index represents a high level of independence (Mahoney and Barthel, 1965)
+
+For the version with the 0,1,2,3 scores the the maximum score is 20 and the interpretation is as follows: 
+Total score 0-9 severely limited ADL
+10-19 mildly limited ADL
+20 independent.
+
+For the version with the 0,5,10,15 scores, the maximum score is 100 (fully independent).
+Several authors have proposed guidelines for interpreting Barthel scores. Shah et al. (1989) suggested that scores of 0-20 indicate "total" dependency, 21-60 indicate "severe" dependency, 61-90 indicate "moderate" dependency, and 91-99 indicates "slight" dependency.
+Most studies apply the 60/61 cutting point, with the stipulation that the Barthel Index should not be used alone for predicting outcomes (Carole Lewis and Keiba Shaw (2006). </notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>15890</parentId>
+      <modified>2016-04-15T00:00:00</modified>
+    </object>
+    <object>
+      <id>15896</id>
+      <name>Care Process</name>
+      <alias>Zorgproces / afhankelijkheid</alias>
+      <notes>The Barthel can be used premorbid and during admission. Also it is applied in long term rehabilitation.  
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>15890</parentId>
+      <modified>2016-04-15T00:00:00</modified>
+    </object>
+    <object>
+      <id>15910</id>
+      <name>Example of the Instrument</name>
+      <alias>Een voorbeeld van het instrument</alias>
+      <stereotype />
+      <type>Package</type>
+      <parentId>15890</parentId>
+      <modified>2013-02-18T00:00:00</modified>
+    </object>
+    <object>
+      <id>15904</id>
+      <name>Constraints</name>
+      <alias>Inperkingen</alias>
+      <stereotype />
+      <type>Package</type>
+      <parentId>15890</parentId>
+      <modified>2013-02-04T00:00:00</modified>
+    </object>
+    <object>
+      <id>15909</id>
+      <name>Issues</name>
+      <alias>Issues en openstaande vragen</alias>
+      <notes>There is a need to code the single score items and each value per score in  a controlled vocabulary. 
+
+Barthel index is not included in LOINC (visited search.loinc.org on 15 april 2016). 
+https://search.loinc.org/search.zul?query=Barthel 
+
+Barthel is included at level of scale as instrument and some parameters in Snomed CT (http://browser.ihtsdotools.org/?perspective=full&amp;amp;conceptId1=273302005&amp;amp;edition=en-edition&amp;amp;release=v20160131&amp;amp;server=http://browser.ihtsdotools.org/api/snomed&amp;amp;langRefset=900000000000509007 visited on 15 April 2016). 
+
+e.g.
+273302005 | Barthel index (assessment scale) |
+
+Value set items codes are derived from equivalent ICF entry, however, a prefix of Brtl is added to the ICF code to distinghuish it from the ICF code since that is not precise enough. 
+
+For mapping reasons the NFU documents with values are left in but hidden after the classes. With exports these will not come along, except in the XMI they remain.
+
+
+
+
+
+
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>15890</parentId>
+      <modified>2016-04-17T00:00:00</modified>
+    </object>
+    <object>
+      <id>15893</id>
+      <name>References</name>
+      <alias>Referenties</alias>
+      <notes>Barthel Index [Online] Available at : &lt;a href="https://github.com/detailedclinicalmodels"&gt;&lt;font color="#0000ff"&gt;&lt;u&gt;https://github.com/DetailedClinicalModels&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; File Doc_Obs_Barthel_Index_R01_V1_4.doc [Visited on: 15 April 2016].
+
+Barthel Index [Online] Available at : https://github.com/openEHR/adl-archetypes/blob/master/Reference/CKM_2013_12_09/entry/observation/openEHR-EHR-OBSERVATION.barthel.v1.adl  [Visited on: 15 April 2016].
+
+Clinical Building Blocks [Online] Available at : &lt;a href="http://www.healthdata.be/cbb/index.php5/The_Clinical_Building_Blocks_%28Belgian_version%29#Clinical_Building_Blocks"&gt;&lt;font color="#0000ff"&gt;&lt;u&gt;http://www.healthdata.be/cbb/index.php5/The_Clinical_Building_Blocks_%28Belgian_version%29#Clinical_Building_Blocks&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; [Visited on: 15 April 2016].
+
+Eveline van Engelen (2016). De Barthel Index. [Online] Available at: www.meetinstrumentenzorg.nl/Portals/0/bestanden/27_1_N.pdf  [Visited on: 15 April 2016].
+
+Goossen, W. T. F., Meijer, R., Kruk, van der, P. &amp;amp; Reuser, L. (2004). &lt;u&gt;Specificaties CVA keteninformatiesysteem.  Versie 1.1.&lt;/u&gt; Leidschendam, NICTIZ.
+
+Haan, de, R., Limburg, M., Schuling, J., Broeshart, J., Jonkers, L., &amp;amp; Zuylen, van, P. (1993). Klinimetrische evaluatie van de Barthel-index, een maat voor beperkingen in het dagelijks functioneren. &lt;u&gt;Nederlands Tijdschrift voor Geneeskunde, 37&lt;/u&gt; (18), 917-921.
+
+International Classification of Functioning, Disability and Health,  [Online] Available at : http://www.who.int/classifications/icf/en/  [Visited on: 15 April 2016] 
+
+Internet Stroke Service [Online]. Barthel Index. Available at: &lt;i&gt; www.strokecenter.org &lt;/i&gt;[Visited on: 15 April 2016] 
+Carole Lewis and Keiba Shaw (2006).  The (Original) Barthel Index of ADLs. In Geriatric Function,  Vol. 17 •Issue 21 • Page 8. [Online]. Available at: &lt;a href="http://physical-therapy.advanceweb.com/article/the-original-barthel-index-of-adls.aspx"&gt;&lt;font color="#0563c1"&gt;&lt;u&gt;http://physical-therapy.advanceweb.com/Article/The-Original-Barthel-Index-of-ADLs.aspx&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; [Visited 28 March, 2016]
+
+Mahoney, F. I., &amp;amp; Barthel, D. W. Functional Evaluation: The Barthel Index. &lt;u&gt;Maryland State Medical Journal 1965, 14&lt;/u&gt;, 61-65.
+
+Peppen, van, R. P. S., Kwakkel, G., Berns, M., Buurke, J.H., Halfens, J., Harmeling - van  der Wel, B. C., Hobbelen, J. S. M., Kollen, B. J., Vogel, M. J. &amp;amp; Wagenborg, L. (2004). &lt;u&gt;Richtlijn Beroerte.&lt;/u&gt; Amersfoort, Koninklijk Nederlands Genootschap  voor Fysiotherapie (KNGF).
+
+Shah, S., Vanclay, F., &amp;amp; Cooper, B. (1989). Improving the sensitivity of the Barthel Index for stroke rehabilitation. Journal of Clinical Epidemiology, 42, 703-709. 
+
+Zorginformatiebouwstenen. [Online] Available at : &lt;a href="http://wiki.klinischebouwsteen.nl/wiki/Zorginformatiebouwstenen"&gt;&lt;font color="#0000ff"&gt;&lt;u&gt;http://wiki.klinischebouwsteen.nl/wiki/Zorginformatiebouwstenen&lt;/u&gt;&lt;/font&gt;&lt;/a&gt; [Visited on: 15 April 2016].
+
+&lt;b&gt;Codes:&lt;/b&gt;
+Root concept and total score come from Snomed CT
+Codes for variables and codes for Values come from Results 4 Care
+
+OID for Barthel coding: 2.16.840.1.113883.3.3210.10.1
+
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>15890</parentId>
+      <modified>2016-04-17T00:00:00</modified>
+    </object>
+    <object>
+      <id>15899</id>
+      <name>Functional Model</name>
+      <alias />
+      <notes>no information</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>15890</parentId>
+      <modified>2016-04-15T00:00:00</modified>
+    </object>
+    <object>
+      <id>15891</id>
+      <name>Traceability to other Standards</name>
+      <alias>Traceerbaarheid naar andere standaarden</alias>
+      <notes>The Barthel index has been specified in HL7 v3 R-MIM, but with older codings and attribute specification.
+
+The Barthel index has been specified as an OpenEHR archetype in ADL 1.4. 
+
+The Barthel index has not yet been coded in full in a controlled vocabulary</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>15890</parentId>
+      <modified>2016-04-15T00:00:00</modified>
+    </object>
+    <object>
+      <id>15908</id>
+      <name>Disclaimer</name>
+      <alias>Disclaimer</alias>
+      <notes>Het programma ‘Registratie aan de Bron’ is een samenwerking tussen de NFU (de Nederlandse Federatie van Universitair Medische Centra) en Nictiz, hierna de samenwerkingspartijen genoemd. Aan ‘Registratie aan de Bron’ hebben ook andere partijen buiten de umc’s en Nictiz een belangrijke bijdrage geleverd en daarbinnen samengewerkt. De samenwerkingspartijen besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze Zorginformatiebouwstenen (Klinische Bouwsteen). Onjuistheden en onvolledigheden kunnen echter voorkomen. De samenwerkingspartijen zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door de samenwerkingspartijen of door u aan de samenwerkingspartijen via een website of via e-mail, of anderszins langs elektronische weg.
+
+Tevens aanvaarden de samenwerkingspartijen geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of ideeën verstrekt door of namens de samenwerkingspartijen via deze Zorginformatiebouwsteen.
+De samenwerkingspartijen aanvaarden geen verantwoordelijkheid voor de inhoud van informatie in deze Zorginformatiebouwsteen waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.
+In geval van tegenstrijdigheden in de genoemde Zorginformatiebouwsteen documenten en bestanden geeft de meest recente en hoogste versie van de vermelde volgorde in de revisies de prioriteit van de desbetreffende documenten weer. Indien informatie die in de elektronische versie van deze Zorginformatiebouwsteen is opgenomen ook schriftelijk wordt verstrekt, zal in geval van tekstverschillen de schriftelijke versie bepalend zijn. Dit geldt indien de versieaanduiding en datering van beiden gelijk is. Een definitieve versie heeft prioriteit echter boven een conceptversie. Een gereviseerde versie heeft prioriteit boven een eerdere versie.</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>15890</parentId>
+      <modified>2015-02-11T00:00:00</modified>
+    </object>
+    <object>
+      <id>15906</id>
+      <name>Terms of Use</name>
+      <alias>Gebruiksvoorwaarden</alias>
+      <notes>Any user can use this Detailed Clinical Model via copy, distribution under the Creative Commons license &lt;u&gt;(CC BY-NC-SA-3.0)&lt;/u&gt; (see &lt;a href="http://creativecommons.org/licenses/by-nc-sa/3.0/nl/"&gt;&lt;font color="#0000ff"&gt;&lt;u&gt;http://creativecommons.org/licenses/by-nc-sa/3.0/&lt;/u&gt;&lt;/font&gt;&lt;/a&gt;)
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>15890</parentId>
+      <modified>2016-04-15T00:00:00</modified>
+    </object>
+    <object>
+      <id>15905</id>
+      <name>Copyrights</name>
+      <alias>Copyrights</alias>
+      <notes>The Maryland State Medical Society holds the copyright for the Barthel Index. It may be used freely for non-commercial purposes with the following citation: 
+Mahoney FI, Barthel D. “Functional evaluation: the Barthel Index.” Maryland State Med Journal 1965;14:56-61. Used with permission. 
+</notes>
+      <stereotype />
+      <type>Package</type>
+      <parentId>15890</parentId>
+      <modified>2016-04-15T00:00:00</modified>
+    </object>
+  </objects>
+  <relationships xmlns="">
+    <relationship>
+      <label />
+      <sourceId>15933</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>4</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15932</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>4</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15930</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>4</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15929</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>4</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15928</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>15933</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Dependency</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15933</sourceId>
+      <sourceLabel />
+      <sourceCard>1</sourceCard>
+      <destId>15926</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15932</sourceId>
+      <sourceLabel />
+      <sourceCard>1</sourceCard>
+      <destId>15926</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15930</sourceId>
+      <sourceLabel />
+      <sourceCard>1</sourceCard>
+      <destId>15926</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15929</sourceId>
+      <sourceLabel />
+      <sourceCard>1</sourceCard>
+      <destId>15926</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15925</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>4</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15925</sourceId>
+      <sourceLabel />
+      <sourceCard>1</sourceCard>
+      <destId>15926</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15923</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>15929</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Dependency</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15922</sourceId>
+      <sourceLabel />
+      <sourceCard>1</sourceCard>
+      <destId>15926</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15931</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>15922</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Dependency</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15922</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>4</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15921</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>6</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15921</sourceId>
+      <sourceLabel />
+      <sourceCard>1</sourceCard>
+      <destId>15926</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15920</sourceId>
+      <sourceLabel />
+      <sourceCard>1</sourceCard>
+      <destId>15926</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15920</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>4</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15919</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>15930</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Dependency</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15917</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>15932</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Dependency</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15916</sourceId>
+      <sourceLabel />
+      <sourceCard>1</sourceCard>
+      <destId>15926</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15916</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>4</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15915</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>15920</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Dependency</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15927</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>15914</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Dependency</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15914</sourceId>
+      <sourceLabel />
+      <sourceCard>1</sourceCard>
+      <destId>15926</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15914</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>4</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15913</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>15925</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Dependency</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15918</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>15912</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Dependency</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15912</sourceId>
+      <sourceLabel />
+      <sourceCard>1</sourceCard>
+      <destId>15926</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Aggregation</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15912</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>4</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Generalization</type>
+    </relationship>
+    <relationship>
+      <label />
+      <sourceId>15911</sourceId>
+      <sourceLabel />
+      <sourceCard />
+      <destId>15916</destId>
+      <destLabel />
+      <destCard />
+      <notes></notes>
+      <stereotype />
+      <type>Dependency</type>
+    </relationship>
+  </relationships>
+</model>
